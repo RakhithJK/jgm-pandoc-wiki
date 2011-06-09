@@ -1,0 +1,1 @@
+[[A simple latex.template with comments]] (MichaelT)
