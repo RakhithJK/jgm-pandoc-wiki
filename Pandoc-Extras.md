@@ -33,8 +33,14 @@
   system library](http://github.com/toyvo/libpandoc/tree/master),
   by Anton Tayanovskyy.
 
-[an even simpler route]:
-  http://randomdeterminism.wordpress.com/2011/01/09/markdowntopdf/
+
+## Illustrative Pandoc templates
+
+- Kieran Healy keeps his `~/.pandoc/templates` directory [here on github](https://github.com/kjhealy/pandoc-templates)
+- This wiki is developing a collection of [[User Contributed Templates]] for purposes of illustration, contribute your own, or if you keep pandoc templates under revision control, link them here. 
+
+
+[an even simpler route]: http://randomdeterminism.wordpress.com/2011/01/09/markdowntopdf/
 [filter module]: https://github.com/adityam/filter
 [vim syntax file for pandoc]: http://www.vim.org/scripts/script.php?script_id=2389
 [TextMate bundle for pandoc]: http://github.com/dsanson/Pandoc.tmbundle
