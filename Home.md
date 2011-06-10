@@ -1,3 +1,6 @@
-Welcome to the pandoc wiki!
+## Welcome to the pandoc wiki!
 
-Testing the **new** wiki format.
+This is a place for users to share pandoc tips.
+
+- [[Pandoc Extras]]
+- [[User-contributed templates]]
