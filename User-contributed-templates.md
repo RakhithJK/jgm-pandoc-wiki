@@ -1,1 +1,1 @@
-[[A simple latex.template with comments]] (MichaelT)
+- [A simple latex.template with comments](https://gist.github.com/1017790) (MichaelT)
