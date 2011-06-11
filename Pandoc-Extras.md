@@ -34,10 +34,13 @@
   by Anton Tayanovskyy.
 
 
-## Illustrative Pandoc templates
+## Illustrative Pandoc / markdown2pdf templates
 
-- Kieran Healy keeps his `~/.pandoc/templates` directory [here on github](https://github.com/kjhealy/pandoc-templates)
-- This wiki is developing a collection of [[User Contributed Templates]] for purposes of illustration, contribute your own, or if you keep pandoc templates under revision control, link them here. 
+- Kieran Healy keeps his `~/.pandoc/templates` directory on github: [kjhealy / pandoc-templates](/kjhealy/pandoc-templates).  Note that it calls a [special .sty file](https://github.com/kjhealy/latex-custom-kjh/tree/master/needs-memoir) from [kjhealy / latex-custom-kjh](/kjhealy/latex-custom-kjh)
+- [dsanson / pandoc-templates](/dsanson/pandoc-templates)
+- [smile / pandoc-templates](/smile/pandoc-templates) - a German language article template.
+- [claes / pandoc-templates](claes/pandoc-templates) is a good illustration of a template with many user-defined variables, e.g for margins, language, papersize, orientation, etc. Because this makes command line specification a bit unwieldy,  he includes [an easily modifiable shell script](/claes/pandoc-templates/blob/master/md2pdf) to instruct markdown2pdf how to fill in all the blanks.
+- This wiki is developing a collection of [[User Contributed Templates]] for purposes of illustration; contribute your own, or if you keep pandoc templates under revision control, link them here. 
 
 
 [an even simpler route]: http://randomdeterminism.wordpress.com/2011/01/09/markdowntopdf/
