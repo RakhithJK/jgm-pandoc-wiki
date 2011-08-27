@@ -2,6 +2,7 @@
 
 - [pandoc-mode for emacs], by Joost Kremers
 - [vim syntax file for pandoc], courtesy of tao_zhyn
+- [vim bundle for pandoc], courtesy of dsanson, wunki, clvv, fmoralesc
 - [TextMate bundle for pandoc], courtesy of dsanson
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
 
@@ -46,6 +47,7 @@
 [an even simpler route]: http://randomdeterminism.wordpress.com/2011/01/09/markdowntopdf/
 [filter module]: https://github.com/adityam/filter
 [vim syntax file for pandoc]: http://www.vim.org/scripts/script.php?script_id=2389
+[vim bundle for pandoc]: https://github.com/vim-pandoc/vim-pandoc
 [TextMate bundle for pandoc]: http://github.com/dsanson/Pandoc.tmbundle
 [jsMath]: http://www.math.union.edu/~dpvc/jsMath/
 [WordPress EasyFilter]: http://assorted.sourceforge.net/wp-easy-filter/
