@@ -2,9 +2,13 @@
 
 - [pandoc-mode for emacs], by Joost Kremers
 - [vim syntax file for pandoc], courtesy of tao_zhyn
-- [vim bundle for pandoc], courtesy of dsanson, wunki, clvv, fmoralesc
-- [TextMate bundle for pandoc], courtesy of dsanson
+- [vim bundle for pandoc], courtesy of David Sanson, wunki, clvv, fmoralesc
+- [TextMate bundle for pandoc], courtesy of David Sanson
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
+
+## Shell Completion
+
+- [Bash and zsh command-line completion for pandoc], courtesy of David Sanson
 
 ## Blogs
 
@@ -57,3 +61,4 @@
 [gitit]: http://gitit.net
 [pandoc-iki]: https://github.com/profjim/pandoc-iki
 [ikiwiki]:  http://ikiwiki.info/
+[Bash and zsh command-line completion for pandoc]: https://github.com/dsanson/pandoc-completion
