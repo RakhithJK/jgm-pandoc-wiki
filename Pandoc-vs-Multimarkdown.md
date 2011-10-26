@@ -3,16 +3,36 @@
 
 ## Input formats
 
-Pandoc supports conversion from HTML, LaTeX, reStructuredText, and Textile
-as well as basic and extended markdown.  MMD only supports markdown.
+| Format            | Pandoc | MMD |
+| ------            | ------ | --- |
+| markdown          |  yes   | yes |
+| reStructuredText  |  yes   | no  |
+| Textile           |  yes   | no  |
+| HTML              |  yes   | no  |
+| LaTeX             |  yes   | no  |
 
 ## Output formats
 
-| Format | Pandoc | MMD |
-| ------ | ------ | --- |
-| HTML   | yes    | yes |
-
-
+| Format            | Pandoc | MMD |
+| ------            | ------ | --- |
+| HTML              | yes    | yes |
+| LaTeX             | yes    | yes |
+| ConTeXt           | yes    | no  |
+| markdown          | yes    | no  |
+| OPML              | no     | yes |
+| OpenDocument XML  | yes    | yes |
+| ODT               | yes    | no  |
+| Textile           | yes    | no  |
+| reStructuredText  | yes    | no  |
+| RTF               | yes    | no  |
+| DocBook           | yes    | no  |
+| Texinfo           | yes    | no  |
+| Groff man         | yes    | no  |
+| Mediawiki         | yes    | no  |
+| Emacs org-mode    | yes    | no  |
+| EPUB              | yes    | no  |
+| Slidy             | yes    | no  |
+| S5                | yes    | no  |
 
 
 ## Features in pandoc but not MMD
