@@ -1,8 +1,43 @@
+- [Pandoc User's Guide](http://johnmacfarlane.net/pandoc/README.html)
+- [Multimarkdown User's Guide](http://fletcher.github.com/peg-multimarkdown/)
+
+## Input formats
+
+Pandoc supports conversion from HTML, LaTeX, reStructuredText, and Textile
+as well as basic and extended markdown.  MMD only supports markdown.
+
+## Output formats
+
+| Format | Pandoc | MMD |
+| ------ | ------ | --- |
+| HTML   | yes    | yes |
+
+
+
+
 ## Features in pandoc but not MMD
+
+### Templates
+
+
 
 ## Features in MMD but not pandoc
 
+### Image and link attributes
+
+
+
 ## Features implemented differently in pandoc and MMD
+
+### Raw HTML
+
+### Anchors and cross-references
+
+### Citations and bibliography
+
+
+### Math
+
 
 ### Tables
 
@@ -75,7 +110,8 @@ Pandoc metadata:
 
 ~~~~
 % My title with `markdown` *emphasis*
-% John Doe
+% John MacFarlane
+  John Doe
 % September 6, 2004
 ~~~~
 
@@ -85,7 +121,7 @@ MMD metadata:
 Title:  A New MultiMarkdown Document  
 Author: Fletcher T. Penney  
         John Doe  
-        Date:   July 25, 2005  
+Date:   July 25, 2005  
 ~~~~
 
 
