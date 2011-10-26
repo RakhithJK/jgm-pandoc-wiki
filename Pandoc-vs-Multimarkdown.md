@@ -214,7 +214,8 @@ direct conversion to MathML, faking it with unicode, raw LaTeX
 for use with MathJax, and images.
 
 MMD also allows inline and display LaTeX math, but `\\(` delimiters
-are used for inline math, and `\\[` for display math.
+are used for inline math, and `\\[` for display math. MathJax is
+used in HTML.
 
 ### Tables
 
