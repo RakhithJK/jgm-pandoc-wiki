@@ -40,34 +40,91 @@ Fletcher Penney's Multimarkdown.
 
 ## Features in pandoc but not MMD
 
-### MathML conversion
+### Templates
 
+Pandoc includes a templating system for standalone documents.
+Default templates are included, but users can override them with
+custom templates.
 
 ### Delimited code blocks
 
+Pandoc supports delimited code blocks, like this:
+
+    ~~~~ {.haskell}
+    fibs = 1 : 1 : zipWith (+) (tail fibs) fibs
+    ~~~~
 
 ### Code highlighting
 
+Pandoc highlights code marked with a language in a delimited
+code block.  No external program is required.  Over 80 syntaxes are
+supported.
 
 ### Example lists
 
+Pandoc supports a syntax for running example lists that are incremented
+throughout a document:
+
+~~~~
+(@one)  My first example will be numbered (1).
+(@)  My second example will be numbered (2).
+
+Explanation of example (@one).
+
+(@)  My third example will be numbered (3).
+~~~~
 
 ### Fancy list numbers
 
+Pandoc allows ordered lists to have different numbering styles
+and delimiters; these are recorded and reproduced, where possible,
+in the output format.
 
-### Templates
+~~~~
+(a) My list
+(b) Lowercase letters
+    i. Roman sublist
+    ii. Next
+~~~~
+
+### List start number
+
+In standard markdown the starting number of an ordered list is
+ignored, so all lists start with 1. Pandoc allows lists to start
+with any number.
 
 ### Strikeout
 
+Pandoc supports strikeout `~~like so~~`.
+
+### Superscript
+
+Pandoc supports superscripts:  `mc^2^`.
+
+### Subscript
+
+Pandoc supports subscripts:  `H~2~O`.
+
 ### Raw TeX
+
+Pandoc allows raw TeX commands and environments in markdown. These are passed
+unchanged to LaTeX and ConTeXt writers, and ignored in other writers.
 
 ### Pictures with captions
 
+Pandoc treats an image in a paragraph by itself as a separate figure
+with a caption.
+
 ### Scripting
+
+Pandoc has a Haskell API for convenient scripting. The AST can be
+modified between parsing and writing. For examples, see
+[Scripting with pandoc](http://johnmacfarlane.net/pandoc/scripting.html).
 
 ## Features in MMD but not pandoc
 
 ### Image and link attributes
+
 
 ### Glossary
 
