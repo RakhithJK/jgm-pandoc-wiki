@@ -168,13 +168,53 @@ MMD treats `[Some text][]` as a reference to the header
 
 ### Citations and bibliography
 
+Pandoc has extensive support for automatic citation and bibliography
+generation that works in every output format. Many existing bibliography
+database formats (including BibTeX, MODS, and EndNote) can be used. Citations
+are written in markdown as follows:
 
+~~~~
+Blah blah [see @doe99, pp. 33-35; also @smith04, ch. 1].
+Blah blah [@doe99, pp. 33-35, 38-39 and *passim*].
+Blah blah [@smith04; @doe99].
+Smith says blah [-@smith04].
+@smith04 [p. 33] says blah.
+~~~~
 
-### Definition lists
+They will be formatted in the output according to a
+[CSL]((http://citationstyles.org/) stylesheet specified on the
+command line, and a bibliography will be added automatically if the style
+calls for it. Many, many styles are available. You can even switch freely
+between author-date and footnote styles, and pandoc will do the right thing
+with surrounding punctuation.
 
+MMD has much more rudimentary citation support.  Example:
+
+~~~~
+This is a statement that should be attributed to
+its source[p. 23][#Doe:2006].
+
+And following is the description of the reference to be
+used in the bibliography.
+
+[#Doe:2006]: John Doe. *Some Big Fancy Book*.  Vanity Press, 2006.
+~~~~
+
+There is no automatic citation/bibliography formatting, unless LaTeX
+output is used (in which case `natbib` and `bibtex` are used).
 
 ### Math
 
+Pandoc allows inline and display LaTeX math.  `$` delimiters are
+used for inline math, and `$$` for display math.  If LaTeX macros
+have been defined in the document, they are automatically applied
+to all math (and this works even if the output format is not LaTeX).
+A variety of HTML output options are possible,  including
+direct conversion to MathML, faking it with unicode, raw LaTeX
+for use with MathJax, and images.
+
+MMD also allows inline and display LaTeX math, but `\\(` delimiters
+are used for inline math, and `\\[` for display math.
 
 ### Tables
 
