@@ -27,15 +27,15 @@ Fletcher Penney's Multimarkdown (version 3).
 | ODT               | yes    | no  |
 | Textile           | yes    | no  |
 | reStructuredText  | yes    | no  |
-| RTF               | yes    | MMD v2 yes, MMD v3 no ]
+| RTF               | yes    | MMD v2 yes, MMD v3 no |
 | DocBook           | yes    | no  |
 | Texinfo           | yes    | no  |
 | Groff man         | yes    | no  |
 | Mediawiki         | yes    | no  |
 | Emacs org-mode    | yes    | no  |
-| EPUB              | yes    | MMD v2 yes, MMD v3 no ]
+| EPUB              | yes    | MMD v2 yes, MMD v3 no |
 | Slidy             | yes    | no  |
-| S5                | yes    | MMD v2 yes, MMD v3 no ]
+| S5                | yes    | MMD v2 yes, MMD v3 no |
 
 ## Features in pandoc but not MMD
 
