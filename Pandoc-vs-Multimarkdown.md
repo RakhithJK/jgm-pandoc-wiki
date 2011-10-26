@@ -104,11 +104,6 @@ Pandoc supports superscripts:  `mc^2^`.
 
 Pandoc supports subscripts:  `H~2~O`.
 
-### Pictures with captions
-
-Pandoc treats an image in a paragraph by itself as a separate figure
-with a caption.
-
 ### Scripting
 
 Pandoc has a Haskell API for convenient scripting. The AST can be
