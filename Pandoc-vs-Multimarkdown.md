@@ -1,3 +1,6 @@
+This is an evolving document comparing features of Pandoc and
+Fletcher Penney's Multimarkdown.
+
 - [Pandoc User's Guide](http://johnmacfarlane.net/pandoc/README.html)
 - [Multimarkdown User's Guide](http://fletcher.github.com/peg-multimarkdown/)
 
