@@ -125,9 +125,24 @@ modified between parsing and writing. For examples, see
 
 ### Image and link attributes
 
+MMD supports image and link attributes using the following syntax:
+
+~~~~
+[image]: http://path.to/image "Image title" width=40px height=400px
+[link]:  http://path.to/link.html "Some Link" class=external
+         style="border: solid black 1px;"
+~~~~
 
 ### Glossary
 
+MMD turns specially marked footnotes into glossary entries in
+LaTeX:
+
+~~~~
+[^glossaryfootnote]: glossary: term (optional sort key)
+    The actual definition belongs on a new line, and can continue on
+    just as other footnotes.
+~~~~
 
 ## Features implemented differently in pandoc and MMD
 
