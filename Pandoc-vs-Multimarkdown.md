@@ -158,7 +158,7 @@ Pandoc ensures that no two headers have the same identifier
 
 MMD treats `[Some text][]` as a reference to the header
 `Some text`, if it exists. In pandoc, you would have to write
-`[Some text](#some-text)`.
+`[Some text](#some-text)`.  (You can also do it this way in MMD.)
 
 ### Citations and bibliography
 
