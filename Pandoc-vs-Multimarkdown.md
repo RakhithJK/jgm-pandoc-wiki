@@ -16,26 +16,26 @@ Fletcher Penney's Multimarkdown (version 3).
 
 ## Output formats
 
-| Format            | Pandoc | MMD |
-| ------            | ------ | --- |
-| HTML              | yes    | yes |
-| LaTeX             | yes    | yes |
-| ConTeXt           | yes    | no  |
-| markdown          | yes    | no  |
-| OPML              | no     | yes |
-| OpenDocument XML  | yes    | yes |
-| ODT               | yes    | no  |
-| Textile           | yes    | no  |
-| reStructuredText  | yes    | no  |
-| RTF               | yes    | MMD v2 yes, MMD v3 no |
-| DocBook           | yes    | no  |
-| Texinfo           | yes    | no  |
-| Groff man         | yes    | no  |
-| Mediawiki         | yes    | no  |
-| Emacs org-mode    | yes    | no  |
-| EPUB              | yes    | MMD v2 yes, MMD v3 no |
-| Slidy             | yes    | no  |
-| S5                | yes    | MMD v2 yes, MMD v3 no |
+| Format            | Pandoc | MMD v2 | MMD v3 |
+| ------            | ------ | ---    | -----  |
+| HTML              | yes    | yes    | yes    |
+| LaTeX             | yes    | yes    | yes    |
+| ConTeXt           | yes    | no     | no     |
+| markdown          | yes    | no     | no     |
+| OPML              | no     | yes    | yes    |
+| OpenDocument XML  | yes    | no     | yes    |
+| ODT               | yes    | no     | no     |
+| Textile           | yes    | no     | no     |
+| reStructuredText  | yes    | no     | no     |
+| RTF               | yes    | yes    | no     |
+| DocBook           | yes    | no     | no     |
+| Texinfo           | yes    | no     | no     |
+| Groff man         | yes    | no     | no     |
+| Mediawiki         | yes    | no     | no     |
+| Emacs org-mode    | yes    | no     | no     |
+| EPUB              | yes    | yes    | no     |
+| Slidy             | yes    | no     | no     |
+| S5                | yes    | yes    | no     |
 
 ## Features in pandoc but not MMD
 
