@@ -37,14 +37,36 @@
 
 ## Features in pandoc but not MMD
 
+### MathML conversion
+
+
+### Delimited code blocks
+
+
+### Code highlighting
+
+
+### Example lists
+
+
+### Fancy list numbers
+
+
 ### Templates
 
+### Strikeout
 
+### Raw TeX
+
+### Pictures with captions
+
+### Scripting
 
 ## Features in MMD but not pandoc
 
 ### Image and link attributes
 
+### Glossary
 
 
 ## Features implemented differently in pandoc and MMD
@@ -54,6 +76,8 @@
 ### Anchors and cross-references
 
 ### Citations and bibliography
+
+### Definition lists
 
 
 ### Math
