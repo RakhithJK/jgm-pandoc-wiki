@@ -1,5 +1,5 @@
 This is an evolving document comparing features of Pandoc and
-Fletcher Penney's Multimarkdown.
+Fletcher Penney's Multimarkdown (version 3).
 
 - [Pandoc User's Guide](http://johnmacfarlane.net/pandoc/README.html)
 - [Multimarkdown User's Guide](http://fletcher.github.com/peg-multimarkdown/)
@@ -27,16 +27,22 @@ Fletcher Penney's Multimarkdown.
 | ODT               | yes    | no  |
 | Textile           | yes    | no  |
 | reStructuredText  | yes    | no  |
-| RTF               | yes    | no  |
+| RTF               | yes    | no[^1] |
 | DocBook           | yes    | no  |
 | Texinfo           | yes    | no  |
 | Groff man         | yes    | no  |
 | Mediawiki         | yes    | no  |
 | Emacs org-mode    | yes    | no  |
-| EPUB              | yes    | no  |
+| EPUB              | yes    | no[^2] |
 | Slidy             | yes    | no  |
-| S5                | yes    | no  |
+| S5                | yes    | no[^3] |
 
+[^1]: RTF output is supported by MMD v2, and in MMD Composer, but
+not in MMD v3.
+
+[^2]: EPUB output is supported by MMD v2, but not v3.
+
+[^3]: S5 output is supported by MMD v2, but not v3.
 
 ## Features in pandoc but not MMD
 
