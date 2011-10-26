@@ -105,11 +105,6 @@ Pandoc supports superscripts:  `mc^2^`.
 
 Pandoc supports subscripts:  `H~2~O`.
 
-### Raw TeX
-
-Pandoc allows raw TeX commands and environments in markdown. These are passed
-unchanged to LaTeX and ConTeXt writers, and ignored in other writers.
-
 ### Pictures with captions
 
 Pandoc treats an image in a paragraph by itself as a separate figure
@@ -146,11 +141,34 @@ LaTeX:
 
 ## Features implemented differently in pandoc and MMD
 
+### Raw TeX
+
+Pandoc allows raw TeX commands and environments in markdown. These are passed
+unchanged to LaTeX and ConTeXt writers, and ignored in other writers.
+
+MMD allows raw TeX inside HTML comments.  It also supports the LaTeX
+`\input` command, while pandoc does not.
+
 ### Raw HTML
+
+In pandoc, text within HTML  block tags is parsed as markdown,
+unless the `--strict` option is used.  In MMD, it is parsed as markdown
+if the `--process-html` option is used, or if the block tag contains
+the `markdown` attribute.
 
 ### Anchors and cross-references
 
+Both pandoc and MMD create automatic identifiers for headers.
+Pandoc ensures that no two headers have the same identifier
+(a requirement for valid XHTML), while MMD does not.
+
+MMD treats `[Some text][]` as a reference to the header
+`Some text`, if it exists. In pandoc, you would have to write
+`[Some text](#some-text)`.
+
 ### Citations and bibliography
+
+
 
 ### Definition lists
 
