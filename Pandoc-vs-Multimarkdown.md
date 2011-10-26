@@ -276,7 +276,7 @@ Both pandoc and MMD allow a metadata block at the beginning of the document.  Pa
 
 MMD does not parse the contents of metadata fields as markdown. Pandoc does, allowing titles and authors to include arbitrary markdown formatting (even footnotes).
 
-An advantage of MMD's system is that arbitrary metadata fields can be specified. A disadvantage is that a document starting with a line containing a colon may be unexpectedly interpreted as beginning with metadata. Try "To be or not to be: that is the question."  Note also that MMD's metadata fields cannot contain blank lines.
+An advantage of MMD's system is that arbitrary metadata fields can be specified. A disadvantage is that a document starting with a line containing a colon may be unexpectedly interpreted as beginning with metadata. Try beginning a document with "This above all: to thine own self be true." Note also that MMD's metadata fields cannot contain blank lines.
 
 Pandoc metadata:
 
