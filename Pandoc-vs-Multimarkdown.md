@@ -27,22 +27,15 @@ Fletcher Penney's Multimarkdown (version 3).
 | ODT               | yes    | no  |
 | Textile           | yes    | no  |
 | reStructuredText  | yes    | no  |
-| RTF               | yes    | no[^1] |
+| RTF               | yes    | MMD v2 yes, MMD v3 no ]
 | DocBook           | yes    | no  |
 | Texinfo           | yes    | no  |
 | Groff man         | yes    | no  |
 | Mediawiki         | yes    | no  |
 | Emacs org-mode    | yes    | no  |
-| EPUB              | yes    | no[^2] |
+| EPUB              | yes    | MMD v2 yes, MMD v3 no ]
 | Slidy             | yes    | no  |
-| S5                | yes    | no[^3] |
-
-[^1]: RTF output is supported by MMD v2, and in MMD Composer, but
-not in MMD v3.
-
-[^2]: EPUB output is supported by MMD v2, but not v3.
-
-[^3]: S5 output is supported by MMD v2, but not v3.
+| S5                | yes    | MMD v2 yes, MMD v3 no ]
 
 ## Features in pandoc but not MMD
 
