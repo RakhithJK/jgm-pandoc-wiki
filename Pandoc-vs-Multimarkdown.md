@@ -8,34 +8,34 @@ Fletcher Penney's Multimarkdown (version 3).
 
 | Format            | Pandoc | MMD |
 | ------            | ------ | --- |
-| markdown          |  yes   | yes |
-| reStructuredText  |  yes   | no  |
-| Textile           |  yes   | no  |
-| HTML              |  yes   | no  |
-| LaTeX             |  yes   | no  |
+| markdown          |  ✓     | ✓   |
+| reStructuredText  |  ✓     |     |
+| Textile           |  ✓     |     |
+| HTML              |  ✓     |     |
+| LaTeX             |  ✓     |     |
 
 ## Output formats
 
 | Format            | Pandoc | MMD v2 | MMD v3 |
 | ------            | ------ | ---    | -----  |
-| HTML              | yes    | yes    | yes    |
-| LaTeX             | yes    | yes    | yes    |
-| ConTeXt           | yes    | no     | no     |
-| markdown          | yes    | no     | no     |
-| OPML              | no     | yes    | yes    |
-| OpenDocument XML  | yes    | no     | yes    |
-| ODT               | yes    | no     | no     |
-| Textile           | yes    | no     | no     |
-| reStructuredText  | yes    | no     | no     |
-| RTF               | yes    | yes    | no     |
-| DocBook           | yes    | no     | no     |
-| Texinfo           | yes    | no     | no     |
-| Groff man         | yes    | no     | no     |
-| Mediawiki         | yes    | no     | no     |
-| Emacs org-mode    | yes    | no     | no     |
-| EPUB              | yes    | yes    | no     |
-| Slidy             | yes    | no     | no     |
-| S5                | yes    | yes    | no     |
+| HTML              | ✓      | ✓      | ✓      |
+| LaTeX             | ✓      | ✓      | ✓      |
+| ConTeXt           | ✓      |        |        |
+| markdown          | ✓      |        |        |
+| OPML              |        | ✓      | ✓      |
+| OpenDocument XML  | ✓      |        | ✓      |
+| ODT               | ✓      |        |        |
+| Textile           | ✓      |        |        |
+| reStructuredText  | ✓      |        |        |
+| RTF               | ✓      | ✓      |        |
+| DocBook           | ✓      |        |        |
+| Texinfo           | ✓      |        |        |
+| Groff man         | ✓      |        |        |
+| Mediawiki         | ✓      |        |        |
+| Emacs org-mode    | ✓      |        |        |
+| EPUB              | ✓      | ✓      |        |
+| Slidy             | ✓      |        |        |
+| S5                | ✓      | ✓      |        |
 
 ## Features in pandoc but not MMD
 
