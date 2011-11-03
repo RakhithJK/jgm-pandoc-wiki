@@ -47,6 +47,10 @@
 - [claes / pandoc-templates](/claes/pandoc-templates) is a good illustration of a template with many user-defined variables, e.g for margins, language, papersize, orientation, etc. Because this makes command line specification a bit unwieldy, he includes [simple shell script](/claes/pandoc-templates/blob/master/md2pdf) with unused options commented out to instruct markdown2pdf how to fill in all the blanks.
 - This wiki is developing a collection of [[User Contributed Templates]] for purposes of illustration; contribute your own, or if you keep pandoc templates under revision control, link them here. 
 
+## IETF RFC Creation
+
+- [Using pandoc for IETF RFC creation], courtesy of Miek Gieben
+
 
 [an even simpler route]: http://randomdeterminism.wordpress.com/2011/01/09/markdowntopdf/
 [filter module]: https://github.com/adityam/filter
@@ -62,3 +66,4 @@
 [pandoc-iki]: https://github.com/profjim/pandoc-iki
 [ikiwiki]:  http://ikiwiki.info/
 [Bash and zsh command-line completion for pandoc]: https://github.com/dsanson/pandoc-completion
+[Using pandoc for IETF RFC creation]: https://github.com/miekg/pandoc2rfc
