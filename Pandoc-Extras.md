@@ -51,6 +51,8 @@
 
 - [Gouda](http://www.unexpected-vortices.com/sw/gouda/docs/) helps authors start, maintain, and publish documentation projects. It's focus is simplicity, ease of use, and encouraging prospective doc contributors.
 
+- [SPAB](http://www.howtoselfpublishabook.org/self-publish-a-book/) a very simple windows GUI that uses Pandoc and a couple other open source tools to produce a .mobi, .epub, .doc, and .pdf ready for the most popular self-publishing services.
+
 ## Official documents and books
 
 - [Using pandoc for IETF RFC creation], courtesy of Miek Gieben
