@@ -104,6 +104,10 @@ Pandoc supports superscripts:  `mc^2^`.
 
 Pandoc supports subscripts:  `H~2~O`.
 
+### Inline footnotes
+
+Pandoc allows inline footnotes, like `this^[Here's a note.]`.
+
 ### Scripting
 
 Pandoc has a Haskell API for convenient scripting. The AST can be
