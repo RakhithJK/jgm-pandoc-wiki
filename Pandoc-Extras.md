@@ -70,7 +70,7 @@
 [Tool for using pandoc from Notepad++]: http://www.binaryphile.com/clip-pandoc.aspx
 [pandoc-mode for emacs]:  http://joostkremers.fastmail.fm/pandoc-mode.html
 [gitit]: http://gitit.net
-[pandoc-iki]: https://github.com/profjim/pandoc-iki
+[pandoc-iki]: https://github.com/dubiousjim/pandoc-iki
 [ikiwiki]:  http://ikiwiki.info/
 [Bash and zsh command-line completion for pandoc]: https://github.com/dsanson/pandoc-completion
 [Using pandoc for IETF RFC creation]: https://github.com/miekg/pandoc2rfc
