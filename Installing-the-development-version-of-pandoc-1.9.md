@@ -29,4 +29,4 @@ Now we can get the source for pandoc and compile:
     cabal install -ftests        # -fhighlighting no longer needed
     cabal test
 
-The three citations tests currently fail.  If anything else fails, or if these insntructions don't work, let me (jgm) know.
+The three citations tests currently fail.  If anything else fails, or if these instructions don't work, let me (jgm) know.
