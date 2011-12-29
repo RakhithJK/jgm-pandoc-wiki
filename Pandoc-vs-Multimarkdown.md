@@ -36,6 +36,8 @@ Fletcher Penney's Multimarkdown (version 3).
 | EPUB              | ✓      | ✓      |        |
 | Slidy             | ✓      |        |        |
 | S5                | ✓      | ✓      |        |
+| Beamer            | ✓      |         |        |
+| AsciiDoc          | ✓      |         |        |
 
 ## Features in pandoc but not MMD
 
