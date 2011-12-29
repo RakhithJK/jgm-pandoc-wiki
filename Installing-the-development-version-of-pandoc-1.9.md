@@ -11,8 +11,10 @@ highlighting-kate 0.4:
 
     git clone git://github.com/jgm/highlighting-kate
     cd highlighting-kate
-    cabal update    # because it needs a recent version of blaze-html
-    cabal install
+    cabal update       # because it needs a recent version of blaze-html
+    cabal install hxt  # needed to build the syntax files
+    make prep          # this builds the syntax parsers from kate xml files
+    cabal install      # add -fexecutable if you want the Highlight program
     cd ..
 
 citeproc-hs 0.3.4 -- the version at the official repository lacks two patches that are needed to build citeproc-hs against pandoc-types 1.9, so until they are applied I am temporarily hosting a repository that has them:
@@ -20,6 +22,7 @@ citeproc-hs 0.3.4 -- the version at the official repository lacks two patches th
     darcs get http://johnmacfarlane.net/repos/citeproc-hs
     cd citeproc-hs
     cabal install
+    cd ..
 
 Now we can get the source for pandoc and compile:
 
