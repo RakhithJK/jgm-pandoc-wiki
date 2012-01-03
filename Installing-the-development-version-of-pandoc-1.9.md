@@ -9,7 +9,7 @@ If you want to live dangerously, you can install the still-in-progress pandoc 1.
 
 ### citeproc-hs 0.3.4
 
-The version at the official repository lacks two patches that are needed to build citeproc-hs against pandoc-types 1.9, so until they are applied I am temporarily hosting a repository that has them:
+The version at the official repository lacks two patches that are needed to build citeproc-hs against pandoc-types 1.9, so until they are applied I am temporarily hosting a darcs repository that has them. (If you don't have darcs, you can get it with `cabal install darcs`.)
 
     darcs get http://johnmacfarlane.net/repos/citeproc-hs
     cd citeproc-hs
