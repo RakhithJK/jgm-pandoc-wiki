@@ -16,16 +16,6 @@ The version at the official repository lacks two patches that are needed to buil
     cabal install
     cd ..
 
-### highlighting-kate 0.4
-
-    git clone git://github.com/jgm/highlighting-kate
-    cd highlighting-kate
-    cabal update       # because it needs a recent version of blaze-html
-    cabal install hxt  # needed to build the syntax files
-    make prep          # this builds the syntax parsers from kate xml files
-    cabal install      # add -fexecutable if you want the Highlight program
-    cd ..
-
 ### pandoc
 
     git clone git://github.com/jgm/pandoc
