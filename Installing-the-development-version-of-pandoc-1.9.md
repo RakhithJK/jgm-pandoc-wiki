@@ -24,4 +24,4 @@ The version at the official repository lacks two patches that are needed to buil
     cabal install -ftests        # -fhighlighting no longer needed
     cabal test
 
-The three citations tests currently fail.  If anything else fails, or if these instructions don't work, let me (jgm) know.
+Some citations tests currently fail.  If anything else fails, or if these instructions don't work, let me (jgm) know.
