@@ -18,10 +18,12 @@ Fletcher Penney's Multimarkdown (version 3).
 
 | Format            | Pandoc | MMD v2 | MMD v3 |
 | ------            | ------ | ---    | -----  |
-| HTML              | ✓      | ✓      | ✓      |
+| XHTML 4           | ✓      | ✓      | ✓      |
+| HTML 5            | ✓      |        |        |
 | LaTeX             | ✓      | ✓      | ✓      |
 | ConTeXt           | ✓      |        |        |
 | markdown          | ✓      |        |        |
+| Word docx         | ✓      |        |         |
 | OPML              |        | ✓      | ✓      |
 | OpenDocument XML  | ✓      |        | ✓      |
 | ODT               | ✓      |        |        |
@@ -36,6 +38,7 @@ Fletcher Penney's Multimarkdown (version 3).
 | EPUB              | ✓      | ✓      |        |
 | Slidy             | ✓      |        |        |
 | S5                | ✓      | ✓      |        |
+| dzslides          | ✓      |         |        |
 | Beamer            | ✓      |         |        |
 | AsciiDoc          | ✓      |         |        |
 
