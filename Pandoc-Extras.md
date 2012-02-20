@@ -5,6 +5,7 @@
 - [vim bundle for pandoc], courtesy of David Sanson, wunki, clvv, fmoralesc
 - [TextMate bundle for pandoc], courtesy of David Sanson
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
+- [The Zim desktop wiki] can export content to markdown using pandoc extensions (need zim version 0.55 and up)
 
 ## Shell Completion
 
@@ -76,3 +77,4 @@
 [Using pandoc for IETF RFC creation]: https://github.com/miekg/pandoc2rfc
 [Preserving old books by rewriting them in markdown]: https://github.com/rwst/book-curie-radio-de
 [Project Gutenberg]: http://www.gutenberg.org
+[The Zim desktop wiki]: http://zim-wiki.org
