@@ -64,7 +64,7 @@ Außerdem bietet er Vorlagen (templates) zur Verwendung mit LaTeX.
 
 Das komplette Projekt gibt es auf [https://github.com/AKielhorn/Markdown-Intro].
 
-Das PDF Dokument kann man unter [https://github.com/AKielhorn/Markdown-Intro/blob/master/Ziele-md.pdf] herunterladen, das dazugehörige Begleitmaterial sowie die Vorlagen gibt es als Zip archiv unter [https://github.com/AKielhorn/Markdown-Intro/blob/master/Ziele.zip].
+Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] herunterladen, das dazugehörige Begleitmaterial sowie die Vorlagen gibt es als Zip archiv unter [http://dl.dropbox.com/u/6568507/Ziele.zip].
 
 ## Official documents and books
 
