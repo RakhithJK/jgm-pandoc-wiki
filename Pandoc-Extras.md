@@ -54,6 +54,18 @@
 
 - [SPAB](http://www.howtoselfpublishabook.org/self-publish-a-book/) a very simple windows GUI that uses Pandoc and a couple other open source tools to produce a .mobi, .epub, .doc, and .pdf ready for the most popular self-publishing services.
 
+## German Introduction / Deutsche Einführung
+
+Eine kurze Einführung (16 Seiten) zu Markdown und Pandoc.
+
+Der Text beschreibt die Auszeichnungssprache Markdown und die Benutzung des Programms Pandoc unter Berücksichtigung der Eigenheiten der deutschen Sprache.
+Er geht auf die Erzeugung von eBüchern (ePub und Kindle) sowie den Export nach OpenOffice und MS Office ein.
+Außerdem bietet er Vorlagen (templates) zur Verwendung mit LaTeX.
+
+Das komplette Projekt gibt es auf [https://github.com/AKielhorn/Markdown-Intro].
+
+Das PDF Dokument kann man unter [https://github.com/AKielhorn/Markdown-Intro/blob/master/Ziele-md.pdf] herunterladen, das dazugehörige Begleitmaterial sowie die Vorlagen gibt es als Zip archiv unter [https://github.com/AKielhorn/Markdown-Intro/blob/master/Ziele.zip].
+
 ## Official documents and books
 
 - [Using pandoc for IETF RFC creation], courtesy of Miek Gieben
