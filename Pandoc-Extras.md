@@ -23,6 +23,11 @@
 - [pandoc-iki], by Jim Pryor, a plugin to use pandoc as a
   markdown handler with [ikiwiki].
 
+## Static website generators
+
+- [yst](https://github.com/jgm/yst)
+- [Hakyll](http://jaspervdj.be/hakyll/)
+
 ## Using pandoc with ConTeXt
 
 - [filter module] by adityam, which allows you to use
