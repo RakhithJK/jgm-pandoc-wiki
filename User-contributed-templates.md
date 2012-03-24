@@ -1,2 +1,3 @@
 - [A simple latex.template with comments](https://gist.github.com/1017790) (MichaelT)
 - [LaTeX template that removes "Figure #" automatic labels from caption](https://gist.github.com/1366514) (rwst quoting jgm)
+-[[How to add a "Table of Contents" title in the HTML template]](bpj)
