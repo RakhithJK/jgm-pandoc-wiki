@@ -20,7 +20,7 @@ or on Windows
     pandoc -D html >C:\Documents And Settings\USERNAME\Application Data\pandoc\templates\default.html
 
 Then go to where this 'default.html' is and edit it.
-Search for '$toc$' and change the lines around it
+Search for `$toc$` and change the lines around it
 
     $if(toc)$
     <div id="$idprefix$TOC">
@@ -49,7 +49,7 @@ only sometimes to be in a different language:
     </div>
     $endif$
 
-with your most used language's translation of "Table of Contents".
+with your most used language's translation of `Table of Contents`.
 
 Then you can use
 
@@ -60,5 +60,5 @@ uses different forms of the phrase like "Table of
 contents" or "Contents" depending on the style of the
 document.
 
-Since we included that 'id="$idprefix$toctitle"'
+Since we included that `id="$idprefix$toctitle"`
 you can also style it with CSS if you want to.
