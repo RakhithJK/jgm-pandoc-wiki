@@ -40,6 +40,8 @@
   for pandoc by Kenneth Reitz.
 - [pandoc-ruby](https://github.com/alphabetum/pandoc-ruby), a ruby wrapper
   for pandoc by alphabetum.
+- [Pandoku](https://github.com/lunant/pandoku), another Ruby wrapper
+  for Pandoc by Hong Minhee.
 - [a build configuration for Pandoc that produces a standalone C-callable
   system library](http://github.com/toyvo/libpandoc/tree/master),
   by Anton Tayanovskyy.
