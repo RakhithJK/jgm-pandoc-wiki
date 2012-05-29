@@ -46,7 +46,8 @@
 - [a build configuration for Pandoc that produces a standalone C-callable
   system library](http://github.com/toyvo/libpandoc/tree/master),
   by Anton Tayanovskyy.
-
+- [pander](https://github.com/daroczig/pander), an [R](http://www.r-project.org/) wrapper
+  for pandoc by Gergely Daróczi.
 
 ## Illustrative Pandoc / markdown2pdf templates
 
