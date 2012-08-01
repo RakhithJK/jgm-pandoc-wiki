@@ -8,3 +8,4 @@ This is a place for users to share pandoc tips.
 - [[Hacking Pandoc]]
 - [[Installing the development version of pandoc 1.9]]
 - [[Pandoc with gentoo]]
+- [[Pandoc with Chinese]](简体中文)
