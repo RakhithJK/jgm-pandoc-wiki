@@ -7,3 +7,4 @@ This is a place for users to share pandoc tips.
 - [[Pandoc vs Multimarkdown]]
 - [[Hacking Pandoc]]
 - [[Installing the development version of pandoc 1.9]]
+- [[Pandoc with gentoo]]
