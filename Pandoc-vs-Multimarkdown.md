@@ -59,12 +59,6 @@ Pandoc supports delimited code blocks, like this:
     fibs = 1 : 1 : zipWith (+) (tail fibs) fibs
     ~~~~
 
-or like this:
-
-    ``` haskell
-    fibs = 1 : 1 : zipWith (+) (tail fibs) fibs
-    ```
-
 ### Code highlighting
 
 Pandoc highlights code marked with a language in a delimited
@@ -311,5 +305,4 @@ Author: Fletcher T. Penney
         John Doe  
 Date:   July 25, 2005  
 ~~~~
-
 
