@@ -13,6 +13,7 @@ Fletcher Penney's Multimarkdown (version 3).
 | Textile           |  ✓     |     |
 | HTML              |  ✓     |     |
 | LaTeX             |  ✓     |     |
+| DocBook           |  ✓     |     |
 
 ## Output formats
 
@@ -57,6 +58,12 @@ Pandoc supports delimited code blocks, like this:
     ~~~~ {.haskell}
     fibs = 1 : 1 : zipWith (+) (tail fibs) fibs
     ~~~~
+
+or like this:
+
+    ``` haskell
+    fibs = 1 : 1 : zipWith (+) (tail fibs) fibs
+    ```
 
 ### Code highlighting
 
@@ -304,6 +311,5 @@ Author: Fletcher T. Penney
         John Doe  
 Date:   July 25, 2005  
 ~~~~
-
 
 
