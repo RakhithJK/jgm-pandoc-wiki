@@ -11,3 +11,5 @@ To understand the pandoc implementation, besides Haskell
 * understand how frontends and backends are joined in pandoc
 * make yourself familiar with [the Parsec monadic parser combinator library](http://legacy.cs.uu.nl/daan/parsec.html)
 * to get a grip on monads have a look at [Haskell: Understanding_monads](http://en.wikibooks.org/wiki/Haskell/Understanding_monads)
+
+See also: [[Installing the development version of pandoc 1.10]].
