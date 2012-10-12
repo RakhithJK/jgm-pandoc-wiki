@@ -15,7 +15,7 @@ Tom Doran). Here are some of my favorites:
 -   [Right-aligned list
     numbering](http://babelmark.bobtfish.net/?markdown=+8.+item+1%0D%0A+9.+item+2%0D%0A10.+item+2a&normalize=on)
 -   [Unescaped
-    \>](http://babelmark.bobtfish.net/?markdown=x%3Cmax(a%2Cb)%0D%0A&normalize=on)
+    &gt;](http://babelmark.bobtfish.net/?markdown=x%3Cmax(a%2Cb)%0D%0A&normalize=on)
 -   [Nested strong and
     emph](http://babelmark.bobtfish.net/?markdown=***bold**+in+ital*%0D%0A%0D%0A***ital*+in+bold**%0D%0A&normalize=on)
 
