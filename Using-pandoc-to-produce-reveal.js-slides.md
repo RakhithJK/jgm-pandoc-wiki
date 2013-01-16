@@ -1,0 +1,7 @@
+You can use pandoc to produce slides using [reveal.js](http://lab.hakim.se/reveal-js/).
+
+First, create a reveal.js template:  Edit the demo file `index.html` in the [reveal.js repository](http://github.com/hakimel/reveal.js).  Remove everything inside the `<div id="slides">`, and replace it with `$body$`.  Save this as `template.revealjs`.
+
+Now use this command to produce your slide show:
+
+    pandoc --section-divs -t html5 -s --template template.revealjs -o myslides.html myslides.txt
