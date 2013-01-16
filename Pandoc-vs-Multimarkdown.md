@@ -4,6 +4,18 @@ Fletcher Penney's Multimarkdown (version 3).
 - [Pandoc User's Guide](http://johnmacfarlane.net/pandoc/README.html)
 - [Multimarkdown User's Guide](http://fletcher.github.com/peg-multimarkdown/)
 
+Note: as of v 1.10, pandoc allows limited conversion between markdown dialects.
+Not all features are yet supported, and conversions will not be perfect. But they
+should help for those who want to migrate.
+
+pandoc &rarr; multimarkdown:
+
+    pandoc -s -t markdown_mmd
+
+multimarkdown &rarr; pandoc:
+
+    pandoc -s -f markdown_mmd -t markdown
+
 ## Input formats
 
 | Format            | Pandoc | MMD |
