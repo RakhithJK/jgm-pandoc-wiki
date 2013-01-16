@@ -1,4 +1,4 @@
-This is an evolving document comparing features of Pandoc and
+This is an evolving document comparing features of Pandoc (1.10) and
 Fletcher Penney's Multimarkdown (version 3).
 
 - [Pandoc User's Guide](http://johnmacfarlane.net/pandoc/README.html)
@@ -14,6 +14,7 @@ Fletcher Penney's Multimarkdown (version 3).
 | HTML              |  ✓     |     |
 | LaTeX             |  ✓     |     |
 | DocBook           |  ✓     |     |
+| MediWiki          |  ✓     |     |
 
 ## Output formats
 
@@ -36,12 +37,14 @@ Fletcher Penney's Multimarkdown (version 3).
 | Groff man         | ✓      |        |        |
 | Mediawiki         | ✓      |        |        |
 | Emacs org-mode    | ✓      |        |        |
-| EPUB              | ✓      | ✓      |        |
+| EPUB v2           | ✓      | ✓      |        |
+| EPUB v3           | ✓      | ✓      |        |
 | Slidy             | ✓      |        |        |
 | S5                | ✓      | ✓      |        |
 | dzslides          | ✓      |         |        |
 | Beamer            | ✓      |         |        |
 | AsciiDoc          | ✓      |         |        |
+| FictionBook 2     | ✓      |         |        |
 
 ## Features in pandoc but not MMD
 
@@ -58,6 +61,12 @@ Pandoc supports delimited code blocks, like this:
     ~~~~ {.haskell}
     fibs = 1 : 1 : zipWith (+) (tail fibs) fibs
     ~~~~
+
+or
+
+    ``` haskell
+    as = 1 : as
+    ```
 
 ### Code highlighting
 
@@ -159,16 +168,6 @@ In pandoc, text within HTML  block tags is parsed as markdown,
 unless the `--strict` option is used.  In MMD, it is parsed as markdown
 if the `--process-html` option is used, or if the block tag contains
 the `markdown` attribute.
-
-### Anchors and cross-references
-
-Both pandoc and MMD create automatic identifiers for headers.
-Pandoc ensures that no two headers have the same identifier
-(a requirement for valid XHTML), while MMD does not.
-
-MMD treats `[Some text][]` as a reference to the header
-`Some text`, if it exists. In pandoc, you would have to write
-`[Some text](#some-text)`.  (You can also do it this way in MMD.)
 
 ### Citations and bibliography
 
@@ -280,6 +279,9 @@ And more      |            And more          |
 [Prototype table]
 ~~~~
 
+As of v 1.10, pandoc supports pipe tables, too, but without all of
+the features of MMD pipe tables (colspan, rowspan, grouping).
+
 ### Metadata
 
 Both pandoc and MMD allow a metadata block at the beginning of the document.  Pandoc only supports title, author, and date (though other metadata can be specified by the command line).  By convention, the first line preceded by `%` is the title, the second (if present) the authors, and the third (if present) the date.  MMD allows arbitrary metadata fields to be specified using a `key : value` format.   Quite a few document features can be controlled using metadata.
@@ -305,4 +307,3 @@ Author: Fletcher T. Penney
         John Doe  
 Date:   July 25, 2005  
 ~~~~
-
