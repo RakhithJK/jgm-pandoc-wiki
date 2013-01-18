@@ -3,7 +3,7 @@
 - [pandoc-mode for emacs], by Joost Kremers
 - [vim syntax file for pandoc], courtesy of tao_zhyn
 - [vim bundle for pandoc], courtesy of David Sanson, wunki, clvv, fmoralesc
-- [vim viewer use pandoc], by lambdalisue
+- [vim HTML viewer use pandoc], by lambdalisue
 - [TextMate bundle for pandoc], courtesy of David Sanson
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
 - [The Zim desktop wiki] can export content to markdown using pandoc extensions (need zim version 0.55 and up)
