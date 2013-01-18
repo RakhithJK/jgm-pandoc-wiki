@@ -3,6 +3,7 @@
 - [pandoc-mode for emacs], by Joost Kremers
 - [vim syntax file for pandoc], courtesy of tao_zhyn
 - [vim bundle for pandoc], courtesy of David Sanson, wunki, clvv, fmoralesc
+- [vim viewer use pandoc], by lambdalisue
 - [TextMate bundle for pandoc], courtesy of David Sanson
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
 - [The Zim desktop wiki] can export content to markdown using pandoc extensions (need zim version 0.55 and up)
@@ -94,6 +95,7 @@ Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] h
 [filter module]: https://github.com/adityam/filter
 [vim syntax file for pandoc]: http://www.vim.org/scripts/script.php?script_id=2389
 [vim bundle for pandoc]: https://github.com/vim-pandoc/vim-pandoc
+[vim HTML viewer use pandoc]: https://github.com/lambdalisue/shareboard.vim
 [TextMate bundle for pandoc]: http://github.com/dsanson/Pandoc.tmbundle
 [jsMath]: http://www.math.union.edu/~dpvc/jsMath/
 [WordPress EasyFilter]: http://assorted.sourceforge.net/wp-easy-filter/
