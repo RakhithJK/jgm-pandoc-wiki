@@ -65,7 +65,7 @@
 
 ## Doc processing tools using Pandoc
 
-- [Gouda](http://www.unexpected-vortices.com/sw/gouda/) is a Python script which uses Pandoc to stitch multiple docs together as chapters into a navigable whole. It also generates a table of contents. It provides an easy way to get started writing multi-page/chapter documentation.
+- [Gouda](http://www.unexpected-vortices.com/sw/gouda/) is a Perl script which uses Pandoc to stitch multiple docs together as chapters into a navigable whole. It also generates a table of contents. It provides an easy way to get started writing multi-page/chapter documentation.
 
 - [SPAB](http://www.howtoselfpublishabook.org/self-publish-a-book/) a very simple windows GUI that uses Pandoc and a couple other open source tools to produce a .mobi, .epub, .doc, and .pdf ready for the most popular self-publishing services.
 
