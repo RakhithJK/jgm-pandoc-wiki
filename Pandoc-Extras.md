@@ -105,7 +105,7 @@ Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] h
 [WordPress EasyFilter]: http://assorted.sourceforge.net/wp-easy-filter/
 [Haskell platform]: http://hackage.haskell.org/platform/
 [Tool for using pandoc from Notepad++]: https://bitbucket.org/lilleyt/clip-pandoc
-[pandoc-mode for emacs]:  http://joostkremers.fastmail.fm/pandoc-mode.html
+[pandoc-mode for emacs]: http://joostkremers.github.com/pandoc-mode/
 [gitit]: http://gitit.net
 [pandoc-iki]: https://github.com/dubiousjim/pandoc-iki
 [ikiwiki]:  http://ikiwiki.info/
