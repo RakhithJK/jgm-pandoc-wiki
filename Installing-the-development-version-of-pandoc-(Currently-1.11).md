@@ -1,4 +1,4 @@
-If you want to live dangerously, you can install the still-in-progress pandoc 1.10 from github:
+If you want to live dangerously, you can install the still-in-progress pandoc 1.11 from github:
 
     git clone git://github.com/jgm/pandoc
     cd pandoc
