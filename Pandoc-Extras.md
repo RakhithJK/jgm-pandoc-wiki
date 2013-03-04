@@ -30,6 +30,9 @@
 - [Hakyll](http://jaspervdj.be/hakyll/)
 - A [bash shell script](https://github.com/wcaleb/website) by Caleb McDaniel to generate a site using pandoc
 
+## Serving `.md` and `.markdown` files with apache
+- [apache-pandoc](https://github.com/chdemko/apache-pandoc)
+
 ## Using pandoc with ConTeXt
 
 - [filter module] by adityam, which allows you to use
