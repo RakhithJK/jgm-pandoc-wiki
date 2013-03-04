@@ -301,7 +301,7 @@ And more      |            And more          |
 [Prototype table]
 ~~~~
 
-As of v 1.10, pandoc supports pipe tables, too, but without all of
+Pandoc's pipe tables are similar, but do not have all of
 the features of MMD pipe tables (colspan, rowspan, grouping).
 
 ### Metadata
