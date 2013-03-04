@@ -275,6 +275,16 @@ Grid table (generated using Emacs table mode):
 +---------------+---------------+--------------------+
 ~~~~
 
+As of 1.10, pandoc also offers pipe tables as in PHP markdown extra; these can be used when it is inconvenient to line up columns.  Pipe tables look like this:
+
+    | Right | Left | Default | Center |
+    |------:|:-----|---------|:------:|
+    |   12  |  12  |    12   |    12  |
+    |  123  |  123 |   123   |   123  |
+    |    1  |    1 |     1   |     1  |
+
+      : Demonstration of simple table syntax.
+
 MMD tables use `|` characters to indicate columns, so the tables are more readable using a proportional spaced font.  Colons are used to indicate column alignment.  Column spans but not row spans are supported.  Captions are supported. Cells are limited to a single line and cannot contain block-level elements.
 
 MMD table:
@@ -319,3 +329,4 @@ Author: Fletcher T. Penney
         John Doe  
 Date:   July 25, 2005  
 ~~~~
+
