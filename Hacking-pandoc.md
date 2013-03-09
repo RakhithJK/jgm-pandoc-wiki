@@ -13,3 +13,5 @@ To understand the pandoc implementation, besides Haskell
 * to get a grip on monads have a look at [Haskell: Understanding_monads](http://en.wikibooks.org/wiki/Haskell/Understanding_monads)
 
 See also: [[Installing the development version of pandoc 1.10]].
+
+[[Understanding code snippets]] - a q & a style explanation of code snippets from an Intermediate functional programmer trying to learn Haskell and how to structure a Haskell project.
