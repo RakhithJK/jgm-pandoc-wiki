@@ -24,5 +24,22 @@ in System.Console.GetOpt, second example uses:
 
 `foldl (flip id) defaultOptions o`
 
-flip id is confusing because I thought id takes one parameter... this [thread](http://www.haskell.org/pipermail/beginners/2011-March/006477.html) explains it.. as I understand, we have id:: a -> a, flip (d -> (e -> f)) -> (e -> d -> f), and the data this is being applied to has types defaultOptions:: Options and o:: Options -> Options, so we end with (flip id) :: (Options -> (Options -> Options)) -> Options where id was originally unified to (e -> f) -> (e -> f) and (flip id) ended up with (e -> (e->f) -> f) ...I think...
+flip id is confusing because I thought id takes one parameter... this [thread](http://www.haskell.org/pipermail/beginners/2011-March/006477.html) explains it.. The heart of it seems to thinking about (a->b)-> (a->b) as equivalent to (a->b)->a ->b, the latter allowing for flip to change parameters such that you have a->(a->b) ->b. 
 
+in /pandoc.hs
+
+`liftM (map UTF8.decodeArg) getArgs`
+
+liftM takes a regular function a->b and makes its a function over monads, in this case IO monads, so (map UTF8.decodeArg) becomes IO [String] -> IO [String]
+
+in /pandoc.hs
+
+`tp <.> format`
+
+
+
+in pandoc.hs
+`
+E.catch                                                                                                       (readDataFileUTF8 datadir ("templates" </> tp'))
+   (\e' -> let _ = (e' ::E.SomeException) in throwIO e')      
+`
