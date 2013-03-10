@@ -1,14 +1,11 @@
 Used libraries from cabal desc: 
-* parsec, 
 * syb, containers, mtl, 
-* filepath, directory, network, HTTP, 
-* texmath, xml, citeproc-hs, json, tagsoup, highlighting-kate, blaze-html, blaze-markup    
-* extensible-exceptions, 
-* pandoc-types, 
-* bytestring, text, base64-bytestring,  
-* random, data-default, temporary, old-locale, time,   
-* zlib, zip-archive, 
-* process, 
+* filepath, temporary, directory, network, HTTP, zlib, zip-archive,  
+* parsec, 
+* xml, tagsoup, json, texmath, highlighting-kate, blaze-html, blaze-markup,     
+* text, bytestring, base64-bytestring, 
+* time, old-locale, data-default, process, random,   
+* internal: citeproc-hs, pandoc-types, ...
 
 According to the package reverse dependencies [reverse dependencies](http://packdeps.haskellers.com/reverse) list, syb, containers, mtl, network, time, bytestring are widely used, among others
 
