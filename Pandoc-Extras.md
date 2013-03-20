@@ -2,7 +2,7 @@
 
 - [pandoc-mode for emacs], by Joost Kremers
 - [vim syntax file for pandoc], courtesy of tao_zhyn
-- [vim bundle for pandoc], courtesy of David Sanson, wunki, clvv, fmoralesc
+- [vim bundle for pandoc], courtesy of Felipe Morales (fmoralesc), David Sanson (dsanson)
 - [vim HTML viewer use pandoc], by lambdalisue
 - [TextMate bundle for pandoc], courtesy of David Sanson
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
@@ -31,6 +31,7 @@
 - A [bash shell script](https://github.com/wcaleb/website) by Caleb McDaniel to generate a site using pandoc
 
 ## Serving `.md` and `.markdown` files with apache
+
 - [apache-pandoc](https://github.com/chdemko/apache-pandoc)
 
 ## Using pandoc with ConTeXt
