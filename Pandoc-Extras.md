@@ -60,7 +60,7 @@
 
 ## Integration with Reference Managers
 
-- [Export Templates for BibDesk](https://github.com/dsanson/bibdesk-pandoc-citation-template): drag and drop pandoc-style citations from BibDesk into your document; use pandoc and citeproc-hs to export formatted reference lists from with BibDesk.
+- [BibDesk Export Templates](https://github.com/dsanson/bibdesk-pandoc-export-templates): drag and drop pandoc-style citations from BibDesk into your document; use pandoc to export formatted reference lists from BibDesk.
 
 ## Illustrative Pandoc templates
 
