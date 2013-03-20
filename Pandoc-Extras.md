@@ -58,6 +58,10 @@
 
 - [Using GPP as a preprocessor](http://randomdeterminism.wordpress.com/2012/06/01/how-i-stopped-worring-and-started-using-markdown-like-tex/) to get TeX-like macro features in Markdown.
 
+## Integration with Reference Managers
+
+- [Export Templates for BibDesk](https://github.com/dsanson/bibdesk-pandoc-citation-template): drag and drop pandoc-style citations from BibDesk into your document; use pandoc and citeproc-hs to export formatted reference lists from with BibDesk.
+
 ## Illustrative Pandoc templates
 
 - Kieran Healy keeps his `~/.pandoc/templates` directory on github: [kjhealy / pandoc-templates](/kjhealy/pandoc-templates).  Note that it calls a [special .sty file](https://github.com/kjhealy/latex-custom-kjh/tree/master/needs-memoir) from [kjhealy / latex-custom-kjh](/kjhealy/latex-custom-kjh) . Similarly see:
