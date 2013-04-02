@@ -10,4 +10,4 @@ You'll need the `js`, `lib`, and `css` directories from the reveal.js repository
 
 See also [this gist](https://gist.github.com/aaronwolen/5017084).
 
-**NOTE:**  The development version of pandoc (and the next release) contain direct support for revealjs.
+**NOTE:**  The development version of pandoc (and the next release) contain direct support for revealjs, including its 2D features.
