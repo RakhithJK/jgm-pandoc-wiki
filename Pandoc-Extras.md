@@ -69,7 +69,8 @@
 - [smile / pandoc-templates](/timheil/pandoc-templates) - a German language article template.
 - [claes / pandoc-templates](/claes/pandoc-templates) is a good illustration of a template with many user-defined variables, e.g for margins, language, papersize, orientation, etc. Because this makes command line specification a bit unwieldy, he includes [simple shell script](/claes/pandoc-templates/blob/master/md2pdf) with unused options commented out to instruct markdown2pdf how to fill in all the blanks.
 - [wcaleb / pandoc-templates](/wcaleb/pandoc-templates)
-- This wiki is developing a collection of [[User Contributed Templates]] for purposes of illustration; contribute your own, or if you keep pandoc templates under revision control, link them here. 
+- This wiki is developing a collection of [[User Contributed Templates]] for purposes of illustration; contribute your own, or if you keep pandoc templates under revision control, link them here.
+- [md2latex](https://bitbucket.org/zuline/md2latex) is a collection of templates and scripts which are designed to allow you to write in APA 6 style using Markdown and to convert to APA 6 Style in LaTeX.
 
 ## Doc processing tools using Pandoc
 
