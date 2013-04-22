@@ -98,6 +98,19 @@ Das komplette Projekt gibt es auf [https://github.com/AKielhorn/Markdown-Intro].
 
 Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] herunterladen, das dazugehörige Begleitmaterial sowie die Vorlagen gibt es als Zip archiv unter [http://dl.dropbox.com/u/6568507/Ziele.zip].
 
+## Chinese Introduction / 中文翻譯
+
+[Pandoc’s Markdown 語法中文翻譯](http://pages.tzengyuxio.me/pandoc/)
+
+這份中文語法文件翻譯自 [Pandoc - Pandoc User’s Guide][userguide] 中的 "Pandoc's markdown" 一節。
+
+你可以看看[這份文件的原始檔][source]、產生文件[所使用的 HTML 範本][template]，以及[轉換時的命令參數][script]。
+
+[userguide]: http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown
+[source]: https://raw.github.com/tzengyuxio/pages/gh-pages/pandoc/pandoc.markdown
+[template]: https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/pm-template.html5
+[script]: https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/convert.sh
+
 ## Official documents and books
 
 - [Using pandoc for IETF RFC creation], courtesy of Miek Gieben
