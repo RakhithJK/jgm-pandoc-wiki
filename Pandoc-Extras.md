@@ -7,6 +7,7 @@
 - [TextMate bundle for pandoc], courtesy of David Sanson
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
 - [The Zim desktop wiki] can export content to markdown using pandoc extensions (need zim version 0.55 and up)
+- [Texts], Markdown WYSIWYM editor, is integrated with Pandoc.
 
 ## Shell Completion
 
@@ -136,3 +137,4 @@ Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] h
 [Preserving old books by rewriting them in markdown]: https://github.com/rwst/book-curie-radio-de
 [Project Gutenberg]: http://www.gutenberg.org
 [The Zim desktop wiki]: http://zim-wiki.org
+[Texts]: http:/www.texts.io/
