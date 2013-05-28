@@ -27,4 +27,4 @@ Then you should try **impress.js**
 
 Now create your slide show:
 
-    pandoc --template 5665065/impress-template.html -V impress-url=impress.js -s -t html5 --section-divs -o impress.html impress.txt
+    pandoc --template 5665065/impress-template.html -V impress-url=impress.js -s -t html5 --section-divs --self-contained -o impress.html impress.txt
