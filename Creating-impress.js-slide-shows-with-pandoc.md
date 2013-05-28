@@ -8,7 +8,7 @@ Next, get the custom template:
 
 Create a file `impress.txt` with these contents:
 
-```
+```markdown
 # {#overview .step data-scale=10}
 
 # Bored? {.step}
