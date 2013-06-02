@@ -87,9 +87,9 @@
 
 - [PandocMarkdownTools](https://bitbucket.org/zuline/pandocmarkdowntools) is a small collection of scripts that creates a simple menu structure for conversion of Markdown docs using Pandoc. There are also scripts to simplify creation of Pandoc tables in Markdown and to automate replacement of document markers with the table text.
 
- - [tpl4md](https://github.com/dloureiro/tpl4md) provides markdown templates for widely used documents such as simple pdf documents, complex pdf documents, letters, invoices, orders, or even slides. The goal is to be able to focus on the content that will be written in markdown. The rest is handle by pandoc, latex etc.
+- [tpl4md](https://github.com/dloureiro/tpl4md) provides markdown templates for widely used documents such as simple pdf documents, complex pdf documents, letters, invoices, orders, or even slides. The goal is to be able to focus on the content that will be written in markdown. The rest is handle by pandoc, latex etc.
 
- - [pandoc-watch](https://github.com/dloureiro/pandoc-watch) simple watcher that call the pandoc command with the provided arguments when a file/folder modification is detected
+- [pandoc-watch](https://github.com/dloureiro/pandoc-watch) simple watcher that call the pandoc command with the provided arguments when a file/folder modification is detected
 
 ## German Introduction / Deutsche Einführung
 
