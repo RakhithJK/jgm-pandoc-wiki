@@ -49,9 +49,8 @@
   for pandoc by alphabetum.
 - [Pandoku](https://github.com/lunant/pandoku), another Ruby wrapper
   for Pandoc by Hong Minhee.
-- [a build configuration for Pandoc that produces a standalone C-callable
-  system library](http://github.com/toyvo/libpandoc/tree/master),
-  by Anton Tayanovskyy.
+- [libpandoc, a C interface to the pandoc library](http://github.com/ShabbyX/libpandoc/tree/master),
+  by Anton Tayanovskyy, updated for pandoc 1.11.1 by Shahbaz Youssefi.
 - [pander](https://github.com/Rapporter/pander), an [R](http://www.r-project.org/) wrapper
   for pandoc by Gergely Daróczi.
 
