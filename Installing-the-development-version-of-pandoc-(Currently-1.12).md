@@ -6,6 +6,7 @@ First, you'll need to install the new pandoc-types from the github repository:
     cd pandoc-types
     cabal update
     cabal install --force
+    cd ..
 
 Now install the development version of citeproc-hs:
 
@@ -14,6 +15,7 @@ Now install the development version of citeproc-hs:
     # darcs get --lazy http://gorgias.mine.nu/repos/citeproc-hs
     cd citeproc-hs
     cabal install --force
+    cd ..
 
 Finally, get the pandoc source:
 
