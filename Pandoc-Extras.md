@@ -9,6 +9,7 @@
 - [The Zim desktop wiki] can export content to markdown using pandoc extensions (need zim version 0.55 and up)
 - [Texts], Markdown WYSIWYM editor, is integrated with Pandoc.
 - [Scripts for using pandoc with BBEdit and TextWrangler], courtesy of John Gardner.
+- [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor with the opened file as input.
 
 ## Shell Completion
 
@@ -143,4 +144,3 @@ Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] h
 [The Zim desktop wiki]: http://zim-wiki.org
 [Texts]: http:/www.texts.io/
 [Scripts for using pandoc with BBEdit and TextWrangler]: https://sites.google.com/site/dataninjafiles/files/BBpandoc.zip?attredirects=0&d=1
-
