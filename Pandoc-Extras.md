@@ -143,4 +143,4 @@ Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] h
 [Project Gutenberg]: http://www.gutenberg.org
 [The Zim desktop wiki]: http://zim-wiki.org
 [Texts]: http:/www.texts.io/
-[Scripts for using pandoc with BBEdit and TextWrangler]: https://sites.google.com/site/dataninjafiles/files/BBpandoc.zip?attredirects=0&d=1
+[Scripts for using pandoc with BBEdit and TextWrangler]: https://github.com/jrgcmu/BBpandoc
