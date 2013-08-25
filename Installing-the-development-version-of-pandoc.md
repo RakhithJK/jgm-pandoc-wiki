@@ -8,16 +8,7 @@ First, you'll need to install the new pandoc-types from the github repository:
     cabal install --force
     cd ..
 
-Now install the development version of citeproc-hs:
-
-    git clone git://github.com/jgm/citeproc-hs
-    # Note, this is a copy of the darcs repo; if you have darcs you can instead:
-    # darcs get --lazy http://gorgias.mine.nu/repos/citeproc-hs
-    cd citeproc-hs
-    cabal install --force
-    cd ..
-
-Finally, get the pandoc source:
+Now get the pandoc source:
 
     git clone git://github.com/jgm/pandoc
     cd pandoc
