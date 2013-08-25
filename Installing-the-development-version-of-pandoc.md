@@ -1,4 +1,4 @@
-If you want to live dangerously, you can install the still-in-progress pandoc from github.  You'll need git and the Haskell Platform.
+If you want to live dangerously, you can install the still-in-progress pandoc from github.  You'll need git and the [Haskell Platform](http://www.haskell.org/platform/).
 
 First, you'll need to install the new pandoc-types from the github repository:
 
