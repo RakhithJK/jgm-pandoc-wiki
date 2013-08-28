@@ -8,7 +8,14 @@ First, you'll need to install the new pandoc-types from the github repository:
     cabal install --force
     cd ..
 
-Now get the pandoc source:
+Now install pandoc-citeproc:
+
+    git clone git://github.com/jgm/pandoc-citeproc
+    cd pandoc-citeproc
+    cabal install --force
+    cd ..
+
+And finally pandoc:
 
     git clone git://github.com/jgm/pandoc
     cd pandoc
