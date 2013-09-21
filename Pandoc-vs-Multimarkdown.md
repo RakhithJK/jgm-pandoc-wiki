@@ -1,4 +1,4 @@
-This is an evolving document comparing features of Pandoc (1.10) and
+This is an evolving document comparing features of Pandoc (1.12) and
 Fletcher Penney's Multimarkdown (version 3).
 
 - [Pandoc User's Guide](http://johnmacfarlane.net/pandoc/README.html)
@@ -27,6 +27,8 @@ multimarkdown &rarr; pandoc:
 | LaTeX             |  ✓     |     |
 | DocBook           |  ✓     |     |
 | MediWiki          |  ✓     |     |
+| OPML              |  ✓     |     |
+| Haddock           |  ✓     |     |
 
 ## Output formats
 
@@ -38,7 +40,7 @@ multimarkdown &rarr; pandoc:
 | ConTeXt           | ✓      |        |        |
 | markdown          | ✓      |        |        |
 | Word docx         | ✓      |        |         |
-| OPML              |        | ✓      | ✓      |
+| OPML              | ✓      | ✓      | ✓      |
 | OpenDocument XML  | ✓      |        | ✓      |
 | ODT               | ✓      |        |        |
 | Textile           | ✓      |        |        |
@@ -140,6 +142,7 @@ Pandoc allows inline footnotes, like `this^[Here's a note.]`.
 Pandoc has a Haskell API for convenient scripting. The AST can be
 modified between parsing and writing. For examples, see
 [Scripting with pandoc](http://johnmacfarlane.net/pandoc/scripting.html).
+There is also a python module for writing pandoc filters using python.
 
 ## Features in MMD but not pandoc
 
@@ -306,19 +309,38 @@ the features of MMD pipe tables (colspan, rowspan, grouping).
 
 ### Metadata
 
-Both pandoc and MMD allow a metadata block at the beginning of the document.  Pandoc only supports title, author, and date (though other metadata can be specified by the command line).  By convention, the first line preceded by `%` is the title, the second (if present) the authors, and the third (if present) the date.  MMD allows arbitrary metadata fields to be specified using a `key : value` format.   Quite a few document features can be controlled using metadata.
+Both pandoc and MMD allow a title block at the beginning of the document.  A pandoc title block contains title, author, and date (though other metadata can be specified by the command line).  By convention, the first line preceded by `%` is the title, the second (if present) the authors, and the third (if present) the date.  MMD allows arbitrary metadata fields to be specified using a `key : value` format.   Quite a few document features can be controlled using metadata.
 
 MMD does not parse the contents of metadata fields as markdown. Pandoc does, allowing titles and authors to include arbitrary markdown formatting (even footnotes).
 
 An advantage of MMD's system is that arbitrary metadata fields can be specified. A disadvantage is that a document starting with a line containing a colon may be unexpectedly interpreted as beginning with metadata. Try beginning a document with "This above all: to thine own self be true." Note also that MMD's metadata fields cannot contain blank lines.
 
-Pandoc metadata:
+As of version 1.12, pandoc allows YAML metadata blocks to be inserted anywhere in a document.  Metadata fields may contain formatted text.
+
+Pandoc title block:
 
 ~~~~
 % My title with `markdown` *emphasis*
 % John MacFarlane
   John Doe
 % September 6, 2004
+~~~~
+
+Pandoc YAML metadata block:
+
+~~~~
+---
+title: My title with `markdown` *emphasis*
+author:
+- John MacFarlane
+- John Doe
+doi: 10.234234.23424/x
+date: September 6, 2004
+abstract: |
+  A formatted abstract here.
+
+  May contain multiple paragraphs.
+...
 ~~~~
 
 MMD metadata:
@@ -329,4 +351,3 @@ Author: Fletcher T. Penney
         John Doe  
 Date:   July 25, 2005  
 ~~~~
-
