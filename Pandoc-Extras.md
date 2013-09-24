@@ -11,6 +11,11 @@
 - [Scripts for using pandoc with BBEdit and TextWrangler], courtesy of John Gardner.
 - [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor with the opened file as input.
 
+## Workflow
+
+- [grunt-pandoc](https://github.com/Dashed/grunt-pandoc), a makefile-like workflow, that uses gruntjs and nodejs, to watch and automatically compile documents using `pandoc`. Useful for large and complex directory of documents to process through pandoc.
+
+
 ## Shell Completion
 
 - [Bash and zsh command-line completion for pandoc], courtesy of David Sanson
