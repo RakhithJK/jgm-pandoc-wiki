@@ -4,7 +4,7 @@ First, clone a copy of the impress.js repository:
 
 Next, get the custom template:
 
-    git clone https://gist.github.com/jgm/5665065
+    https://gist.github.com/5665065.git
 
 Create a file `impress.txt` with these contents:
 
