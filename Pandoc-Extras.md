@@ -61,7 +61,7 @@
 - [pander](https://github.com/Rapporter/pander), an [R](http://www.r-project.org/) wrapper
   for pandoc by Gergely Daróczi.
 - [scala-pandoc](https://github.com/pvorb/scala-pandoc), a Scala/Java wrapper for Pandoc by Paul Vorbach
-- [node-pandoc](https://npmjs.org/package/pdc), a Node.js wrapper for Pandoc by Paul Vorbach
+- [node-pdc](https://npmjs.org/package/pdc), a Node.js wrapper for Pandoc by Paul Vorbach
 
 ## Preprocessors
 
