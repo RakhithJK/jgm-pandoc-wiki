@@ -100,6 +100,8 @@
 
 - [pandoc-watch](https://github.com/dloureiro/pandoc-watch) by David Loureiro is a simple watcher that call the pandoc command with the provided arguments when a file/folder modification is detected.
 
+- [Uberdoc](https://github.com/sbrosinski/uberdoc) by Stephan Brosinski is a wrapper script for Pandoc which provides a build system to turn a number of markdown files (chapters) into large documents. 
+
 ## German Introduction / Deutsche Einführung
 
 Eine kurze Einführung (16 Seiten) zu Markdown und Pandoc.
