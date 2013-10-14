@@ -4,7 +4,7 @@ First, clone a copy of the impress.js repository:
 
 Next, get the custom template:
 
-    https://gist.github.com/jgm/5665065
+    wget https://gist.github.com/jgm/5665065/raw/impress-template.html
 
 Create a file `impress.txt` with these contents:
 
@@ -27,4 +27,4 @@ Then you should try **impress.js**
 
 Now create your slide show:
 
-    pandoc --template 5665065/impress-template.html -V impress-url=impress.js -s -t html5 --section-divs -o impress.html impress.txt
+    pandoc --template impress-template.html -V impress-url=impress.js -s -t html5 --section-divs -o impress.html impress.txt
