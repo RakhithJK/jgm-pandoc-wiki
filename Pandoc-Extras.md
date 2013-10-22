@@ -10,6 +10,7 @@
 - [Texts], Markdown WYSIWYM editor, is integrated with Pandoc.
 - [Scripts for using pandoc with BBEdit and TextWrangler], courtesy of John Gardner.
 - [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor with the opened file as input.
+- [Sublime Text](https://sublime.wbond.net/search/pandoc), a number of plugins available for [Sublime Text](http://www.sublimetext.com/) via the plugin [Package Control](https://sublime.wbond.net/installation)
 
 ## Workflow
 
@@ -37,6 +38,7 @@
 - [yst](https://github.com/jgm/yst)
 - [Hakyll](http://jaspervdj.be/hakyll/)
 - A [bash shell script](https://github.com/wcaleb/website) by Caleb McDaniel to generate a site using pandoc
+- [jekyll](https://github.com/fauno/jekyll-pandoc-multiple-formats) (Also see [this post](http://drz.ac/2013/01/03/blogging-with-math/) for implementation on OctoPress)
 
 ## Serving `.md` and `.markdown` files with apache
 
