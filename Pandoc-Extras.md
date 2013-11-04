@@ -50,7 +50,11 @@
   `\startmarkdown` and `\stopmarkdown` directly in ConTeXt.
 - [an even simpler route] from markdown to PDF, via ConTeXt.
 
-## Programming
+## Filters
+
+- [pandocfilters](https://github.com/jgm/pandocfilters), a library for writing pandoc filters in python.
+
+## Pandoc wrappers and interfaces
 
 - [Pyandoc](https://github.com/kennethreitz/pyandoc), a python wrapper
   for pandoc by Kenneth Reitz.
@@ -104,7 +108,9 @@
 
 - [Uberdoc](https://github.com/sbrosinski/uberdoc) by Stephan Brosinski is a wrapper script for Pandoc which provides a build system to turn a number of markdown files (chapters) into large documents. 
 
-## German Introduction / Deutsche Einführung
+## Non-English documentation
+
+### German Introduction / Deutsche Einführung
 
 Eine kurze Einführung (16 Seiten) zu Markdown und Pandoc.
 
@@ -116,7 +122,7 @@ Das komplette Projekt gibt es auf [https://github.com/AKielhorn/Markdown-Intro].
 
 Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] herunterladen, das dazugehörige Begleitmaterial sowie die Vorlagen gibt es als Zip archiv unter [http://dl.dropbox.com/u/6568507/Ziele.zip].
 
-## Chinese Introduction / 中文翻譯
+### Chinese Introduction / 中文翻譯
 
 [Pandoc’s Markdown 語法中文翻譯](http://pages.tzengyuxio.me/pandoc/)
 
@@ -129,7 +135,7 @@ Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] h
 [template]: https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/pm-template.html5
 [script]: https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/convert.sh
 
-## Official documents and books
+## Examples of uses of pandoc
 
 - [Using pandoc for IETF RFC creation], courtesy of Miek Gieben
 - [Preserving old books by rewriting them in markdown], one example of several etexts at [Project Gutenberg] originally transcribed in markdown
