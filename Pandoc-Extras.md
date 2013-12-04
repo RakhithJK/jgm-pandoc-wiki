@@ -81,6 +81,7 @@
 
 ## Illustrative Pandoc templates
 
+- [Customizing the appearance of pandoc tables with booktabs](https://gist.github.com/jlduran/7786752) (requires 1.12.2)
 - Kieran Healy keeps his `~/.pandoc/templates` directory on github: [kjhealy / pandoc-templates](/kjhealy/pandoc-templates).  Note that it calls a [special .sty file](https://github.com/kjhealy/latex-custom-kjh/tree/master/needs-memoir) from [kjhealy / latex-custom-kjh](/kjhealy/latex-custom-kjh) . Similarly see:
 - [dsanson / pandoc-templates](/dsanson/pandoc-templates)
 - [smile / pandoc-templates](/timheil/pandoc-templates) - a German language article template.
