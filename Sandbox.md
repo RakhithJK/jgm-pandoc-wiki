@@ -2,8 +2,8 @@ Test wikilink [[Nonexistent page]], [[Sandbox]].
 
 [random text](Nonexistent page).
 
-~~~~ {.csharp}
-teste();
+~~~~ {.html}
+<a>hi</a>
 ~~~~
 
 
