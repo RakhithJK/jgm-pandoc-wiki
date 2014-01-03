@@ -53,6 +53,7 @@
 ## Filters
 
 - [pandocfilters](https://github.com/jgm/pandocfilters), a library for writing pandoc filters in python.
+- [vimhl](https://github.com/lyokha/vim-publish-helper), a vim plugin that makes vim syntax highlighting engine available in pandoc.
 
 ## Pandoc wrappers and interfaces
 
