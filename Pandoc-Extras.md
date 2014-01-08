@@ -16,6 +16,7 @@
 
 - [grunt-pandoc](https://github.com/Dashed/grunt-pandoc), a makefile-like workflow, that uses gruntjs and nodejs, to watch and automatically compile documents using `pandoc`. Useful for large and complex directory of documents to process through pandoc.
 
+- [kokoi](https://github.com/zeis/kokoi), a configurable markup file watcher, previewer, and converter that uses Pandoc as the default markup processing engine. _kokoi_ watches for changes on the markup files in the directory _kokoi_ is started, and if they change, automatically reprocesses and previews them directly in the browser.
 
 ## Shell Completion
 
