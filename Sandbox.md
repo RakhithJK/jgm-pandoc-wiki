@@ -2,8 +2,10 @@ Test wikilink [[Nonexistent page]], [[Sandbox]].
 
 [random text](Nonexistent page).
 
-``` html
-<a>hi</a>
+``` ruby
+def hi
+  x = 3
+end
 ```
 
 
