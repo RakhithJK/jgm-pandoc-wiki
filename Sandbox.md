@@ -2,9 +2,9 @@ Test wikilink [[Nonexistent page]], [[Sandbox]].
 
 [random text](Nonexistent page).
 
-~~~~ {.html}
+``` {.html}
 <a>hi</a>
-~~~~
+```
 
 
 ## 简体中文
