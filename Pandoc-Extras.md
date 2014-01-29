@@ -141,6 +141,17 @@ Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] h
 [template]: https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/pm-template.html5
 [script]: https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/convert.sh
 
+### Japanese translation of README / 日本語版Pandocユーザーズガイド
+
+[日本語版Pandocユーザーズガイド](http://sky-y.github.io/site-pandoc-jp/users-guide/)
+
+上記には、Pandocの使い方およびPandoc拡張Markdownの仕様が書かれています。
+
+また、[日本Pandocユーザ会](http://sky-y.github.io/site-pandoc-jp/)も設立しました。
+Pandocの使い方やバグについて議論したい方は、ぜひ[メーリングリスト](https://groups.google.com/forum/#!forum/pandoc-jp)に
+ご参加下さい。
+
+
 ## Examples of uses of pandoc
 
 - [Using pandoc for IETF RFC creation], courtesy of Miek Gieben
