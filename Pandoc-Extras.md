@@ -169,7 +169,7 @@ Pandocの使い方やバグについて議論したい方は、ぜひ[メーリ�
 [jsMath]: http://www.math.union.edu/~dpvc/jsMath/
 [WordPress EasyFilter]: http://assorted.sourceforge.net/wp-easy-filter/
 [Haskell platform]: http://hackage.haskell.org/platform/
-[Tool for using pandoc from Notepad++]: https://bitbucket.org/lilleyt/clip-pandoc
+[Tool for using pandoc from Notepad++]: https://bitbucket.org/binaryphile/clip-pandoc
 [pandoc-mode for emacs]: http://joostkremers.github.com/pandoc-mode/
 [gitit]: http://gitit.net
 [pandoc-iki]: https://github.com/dubiousjim/pandoc-iki
