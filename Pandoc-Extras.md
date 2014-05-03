@@ -4,6 +4,7 @@
 - [vim syntax file for pandoc], courtesy of tao_zhyn
 - [vim bundle for pandoc], courtesy of Felipe Morales (fmoralesc), David Sanson (dsanson)
 - [vim HTML viewer use pandoc], by lambdalisue
+- [vim HTML viewer use pandoc, konqueror or firefox], by tex
 - [TextMate bundle for pandoc], courtesy of David Sanson
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
 - [The Zim desktop wiki] can export content to markdown using pandoc extensions (need zim version 0.55 and up)
@@ -186,6 +187,7 @@ Pandocの使い方やバグについて議論したい方は、ぜひ[メーリ�
 [vim syntax file for pandoc]: http://www.vim.org/scripts/script.php?script_id=2389
 [vim bundle for pandoc]: https://github.com/vim-pandoc/vim-pandoc
 [vim HTML viewer use pandoc]: https://github.com/lambdalisue/shareboard.vim
+[vim HTML viewer use pandoc, konqueror or firefox]: https://github.com/tex/vimpreviewpandoc
 [TextMate bundle for pandoc]: http://github.com/dsanson/Pandoc.tmbundle
 [jsMath]: http://www.math.union.edu/~dpvc/jsMath/
 [WordPress EasyFilter]: http://assorted.sourceforge.net/wp-easy-filter/
