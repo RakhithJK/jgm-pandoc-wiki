@@ -8,19 +8,22 @@ First, you'll need to install the new pandoc-types from the github repository:
     cabal install --force
     cd ..
 
-Now install pandoc-citeproc:
+Now install pandoc:
+
+    git clone git://github.com/jgm/pandoc
+    git submodule update --init
+    cd pandoc
+    cabal install --force --enable-tests
+    cabal test
+    cd ..
+
+And finally pandoc-citeproc:
 
     git clone git://github.com/jgm/pandoc-citeproc
     cd pandoc-citeproc
-    cabal install --force
-    cd ..
-
-And finally pandoc:
-
-    git clone git://github.com/jgm/pandoc
-    cd pandoc
-    git submodule update --init
     cabal install --enable-tests
+    cabal test
+
 
 ## Extra info for Haskell/Ubuntu novices
 
