@@ -11,8 +11,8 @@ First, you'll need to install the new pandoc-types from the github repository:
 Now install pandoc:
 
     git clone git://github.com/jgm/pandoc
-    git submodule update --init
     cd pandoc
+    git submodule update --init
     cabal install --force --enable-tests
     cabal test
     cd ..
