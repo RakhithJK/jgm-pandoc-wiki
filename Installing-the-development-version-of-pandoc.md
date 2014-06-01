@@ -31,7 +31,7 @@ Here is one route that successfully sets up an environment to develop pandoc on.
 
 For all these commands, after several attempts, I ended up putting them into a script and saving the output, as several earlier attempts, with different combinations of version, gave errors.
 
-1. Set up an Ubuntu 12.10 environment ([you'll have problems if you go for 13.04](http://askubuntu.com/questions/286764/how-to-install-haskell-platform-for-ubuntu-13-04))
+1. Set up an Ubuntu 14.04 environment
 1. Run the following commands:
 
         sudo apt-get update
