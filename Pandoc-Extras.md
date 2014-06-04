@@ -79,6 +79,7 @@ Here is how to do it:
 - [pandocfilters](https://github.com/jgm/pandocfilters), a library for writing pandoc filters in python.
 - [vimhl](https://github.com/lyokha/vim-publish-helper), a vim plugin that makes vim syntax highlighting engine available in pandoc.
 - [pandocfilters-php](https://github.com/vinai/pandocfilters-php), a port of the python [pandocfilters](https://github.com/jgm/pandocfilters) module to PHP to make writing filters in PHP easier.
+- [pandoc-filter-node](https://github.com/mvhenderson/pandoc-filter-node), a Node.js module for writing pandoc filters in JavaScript.
 
 ## Pandoc wrappers and interfaces
 
