@@ -48,7 +48,7 @@
 - A [bash shell script](https://github.com/wcaleb/website) by Caleb McDaniel to generate a site using pandoc
 - [jekyll](https://github.com/fauno/jekyll-pandoc-multiple-formats) (Also see [this post](http://drz.ac/2013/01/03/blogging-with-math/) for implementation on OctoPress)
 
-## Serving `.md` and `.markdown` files with apache
+## Serving markdown files with apache
 
 - [apache-pandoc](https://github.com/chdemko/apache-pandoc)
 
