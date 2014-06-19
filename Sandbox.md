@@ -3,8 +3,10 @@ Test wikilink [[Nonexistent page]], [[Sandbox]].
 [random text](Nonexistent page).
 
 ``` {.php}
+<?php
 echo "hello";
 // comment
+?>
 ```
 
 
