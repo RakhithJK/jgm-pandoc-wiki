@@ -103,9 +103,7 @@
 
 ## Doc processing tools using Pandoc
 
-- [Gouda](http://www.unexpected-vortices.com/sw/gouda/) is a Perl script which uses Pandoc to stitch multiple docs together as chapters into an easily-navigable whole. It provides an easy way to get started writing multi-page/chapter documentation.
-
-- Use [Rippledoc](https://github.com/uvtc/rippledoc) to "ripple through" nested subdirectories of pandoc-markdown formatted notes, generating html from them, as well as generating a table of contents for easy navigation.
+- [Rippledoc](http://www.unexpected-vortices.com/sw/rippledoc/index.html) processes .md files into html. It ripples down from the current directory through nested subdirectories processing md files as it goes. It also generates tables of contents and navigation links, stitching together the documents into an easily-navigable whole.
 
 - [SPAB](http://www.howtoselfpublishabook.org/self-publish-a-book/) a very simple windows GUI that uses Pandoc and a couple other open source tools to produce a .mobi, .epub, .doc, and .pdf ready for the most popular self-publishing services.
 
