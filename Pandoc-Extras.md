@@ -1,8 +1,11 @@
 ## Editors
 
 - [pandoc-mode for emacs], by Joost Kremers
+- [vim-pandoc project], integration with pandoc and utilities for vim, courtesy of Felipe Morales (fmoralesc), David Sanson (dsanson) and others. Covers:
+    - [vim-pandoc], pandoc execution, folding, navigation, edition, etc.
+    - [vim-pandoc-syntax], syntax file.
+    - [vim-pandoc-after], integration with third-party plugins (snippets, nrrwrgn).
 - [vim syntax file for pandoc], courtesy of tao_zhyn
-- [vim bundle for pandoc], courtesy of Felipe Morales (fmoralesc), David Sanson (dsanson)
 - [vim HTML viewer use pandoc], by lambdalisue
 - [vim HTML viewer use pandoc, konqueror or firefox], by tex
 - [TextMate bundle for pandoc], courtesy of David Sanson
@@ -168,7 +171,10 @@ Pandocの使い方やバグについて議論したい方は、ぜひ[メーリ�
 [an even simpler route]: http://randomdeterminism.wordpress.com/2011/01/09/markdowntopdf/
 [filter module]: https://github.com/adityam/filter
 [vim syntax file for pandoc]: http://www.vim.org/scripts/script.php?script_id=2389
-[vim bundle for pandoc]: https://github.com/vim-pandoc/vim-pandoc
+[vim-pandoc project]: https://github.com/vim-pandoc
+[vim-pandoc]: https://github.com/vim-pandoc/vim-pandoc
+[vim-pandoc-syntax]: https://github.com/vim-pandoc/vim-pandoc-syntax
+[vim-pandoc-after]: https://github.com/vim-pandoc/vim-pandoc-after
 [vim HTML viewer use pandoc]: https://github.com/lambdalisue/shareboard.vim
 [vim HTML viewer use pandoc, konqueror or firefox]: https://github.com/tex/vimpreviewpandoc
 [TextMate bundle for pandoc]: http://github.com/dsanson/Pandoc.tmbundle
