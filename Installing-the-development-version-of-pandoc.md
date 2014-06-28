@@ -24,6 +24,9 @@ And finally pandoc-citeproc:
     cabal install --enable-tests
     cabal test
 
+The built pandoc can now be run via:
+
+    ~/.cabal/bin/pandoc
 
 ## Extra info for Haskell/Ubuntu novices
 
