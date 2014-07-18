@@ -1,6 +1,10 @@
+## Introduction
+
 If you want to live dangerously, you can install the still-in-progress pandoc from github.  You'll need git and the [Haskell Platform](http://www.haskell.org/platform/).
 
-First, you'll need to install the new pandoc-types from the github repository:
+## Getting code and building pandoc
+
+First, you'll need to install the new pandoc-types from the github repository. If `git` and `cabal` are in your path, these commands will work on both Unix and Windows:
 
     git clone git://github.com/jgm/pandoc-types
     cd pandoc-types
@@ -23,10 +27,17 @@ And finally pandoc-citeproc:
     cd pandoc-citeproc
     cabal install --enable-tests
     cabal test
+    cd ..
 
-The built pandoc can now be run via:
+## Running pandoc
+
+On Linux, the built pandoc can now be run via:
 
     ~/.cabal/bin/pandoc
+
+On Windows, the built pandoc can now be run via:
+
+    pandoc\dist\build\pandoc\pandoc.exe
 
 ## Extra info for Haskell/Ubuntu novices
 
