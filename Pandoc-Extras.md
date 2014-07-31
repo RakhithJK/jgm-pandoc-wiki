@@ -70,6 +70,7 @@
 
 ## Pandoc wrappers and interfaces
 
+- [Pandoctor](https://github.com/smargh/alfred_pandoctor), an [Alfred](http://www.alfredapp.com/) workflow that acts as a GUI for pandoc. Allows for one-off conversions as well as templates. Created by Stephen Margheim
 - [Pyandoc](https://github.com/kennethreitz/pyandoc), a python wrapper
   for pandoc by Kenneth Reitz.
 - [pandoc-ruby](https://github.com/alphabetum/pandoc-ruby), a ruby wrapper
