@@ -1,4 +1,4 @@
-This is an evolving document comparing features of Pandoc (1.12) and
+This is an evolving document comparing features of Pandoc (1.13) and
 Fletcher Penney's Multimarkdown (version 3).
 
 - [Pandoc User's Guide](http://johnmacfarlane.net/pandoc/README.html)
@@ -28,7 +28,11 @@ multimarkdown &rarr; pandoc:
 | DocBook           |  ✓     |     |
 | MediWiki          |  ✓     |     |
 | OPML              |  ✓     |     |
+| Emacs org-mode    |  ✓     |     |
 | Haddock           |  ✓     |     |
+| txt2tags          |  ✓     |     |
+| Word docx         |  ✓     |     |
+| EPUB              |  ✓     |     |
 
 ## Output formats
 
@@ -55,10 +59,11 @@ multimarkdown &rarr; pandoc:
 | EPUB v3           | ✓      | ✓      |        |
 | Slidy             | ✓      |        |        |
 | S5                | ✓      | ✓      |        |
-| dzslides          | ✓      |         |        |
-| Beamer            | ✓      |         |        |
-| AsciiDoc          | ✓      |         |        |
-| FictionBook 2     | ✓      |         |        |
+| dzslides          | ✓      |        |        |
+| Beamer            | ✓      |        |        |
+| AsciiDoc          | ✓      |        |        |
+| FictionBook 2     | ✓      |        |        |
+| DokuWiki          | ✓      |        |        |
 
 ## Features in pandoc but not MMD
 
