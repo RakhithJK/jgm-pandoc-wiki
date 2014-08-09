@@ -1,1 +1,0 @@
-## ![Foto](https://plus.google.com/app/basic/share?cbp=1rlj6ckcvzha0&partnerid=t2searchhp&sview=2&cid=5&soc-app=115&soc-platform=1&spath=/app/basic/stream&sparm=cbp%3Dc2exsa390egp%26partnerid%3Dt2searchhp%26cid%3D5%26soc-app%3D115%26soc-platform%3D1)
