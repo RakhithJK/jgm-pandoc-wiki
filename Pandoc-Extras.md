@@ -1,6 +1,14 @@
 ## Editors
 
+- [Atom Packages](https://atom.io/packages/search?q=pandoc)
+- [Scripts for using pandoc with BBEdit and TextWrangler], courtesy of John Gardner.
 - [pandoc-mode for emacs], by Joost Kremers
+- [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor
+- [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
+- [R Markdown](http://rmarkdown.rstudio.com), using knitr and pandoc
+- [Sublime Text](https://sublime.wbond.net/search/pandoc), a number of plugins available for [Sublime Text](http://www.sublimetext.com/) via the plugin [Package Control](https://sublime.wbond.net/installation). See [Plaintxt Productivity](http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html) and [Writing academic papers in Markdown using Pandoc](http://blog.cigrainger.com/2014/07/pandoc-markdown.html) for further details.
+- [TextMate bundle for pandoc], courtesy of David Sanson (for TextMate 1 only)
+- [Texts], Markdown WYSIWYM editor, is integrated with Pandoc.
 - [vim-pandoc project], integration with pandoc and utilities for vim, courtesy of Felipe Morales (fmoralesc), David Sanson (dsanson) and others. Covers:
     - [vim-pandoc], pandoc execution, folding, navigation, edition, etc.
     - [vim-pandoc-syntax], syntax file.
@@ -8,14 +16,8 @@
 - [vim syntax file for pandoc], courtesy of tao_zhyn
 - [vim HTML viewer use pandoc], by lambdalisue
 - [vim HTML viewer use pandoc, konqueror or firefox], by tex
-- [TextMate bundle for pandoc], courtesy of David Sanson (incompatible with TextMate 2)
-- [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
 - [The Zim desktop wiki] can export content to markdown using pandoc extensions (need zim version 0.55 and up)
-- [Texts], Markdown WYSIWYM editor, is integrated with Pandoc.
-- [Scripts for using pandoc with BBEdit and TextWrangler], courtesy of John Gardner.
-- [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor with the opened file as input.
-- [Sublime Text](https://sublime.wbond.net/search/pandoc), a number of plugins available for [Sublime Text](http://www.sublimetext.com/) via the plugin [Package Control](https://sublime.wbond.net/installation). See [Plaintxt Productivity](http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html) and [Writing academic papers in Markdown using Pandoc](http://blog.cigrainger.com/2014/07/pandoc-markdown.html) for further details.
-- [Atom Packages](https://atom.io/packages/search?q=pandoc)
+the opened file as input.
 
 ## Integration with Reference Managers
 
@@ -120,44 +122,6 @@
 - [Uberdoc](https://github.com/sbrosinski/uberdoc) by Stephan Brosinski is a wrapper script for Pandoc which provides a build system to turn a number of markdown files (chapters) into large documents. 
 
 - [Xmindoc](https://github.com/sky-y/xmindoc) is a wrapper script for Pandoc which converts XMind mindmaps to any documents that are available in Pandoc.
-
-## Non-English documentation
-
-### German Introduction / Deutsche Einführung
-
-Eine kurze Einführung (16 Seiten) zu Markdown und Pandoc.
-
-Der Text beschreibt die Auszeichnungssprache Markdown und die Benutzung des Programms Pandoc unter Berücksichtigung der Eigenheiten der deutschen Sprache.
-Er geht auf die Erzeugung von eBüchern (ePub und Kindle) sowie den Export nach OpenOffice und MS Office ein.
-Außerdem bietet er Vorlagen (templates) zur Verwendung mit LaTeX.
-
-Das komplette Projekt gibt es auf [https://github.com/AKielhorn/Markdown-Intro].
-
-Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] herunterladen, das dazugehörige Begleitmaterial sowie die Vorlagen gibt es als Zip archiv unter [http://dl.dropbox.com/u/6568507/Ziele.zip].
-
-### Chinese Introduction / 中文翻譯
-
-[Pandoc’s Markdown 語法中文翻譯](http://pages.tzengyuxio.me/pandoc/)
-
-這份中文語法文件翻譯自 [Pandoc - Pandoc User’s Guide][userguide] 中的 "Pandoc's markdown" 一節。
-
-你可以看看[這份文件的原始檔][source]、產生文件[所使用的 HTML 範本][template]，以及[轉換時的命令參數][script]。
-
-[userguide]: http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown
-[source]: https://raw.github.com/tzengyuxio/pages/gh-pages/pandoc/pandoc.markdown
-[template]: https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/pm-template.html5
-[script]: https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/convert.sh
-
-### Japanese translation of README / 日本語版Pandocユーザーズガイド
-
-[日本語版Pandocユーザーズガイド](http://sky-y.github.io/site-pandoc-jp/users-guide/)
-
-上記には、Pandocの使い方およびPandoc拡張Markdownの仕様が書かれています。
-
-また、[日本Pandocユーザ会](http://sky-y.github.io/site-pandoc-jp/)も設立しました。
-Pandocの使い方やバグについて議論したい方は、ぜひ[メーリングリスト](https://groups.google.com/forum/#!forum/pandoc-jp)に
-ご参加下さい。
-
 
 ## Examples of uses of pandoc
 
