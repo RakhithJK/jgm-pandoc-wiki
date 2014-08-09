@@ -8,25 +8,28 @@
 - [vim syntax file for pandoc], courtesy of tao_zhyn
 - [vim HTML viewer use pandoc], by lambdalisue
 - [vim HTML viewer use pandoc, konqueror or firefox], by tex
-- [TextMate bundle for pandoc], courtesy of David Sanson
+- [TextMate bundle for pandoc], courtesy of David Sanson (incompatible with TextMate 2)
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
 - [The Zim desktop wiki] can export content to markdown using pandoc extensions (need zim version 0.55 and up)
 - [Texts], Markdown WYSIWYM editor, is integrated with Pandoc.
 - [Scripts for using pandoc with BBEdit and TextWrangler], courtesy of John Gardner.
 - [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor with the opened file as input.
-- [Sublime Text](https://sublime.wbond.net/search/pandoc), a number of plugins available for [Sublime Text](http://www.sublimetext.com/) via the plugin [Package Control](https://sublime.wbond.net/installation)
+- [Sublime Text](https://sublime.wbond.net/search/pandoc), a number of plugins available for [Sublime Text](http://www.sublimetext.com/) via the plugin [Package Control](https://sublime.wbond.net/installation). See [Plaintxt Productivity](http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html) and [Writing academic papers in Markdown using Pandoc](http://blog.cigrainger.com/2014/07/pandoc-markdown.html) for further details.
+- [Atom Packages](https://atom.io/packages/search?q=pandoc)
+
+## Integration with Reference Managers
+
+- [BibDesk Export Templates](https://github.com/dsanson/bibdesk-pandoc-export-templates): drag and drop pandoc-style citations from BibDesk into your document; use pandoc to export formatted reference lists from BibDesk.
+- [zotxt](https://bitbucket.org/egh/zotxt), allowing direct usage of a Zotero library (with [zotxt-emacs](https://bitbucket.org/egh/zotxt-emacs) for completion in emacs)
 
 ## Workflow
 
-- [pandoc-seed-project](https://github.com/Dashed/pandoc-seed-project), a git repo seed where by you can clone from. It uses [gulp.js](https://github.com/gulpjs/gulp) and some of its plugins to automate task of using pandoc to watch and compile documents from a source directory to a destination directory. Useful for large and complex directory of documents to process through pandoc.
-
-- [grunt-pandoc](https://github.com/Dashed/grunt-pandoc), a makefile-like workflow, that uses gruntjs and nodejs, to watch and automatically compile documents using `pandoc`. Useful for large and complex directory of documents to process through pandoc. **Note:* Author now recommends [pandoc-seed-project](https://github.com/Dashed/pandoc-seed-project).
-
-- [kokoi](https://github.com/zeis/kokoi), a configurable markup file watcher, previewer, and converter that uses Pandoc as the default markup processing engine. _kokoi_ watches for changes on the markup files in the directory _kokoi_ is started, and if they change, automatically reprocesses and previews them directly in the browser.
-
-## Shell Completion
-
 - [Bash and zsh command-line completion for pandoc], courtesy of David Sanson
+- [grunt-pandoc](https://github.com/Dashed/grunt-pandoc), a makefile-like workflow, that uses gruntjs and nodejs, to watch and automatically compile documents using `pandoc`. Useful for large and complex directory of documents to process through pandoc. **Note:* Author now recommends [pandoc-seed-project](https://github.com/Dashed/pandoc-seed-project).
+- [kokoi](https://github.com/zeis/kokoi), a configurable markup file watcher, previewer, and converter that uses Pandoc as the default markup processing engine. _kokoi_ watches for changes on the markup files in the directory _kokoi_ is started, and if they change, automatically reprocesses and previews them directly in the browser.
+- [pandoc-schemata](https://github.com/rakali/pandoc-schemata), providing JSON Schema files for Pandoc JSON.
+- [pandoc-seed-project](https://github.com/Dashed/pandoc-seed-project), a git repo seed where by you can clone from. It uses [gulp.js](https://github.com/gulpjs/gulp) and some of its plugins to automate task of using pandoc to watch and compile documents from a source directory to a destination directory. Useful for large and complex directory of documents to process through pandoc.
+- [pandocket](https://github.com/wcaleb/pandocket), 'A python script that looks for special lines in a markdown file and uses those lines to convert, clean up, and insert content from URLs into the file for processing by pandoc'
 
 ## Blogs
 
@@ -49,7 +52,10 @@
 - [yst](https://github.com/jgm/yst)
 - [Hakyll](http://jaspervdj.be/hakyll/)
 - A [bash shell script](https://github.com/wcaleb/website) by Caleb McDaniel to generate a site using pandoc
-- [jekyll](https://github.com/fauno/jekyll-pandoc-multiple-formats) (Also see [this post](http://drz.ac/2013/01/03/blogging-with-math/) for implementation on OctoPress)
+- Jekyll
+    - [jekyll-pandoc-multiple-formats](https://github.com/fauno/jekyll-pandoc-multiple-formats)
+    - [jekyll-pandoc](https://github.com/mfenner/jekyll-pandoc), used for the [Opening Science](https://github.com/openingscience/book) book
+    - (Also see [this post](http://drz.ac/2013/01/03/blogging-with-math/) for implementation on OctoPress)
 
 ## Serving markdown files with apache
 
@@ -67,6 +73,7 @@
 - [vimhl](https://github.com/lyokha/vim-publish-helper), a vim plugin that makes vim syntax highlighting engine available in pandoc.
 - [pandocfilters-php](https://github.com/vinai/pandocfilters-php), a port of the python [pandocfilters](https://github.com/jgm/pandocfilters) module to PHP to make writing filters in PHP easier.
 - [pandoc-filter-node](https://github.com/mvhenderson/pandoc-filter-node), a Node.js module for writing pandoc filters in JavaScript.
+- [pandoc-jats](https://github.com/mfenner/pandoc-jats), a Lua custom writer for Pandoc generating JATS XML.
 
 ## Pandoc wrappers and interfaces
 
@@ -90,20 +97,9 @@
 - [pandoc-gpp](http://dloureiro.github.io/pandoc-gpp) by David Loureiro is a wrapper around pandoc and gpp in order to provide some macros for extra markup not available in markdown and its extensions.
 - [mddia](https://github.com/nichtich/ditaa-markdown/) lets you embed [ditaa](http://ditaa.sourceforge.net/) ASCII-art diagrams in Markdown code blocks
 
-## Integration with Reference Managers
-
-- [BibDesk Export Templates](https://github.com/dsanson/bibdesk-pandoc-export-templates): drag and drop pandoc-style citations from BibDesk into your document; use pandoc to export formatted reference lists from BibDesk.
-
 ## Illustrative Pandoc templates
 
-- [Customizing the appearance of pandoc tables with booktabs](https://gist.github.com/jlduran/7786752) (requires 1.12.2)
-- Kieran Healy keeps his `~/.pandoc/templates` directory on github: [kjhealy / pandoc-templates](/kjhealy/pandoc-templates).  Note that it calls a [special .sty file](https://github.com/kjhealy/latex-custom-kjh/tree/master/needs-memoir) from [kjhealy / latex-custom-kjh](/kjhealy/latex-custom-kjh) . Similarly see:
-- [dsanson / pandoc-templates](/dsanson/pandoc-templates)
-- [smile / pandoc-templates](/timheil/pandoc-templates) - a German language article template.
-- [claes / pandoc-templates](/claes/pandoc-templates) is a good illustration of a template with many user-defined variables, e.g for margins, language, papersize, orientation, etc. Because this makes command line specification a bit unwieldy, he includes [simple shell script](/claes/pandoc-templates/blob/master/md2pdf) with unused options commented out to instruct markdown2pdf how to fill in all the blanks.
-- [wcaleb / pandoc-templates](/wcaleb/pandoc-templates)
 - This wiki is developing a collection of [[User Contributed Templates]] for purposes of illustration; contribute your own, or if you keep pandoc templates under revision control, link them here.
-- [md2latex](https://bitbucket.org/zuline/md2latex) is a collection of templates and scripts which are designed to allow you to write in APA 6 style using Markdown and to convert to APA 6 Style in LaTeX.
 
 ## Doc processing tools using Pandoc
 
