@@ -4,7 +4,7 @@ which you might need to look at:
 * [jgm/pandoc](https://github.com/jgm/pandoc) itself
 * [jgm/pandoc-templates](https://github.com/jgm/pandoc-templates)
 * [jgm/pandoc-types](https://github.com/jgm/pandoc-types)
-* [citeproc-hs](http://gorgias.mine.nu/repos/citeproc-hs/)
+* [jgm/pandoc-citeproc](https://github.com/jgm/pandoc-citeproc)
 
 To understand the pandoc implementation, besides Haskell
 
