@@ -8,6 +8,7 @@
 - [A simple letter template for Pandoc](https://github.com/aaronwolen/pandoc-letter)
 - [Template for making Tufte-style handouts](https://github.com/wcaleb/pandoc-templates/blob/master/handout.tex)
 - [The Markdown Resume](https://github.com/mszep/pandoc_resume)
+- [PDF slides and handouts using Pandoc and Beamer](https://gist.github.com/lmullen/c3d4c7883f081ed8692a)
 
 # Professional/Academic
 - [A template for creating a PhD thesis in markdown + pandoc](https://github.com/chiakaivalya/thesis-markdown-pandoc)
