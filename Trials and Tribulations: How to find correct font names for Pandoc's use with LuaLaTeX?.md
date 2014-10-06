@@ -127,7 +127,7 @@ If you have recently installed new fonts (or if you never did run a LuaLaTeX com
 This will generate an updated cache of font names as *luaotfload-names.luc* in a path where it is found and can be used by LuaLaTeX.
 
 ```bash
- kp@mbp:svn-stuff > luaotfload-tool -u -vvv
+kp@mbp:~> luaotfload-tool -u -vvv
  luaotfload | util : Setting log level
  luaotfload | util : Task completed successfully
  luaotfload | db : Updating the font names database.
