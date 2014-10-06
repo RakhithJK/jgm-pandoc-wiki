@@ -4,7 +4,7 @@
 
 ***Really easy? Yes... but only if you know how to specify a font name that LuaLaTeX actually understands!***
 
-Consider this: I was interested in all variations of my newly installed FOSS Adobe [*Source Code Pro*](https://github.com/adobe-fonts/source-code-pro) fonts. They are said to have a really good coverage of *box drawing characters*, and I wanted to see that by letting **`pandoc --latex-engine=lualatex`** convert the following code block sample (which I copied from [here](http://adobe-type-tools.github.io/boxDrawing/)) to PDF. This code box is part of my Markdown file *'fun-with-box-drawing.md'*,:
+Consider this: I was interested in all variations of my newly installed FOSS Adobe [*Source Code Pro*](https://github.com/adobe-fonts/source-code-pro) fonts. They are said to have a really good coverage of *box drawing characters*, and I wanted to see that by letting **`pandoc --latex-engine=lualatex`** convert the following code block sample (which I copied from [here](http://adobe-type-tools.github.io/boxDrawing/)) to PDF. This code box is part of my Markdown file *'fun-with-box-drawing.md'*:
 
 ```python
 
