@@ -211,3 +211,6 @@ It turned out that the box drawing I had used wasn't the best to really highligh
 z─────┘────¡────└─────z
 ```
 
+Here is a side-by-side screenshot of the results for Source Code *Black* and *ExtraLight* font faces:
+
+![Side-by-side screenshot illustrating box drawing character differences for Source Code *Black* and *ExtraLight*](http://i.stack.imgur.com/p65Pi.jpg)
