@@ -91,7 +91,7 @@ What now? Some search-engineing brought me a step closer to the solution.
 
 ## Solution
 
-Three years ago, TeXExchange users *[Ulrike Fischer](http://tex.stackexchange.com/users/2388/ulrike-fischer)* and *[topskip](http://tex.stackexchange.com/users/243/topskip)* came up with a shell script that prints a complete list of font names that may be used with LuaLaTeX. 
+Three years ago, TeXExchange users *[Ulrike Fischer](http://tex.stackexchange.com/users/2388/ulrike-fischer)* and *[topskip](http://tex.stackexchange.com/users/243/topskip)* came up with a ~~shell~~ script that prints a complete list of font names that may be used with LuaLaTeX. 
 
 Unfortunately the script had stopped working with newer versions of LuaLaTeX (such as is included in TeXLive 2014). 
 
