@@ -91,7 +91,7 @@ What now? Some search-engineing brought me a step closer to the solution.
 
 ## Solution
 
-Three years ago, TeXExchange users *[Ulrike Fischer](http://tex.stackexchange.com/users/2388/ulrike-fischer)* and *[topskip](http://tex.stackexchange.com/users/243/topskip)* came up with a ~~shell~~ script that prints a complete list of font names that may be used with LuaLaTeX. 
+Three years ago, TeXExchange users *[Ulrike Fischer](http://tex.stackexchange.com/users/2388/ulrike-fischer)* and *[topskip](http://tex.stackexchange.com/users/243/topskip)* came up with a ~~shell~~ **[script](http://tex.stackexchange.com/a/30656)** that prints a complete list of font names that may be used with LuaLaTeX. 
 
 Unfortunately the script had stopped working with newer versions of LuaLaTeX (such as is included in TeXLive 2014). 
 
@@ -211,6 +211,6 @@ It turned out that the box drawing I had used wasn't the best to really highligh
 z─────┘────¡────└─────z
 ```
 
-Here is a side-by-side screenshot of the results for Source Code *Black* and *ExtraLight* font faces:
+Here is a side-by-side screenshot of the resulting PDFs produced by `pandoc` for Source Code *Black* and *ExtraLight* font faces:
 
 ![Side-by-side screenshot illustrating box drawing character differences for Source Code *Black* and *ExtraLight*](http://i.stack.imgur.com/p65Pi.jpg)
