@@ -126,6 +126,35 @@ If you have recently installed new fonts (or if you never did run a LuaLaTeX com
 
 This will generate an updated cache of font names as *luaotfload-names.luc* in a path where it is found and can be used by LuaLaTeX.
 
+```bash
+ kp@mbp:svn-stuff > luaotfload-tool -u -vvv
+ luaotfload | util : Setting log level
+ luaotfload | util : Task completed successfully
+ luaotfload | db : Updating the font names database.
+ luaotfload | db : Font names database loaded
+ luaotfload | db : Loading took 18 ms.
+ luaotfload | db : Blacklisting 8 files and directories.
+ luaotfload | db : Whitelisting 0 files.
+ luaotfload | db : Scanning TEXMF fonts...
+ luaotfload | db : Initiating scan of 401 directories.
+ luaotfload | db : Scanned 1496 files, 0 new.
+ luaotfload | db : Scanning OS fonts...
+ luaotfload | db : Searching in static system directories...
+ luaotfload | db : Scanned 610 files, 0 new.
+ luaotfload | db : Scanned 0 font files; 0 new entries.
+ luaotfload | db : Creating filename map.
+ luaotfload | db : Analyzing families, sizes, and styles.
+ luaotfload | db : Ordering design sizes.
+ luaotfload | db : Rebuilt in 649 ms.
+ luaotfload | db : Font index saved at ...
+ luaotfload | db : Gzip: /Users/kp/.texlive2014/texmf-var/luatex-cache/generic/names/luaotfload-names.lua.gz
+ luaotfload | db : Byte: /Users/kp/.texlive2014/texmf-var/luatex-cache/generic/names/luaotfload-names.luc
+ luaotfload | cache : Lookup cache saved.
+ luaotfload | cache : Lookup cache emptied.
+ luaotfload | db : Fonts in the database: 1591
+ luaotfload | util : Task completed successfully
+```
+
 Now run the above script:
 
     ./listluatexfonts
