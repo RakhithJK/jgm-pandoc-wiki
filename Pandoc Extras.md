@@ -18,6 +18,7 @@
 - [vim HTML viewer use pandoc, konqueror or firefox], by tex
 - [The Zim desktop wiki] can export content to markdown using pandoc extensions (need zim version 0.55 and up)
 the opened file as input.
+- [pandoc-live](https://github.com/ocharles/pandoc-live) is a little utility can be used to watch a Pandoc document for changes, and display the rendering in real-time in a web browser.
 
 ## Integration with Reference Managers
 
