@@ -76,6 +76,7 @@ the opened file as input.
 
 - [Pandoctor](https://github.com/smargh/alfred_pandoctor), an [Alfred](http://www.alfredapp.com/) workflow that acts as a GUI for pandoc. Allows for one-off conversions as well as templates. Created by Stephen Margheim
 - [PanConvert](http://panconvert.sourceforge.net), a cross-platform pandoc gui-wrapper. Allows using pandoc in a gui-environment
+- [pypandoc](https://github.com/bebraw/pypandoc), a python wrapper
 - [Pyandoc](https://github.com/kennethreitz/pyandoc), a python wrapper
   for pandoc by Kenneth Reitz.
 - [pandoc-ruby](https://github.com/alphabetum/pandoc-ruby), a ruby wrapper
