@@ -90,6 +90,11 @@ the opened file as input.
 - [scala-pandoc](https://github.com/pvorb/scala-pandoc), a Scala/Java wrapper for Pandoc by Paul Vorbach
 - [node-pdc](https://github.com/pvorb/node-pdc), a Node.js wrapper for Pandoc by Paul Vorbach
 
+## Web services
+
+- [Docverter](http://www.docverter.com)
+- [Pandoc online](https://foliovision.com/seo-tools/pandoc-online)
+
 ## Preprocessors
 
 - [Using GPP as a preprocessor](http://randomdeterminism.wordpress.com/2012/06/01/how-i-stopped-worring-and-started-using-markdown-like-tex/) to get TeX-like macro features in Markdown.
