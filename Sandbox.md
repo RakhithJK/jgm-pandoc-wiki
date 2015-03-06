@@ -1,3 +1,9 @@
+|--------|-----------|
+| Orange | Apple     |
+| Bread  | Pie       |
+| Butter | Ice cream |
+
+
 Test wikilink [[Nonexistent page]], [[Sandbox]].
 
 [random text](Nonexistent page).
