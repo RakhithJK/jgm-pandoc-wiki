@@ -1,4 +1,8 @@
-
+|||
+|--------|-----------|
+| Orange | Apple     |
+| Bread  | Pie       |
+| Butter | Ice cream |
 | Orange | Apple     |
 | Bread  | Pie       |
 | Butter | Ice cream |
