@@ -19,3 +19,4 @@ This page collects together third party filters which can be used to add functio
 - Creating a [link table](http://stackoverflow.com/questions/26406816/pandoc-is-there-a-way-to-include-an-appendix-of-links-in-a-pdf-from-markdown/26415375#26415375) at the end of your document.
 - [Using markdown inside raw latex commands](https://gist.github.com/mpickering/f1718fcdc4c56273ed52)
 - [Adding non-breaking spaces inside a URL to preserve formatting](https://gist.github.com/mpickering/fdc747b9c8306659cb43)
+- [pandoc-fignos](https://github.com/tomduck/pandoc-fignos) for numbering figures and figure references.
