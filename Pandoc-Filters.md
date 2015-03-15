@@ -20,3 +20,4 @@ This page collects together third party filters which can be used to add functio
 - [Using markdown inside raw latex commands](https://gist.github.com/mpickering/f1718fcdc4c56273ed52)
 - [Adding non-breaking spaces inside a URL to preserve formatting](https://gist.github.com/mpickering/fdc747b9c8306659cb43)
 - [pandoc-fignos](https://github.com/tomduck/pandoc-fignos), for numbering figures and figure references.
+- [pandoc-eqnos](https://github.com/tomduck/pandoc-eqnos), for numbering equations and equation references.
