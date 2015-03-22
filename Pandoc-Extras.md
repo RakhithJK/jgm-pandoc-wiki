@@ -20,6 +20,7 @@
 the opened file as input.
 - [pandoc-live](https://github.com/ocharles/pandoc-live) is a little utility can be used to watch a Pandoc document for changes, and display the rendering in real-time in a web browser.
 - [docker-pandoc](https://github.com/silvio/docker-pandoc) - use pandoc on hosts without haskel installed (via docker). Brings a inotify based watch tool for nearly live generation of output documents.
+- [Writage], Markdown plugin for Microsoft Word, is integrated with Pandoc.
 
 ## Integration with Reference Managers
 
@@ -157,3 +158,4 @@ the opened file as input.
 [The Zim desktop wiki]: http://zim-wiki.org
 [Texts]: http:/www.texts.io/
 [Scripts for using pandoc with BBEdit and TextWrangler]: https://github.com/jrgcmu/BBpandoc
+[Writage]: http://www.writage.com/
