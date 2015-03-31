@@ -63,6 +63,7 @@ the opened file as input.
     - [jekyll-pandoc-multiple-formats](https://github.com/fauno/jekyll-pandoc-multiple-formats)
     - [jekyll-pandoc](https://github.com/mfenner/jekyll-pandoc), used for the [Opening Science](https://github.com/openingscience/book) book
     - (Also see [this post](http://drz.ac/2013/01/03/blogging-with-math/) for implementation on OctoPress)
+- [Pandocomatic](https://github.com/htdebeer/pandocomatic)
 
 ## Serving markdown files with apache
 
@@ -86,6 +87,7 @@ the opened file as input.
   for pandoc by alphabetum.
 - [Pandoku](https://github.com/lunant/pandoku), another Ruby wrapper
   for Pandoc by Hong Minhee.
+- [Paru](https://github.com/htdebeer/paru), yet another Ruby wrapper for pandoc by Huub de Beer
 - [libpandoc, a C interface to the pandoc library](http://github.com/ShabbyX/libpandoc/tree/master),
   by Anton Tayanovskyy, updated for pandoc 1.11.1 by Shahbaz Youssefi.
 - [pander](https://github.com/Rapporter/pander), an [R](http://www.r-project.org/) wrapper
