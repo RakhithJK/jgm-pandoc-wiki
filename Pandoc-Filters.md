@@ -22,3 +22,4 @@ This page collects together third party filters which can be used to add functio
 - [Adding non-breaking spaces inside a URL to preserve formatting](https://gist.github.com/mpickering/fdc747b9c8306659cb43)
 - [pandoc-fignos](https://github.com/tomduck/pandoc-fignos), for numbering figures and figure references.
 - [pandoc-eqnos](https://github.com/tomduck/pandoc-eqnos), for numbering equations and equation references.
+- [pandoc-crossref](https://github.com/lierdakil/pandoc-crossref), for numbering and cross-referencing figures, equations and tables
