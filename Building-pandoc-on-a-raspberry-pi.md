@@ -2,7 +2,7 @@ The pandoc supplied by Raspbian is rather old (1.9.4.2)
 The last version you can build is 1.11.1 but this is still an improvement.
 Here is how to do it:
 
-  - You need a Modell B with 512 MB Ram
+  - You need a Model B with 512 MB Ram
   - You need an 8 GB (or larger) SD Card
   - Use `raspi-confg` to set the Memory split to 16 (You can change back to 64 later)
   - Set swap to 500 MB (`/etc/dphys-swapfile`)
