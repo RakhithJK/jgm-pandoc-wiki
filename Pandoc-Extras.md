@@ -30,6 +30,7 @@ the opened file as input.
 
 ## Workflow
 
+- [panzer](https://github.com/msprev/panzer), adds the concept of 'styles' to pandoc. Styles control templates, metadata settings, and instructions to run filters and pre/postprocessors in a simple, reusable, and recombinable way. Styles are defined using standard pandoc constructs inside a yaml file. 
 - [Bash and zsh command-line completion for pandoc], courtesy of David Sanson
 - [grunt-pandoc](https://github.com/Dashed/grunt-pandoc), a makefile-like workflow, that uses gruntjs and nodejs, to watch and automatically compile documents using `pandoc`. Useful for large and complex directory of documents to process through pandoc. **Note:* Author now recommends [pandoc-seed-project](https://github.com/Dashed/pandoc-seed-project).
 - [kokoi](https://github.com/zeis/kokoi), a configurable markup file watcher, previewer, and converter that uses Pandoc as the default markup processing engine. _kokoi_ watches for changes on the markup files in the directory _kokoi_ is started, and if they change, automatically reprocesses and previews them directly in the browser.
