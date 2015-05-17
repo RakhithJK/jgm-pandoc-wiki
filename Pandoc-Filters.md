@@ -23,4 +23,4 @@ This page collects together third party filters which can be used to add functio
 - [pandoc-fignos](https://github.com/tomduck/pandoc-fignos), for numbering figures and figure references.
 - [pandoc-eqnos](https://github.com/tomduck/pandoc-eqnos), for numbering equations and equation references.
 - [pandoc-crossref](https://github.com/lierdakil/pandoc-crossref), for numbering and cross-referencing figures, equations and tables
-- [pandoc-csv2table-filter](https://github.com/baig/pandoc-csv2table-filter) replaces Image links having *.csv extension with markdown rendered tables.
+- [pandoc-csv2table](https://github.com/baig/pandoc-csv2table) for including referenced csv files in markdown as markdown rendered tables.
