@@ -310,7 +310,7 @@ And more      |            And more          |
 ~~~~
 
 Pandoc's pipe tables are similar, but do not have all of
-the features of MMD pipe tables (colspan, rowspan, grouping).
+the features of MMD pipe tables (sections, colspan, rowspan, grouping).
 
 ### Metadata
 
