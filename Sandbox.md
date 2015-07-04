@@ -1,8 +1,5 @@
 ---
 foo: bar
-baz:
- - bim
- - bam
 ---
 
 
