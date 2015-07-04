@@ -1,3 +1,11 @@
+---
+foo: bar
+baz:
+ - bim
+ - bam
+...
+
+
 - one
   - two
     - three
