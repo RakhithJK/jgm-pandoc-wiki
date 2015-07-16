@@ -1,7 +1,7 @@
 ## Editors
 
 - [Atom Packages](https://atom.io/packages/search?q=pandoc)
-- [Scripts for using pandoc with BBEdit and TextWrangler], courtesy of John Gardner.
+- [Scripts for using pandoc with BBEdit and TextWrangler], as well as [Notepad++]
 - [pandoc-mode for emacs], by Joost Kremers
 - [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
@@ -165,4 +165,5 @@ the opened file as input.
 [The Zim desktop wiki]: http://zim-wiki.org
 [Texts]: http:/www.texts.io/
 [Scripts for using pandoc with BBEdit and TextWrangler]: https://github.com/jrgcmu/BBpandoc
+[Notepad++]: https://gist.github.com/jrgcmu/3ccc11c0412f45f9a6a4
 [Writage]: http://www.writage.com/
