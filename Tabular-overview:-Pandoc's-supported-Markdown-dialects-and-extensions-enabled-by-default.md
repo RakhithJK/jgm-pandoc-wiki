@@ -56,7 +56,7 @@
 **Notes:**
 
 1. Each extension which is ***en***abled by default can be disabled by attaching the `-EXTENSIONNAME` to the markdown format specifier.
-1. Each extension which is ***dis***abled by default can be enabled by attaching the `-EXTENSIONNAME` to the markdown format specifier.
+1. Each extension which is ***dis***abled by default can be enabled by attaching the `+EXTENSIONNAME` to the markdown format specifier.
 1. Pandoc also supports `markdown_strict`. Here the only extension enabled by default is `raw_html`.
 
 **Examples:**
