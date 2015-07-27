@@ -39,6 +39,12 @@
 1. Each extension which is ***dis***abled by default can be enabled by it attaching the `+EXTENSIONNAME` to the format.
 1. Pandoc also supports `markdown_strict`. Here the only extension enabled by default is `raw_html`.
 
+**Examples:**
+
+1. Use `-t markdown_mmd-pipe_tables+grid_tables` if you want to generate Markdown with `grid_tables`.
+1. Another way for same purpose: Use `-t markdown-multiline_tables-simple_tables-pipe_tables` if you want to generate Markdown with `grid_tables`.
+1. There are more ways…
+
 ----
 
 <sub>*(Table compiled by evaluating the most recent Pandoc man page for v1.15.0.6)*</sub>
