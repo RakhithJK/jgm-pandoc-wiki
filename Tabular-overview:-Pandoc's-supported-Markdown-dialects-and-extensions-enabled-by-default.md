@@ -58,6 +58,7 @@
 1. Each extension which is ***en***abled by default can be disabled by attaching the `-EXTENSIONNAME` to the markdown format specifier.
 1. Each extension which is ***dis***abled by default can be enabled by attaching the `+EXTENSIONNAME` to the markdown format specifier.
 1. Multiple extensions can be enabled or disabled at the same time, like this: `markdown+EXT1-EXT2-EXT3+EXT3`.
+
 **Examples:**
 
 1. Use `-t markdown_mmd-pipe_tables+grid_tables` if you want to generate Markdown with `grid_tables`.
