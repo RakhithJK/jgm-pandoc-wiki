@@ -102,6 +102,7 @@ the opened file as input.
 
 - [Docverter](http://www.docverter.com)
 - [Pandoc online](https://foliovision.com/seo-tools/pandoc-online)
+- [Pandoc as a service](http://pandoc-as-a-service.com/)
 
 ## Preprocessors
 
