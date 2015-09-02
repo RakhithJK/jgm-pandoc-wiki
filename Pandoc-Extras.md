@@ -28,7 +28,7 @@ the opened file as input.
 - [BibDesk Export Templates](https://github.com/dsanson/bibdesk-pandoc-export-templates): drag and drop pandoc-style citations from BibDesk into your document; use pandoc to export formatted reference lists from BibDesk.
 - [zotxt](https://bitbucket.org/egh/zotxt), allowing direct usage of a Zotero library (with [zotxt-emacs](https://bitbucket.org/egh/zotxt-emacs) for completion in emacs)
 - [Zotero Integration Extension](http://baig.github.io/brackets-zotero/): If you miss a Word like workflow working with Zotero where you can just search your Zotero library and insert citations wherever you want, then this extension provides such functionality in [Brackets](http://brackets.io/) for your markdown documents.
-- [Applets for Zotero and Scrivener integration](http://github.com/davepwsmith/zotpick-applescript/) using [Better BibTeX](https://zotplus.github.io/better-bibtex/) plugin's new [Cite as you Write](https://zotplus.github.io/better-bibtex/cayw.html) feature. Use in conjunction with this [workflow for integrating Scrivner, Pandoc, Zotero and Marked 2](https://github.com/davepwsmith/academic-scrivener-howto/)
+- [Applets for Zotero and Scrivener integration](http://github.com/davepwsmith/zotpick-applescript/) using [Better BibTeX](https://zotplus.github.io/better-bibtex/) plugin's new [Cite as you Write](https://zotplus.github.io/better-bibtex/cayw.html) feature. Use in conjunction with this [workflow for integrating Scrivner, Pandoc, Zotero and Marked 2](http://davepwsmith.github.io/academic-scrivener-howto/)
 
 ## Workflow
 
