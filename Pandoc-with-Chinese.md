@@ -4,7 +4,7 @@
 
 然后遇到latex问题,报错,装了texlive-fontsrecommands也不好使.中文乱码.
 
-然后原来需要xelex, 且指定中文名.
+然后原来需要xelatex, 且指定中文字体名.
 
 `pandoc  srs.md -o srs.pdf --latex-engine=xelatex -V mainfont=WenQuanYi\ Micro\ Hei\ Mono`
 
