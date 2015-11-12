@@ -25,7 +25,7 @@ This page collects together third party filters which can be used to add functio
 - [pandoc-tablenos](https://github.com/tomduck/pandoc-tablenos), for numbering tables and table references.
 - [pandoc-crossref](https://github.com/lierdakil/pandoc-crossref), for numbering and cross-referencing figures, equations and tables
 - [pandoc-numbering](https://github.com/chdemko/pandoc-numbering), for numbering and cross-referencing any kinds of things such as examples, theorems, exercises and so on
-- [pandoc-listof](https://github.com/chdemko/pandoc-listof), for creating lists of any kinds (can be used efficiently with [pandoc-numbering](https://github.com/chdemko/pandoc-numbering)
+- [pandoc-listof](https://github.com/chdemko/pandoc-listof), for creating lists of any kinds (can be used efficiently with [pandoc-numbering](https://github.com/chdemko/pandoc-numbering))
 - [pandoc-csv2table](https://github.com/baig/pandoc-csv2table) for including referenced csv files in markdown as markdown rendered tables.
 - [pandoc-placetable](https://github.com/mb21/pandoc-placetable) lightweight implementation of the idea behind the above `pandoc-csv2table` (e.g. doesn't necessarily require pandoc as a cabal dependency)
 - [diagrams-pandoc](http://hackage.haskell.org/package/diagrams-pandoc) for inserting images expressed in the Haskell [diagrams](http://projects.haskell.org/diagrams/) DSL.
