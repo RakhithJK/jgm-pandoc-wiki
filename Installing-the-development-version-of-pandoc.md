@@ -10,9 +10,11 @@ Then:
 
 The `stack install` command will let you know where it put the binary.  You may have to add this location (`~/.local/bin`, on linux and OSX systems) to your path.
 
-To get pandoc-citeproc:
+To get pandoc-citeproc: (under construction)
 
+<!--
     git clone git://github.com/jgm/pandoc-citeproc
     cd pandoc-citeproc
     stack setup
     stack install
+-->
