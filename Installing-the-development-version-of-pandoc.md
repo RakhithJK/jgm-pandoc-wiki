@@ -2,11 +2,15 @@ If you want to live dangerously, you can install the still-in-progress pandoc (a
 
 Then:
 
+    mkdir pandoc-build
+    git clone https://github.com/jgm/pandoc-types
+    git clone https://github.com/jgm/texmath
+    git clone https://github.com/jgm/pandoc-citeproc
     git clone https://github.com/jgm/pandoc
     cd pandoc
     git submodule update --init
-    git clone https://github.com/jgm/pandoc-citeproc
     stack install --test --install-ghc --stack-yaml stack.full.yaml
 
 The `stack install` command will let you know where it put the binaries (pandoc and pandoc-citeproc).  You may have to add this location (`~/.local/bin`, on linux and OSX systems) to your path.
 
+To pull in the latest changes, after you've done this and there have been changes in the repositories:  Visit each repository in pandoc-build (pandoc-types, texmath, pandoc-citeproc, pandoc) and do `git pull`.  In the pandoc repo, also do `git submodule update` and `stack install --test --stack-yaml stack.full.yaml`.
