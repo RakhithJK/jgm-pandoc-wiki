@@ -3,6 +3,7 @@ If you want to live dangerously, you can install the still-in-progress pandoc (a
 Then:
 
     mkdir pandoc-build
+    cd pandoc-build
     git clone https://github.com/jgm/pandoc-types
     git clone https://github.com/jgm/texmath
     git clone https://github.com/jgm/pandoc-citeproc
