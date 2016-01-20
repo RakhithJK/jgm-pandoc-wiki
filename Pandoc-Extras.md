@@ -97,6 +97,7 @@ the opened file as input.
 - [scala-pandoc](https://github.com/pvorb/scala-pandoc), a Scala/Java wrapper for Pandoc by Paul Vorbach
 - [node-pdc](https://github.com/pvorb/node-pdc), a Node.js wrapper for Pandoc by Paul Vorbach
 - [groovy-pandoc](https://github.com/dfrommi/groovy-pandoc), a Groovy wrapper for Pandoc by Dennis Frommknecht
+- [Universal Document Converter](https://bitbucket.org/leito/universal-document-converter), a Java wrapper for Pandoc by Leonardo S. De Seta
 
 ## Web services
 
