@@ -40,6 +40,10 @@ the opened file as input.
 - [pandoc-seed-project](https://github.com/Dashed/pandoc-seed-project), a git repo seed where by you can clone from. It uses [gulp.js](https://github.com/gulpjs/gulp) and some of its plugins to automate task of using pandoc to watch and compile documents from a source directory to a destination directory. Useful for large and complex directory of documents to process through pandoc.
 - [pandocket](https://github.com/wcaleb/pandocket), 'A python script that looks for special lines in a markdown file and uses those lines to convert, clean up, and insert content from URLs into the file for processing by pandoc'
 
+## Citation Style Language (CSL) with pandoc
+
+- [Testing and Using CSL Style Files with Pandoc](https://github.com/KurtPfeifle/pandoc-csl-testing) -- a GitHub repository with a shell script, a Markdown file and usage instructions enabling you to create visual representations of the effects that any one of the [more than 1200 available Citation Style Language (CSL) files](http://citationstyles.org/) may have on your output documents.
+
 ## Blogs
 
 - [WordPress EasyFilter], by Yang Zhang, makes it easy to use pandoc
