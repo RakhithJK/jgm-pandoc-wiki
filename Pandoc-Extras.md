@@ -53,8 +53,7 @@ the opened file as input.
 
 - [gitit], a pandoc-based wiki that stores pages in a git (or
   darcs or mercurial) repository.
-- [pandoc-iki], by Jim Pryor, a plugin to use pandoc as a
-  markdown handler with [ikiwiki].
+- [ikiwiki-pandoc], a pandoc plugin for [ikiwiki]. Supports most features of pandoc relevant for a wiki, including almost all textual input formats, several math handling options, as well as citation/bibliography processing via pandoc-citeproc. (Ikiwiki-pandoc was originally a fork of the currently unmaintained [pandoc-iki]).
 
 ## Installation hints
 
@@ -164,6 +163,7 @@ the opened file as input.
 [gitit]: http://gitit.net
 [pandoc-iki]: https://github.com/dubiousjim/pandoc-iki
 [ikiwiki]:  http://ikiwiki.info/
+[ikiwiki-pandoc]: https://github.com/sciunto-org/ikiwiki-pandoc
 [Bash and zsh command-line completion for pandoc]: https://github.com/dsanson/pandoc-completion
 [Using pandoc for IETF RFC creation]: https://github.com/miekg/pandoc2rfc
 [Preserving old books by rewriting them in markdown]: https://github.com/rwst/book-curie-radio-de
