@@ -53,7 +53,7 @@ the opened file as input.
 
 - [gitit], a pandoc-based wiki that stores pages in a git (or
   darcs or mercurial) repository.
-- [ikiwiki-pandoc], a pandoc plugin for [ikiwiki]. Supports most features of pandoc relevant for a wiki, including almost all textual input formats, several math handling options, as well as citation/bibliography processing via pandoc-citeproc. (Ikiwiki-pandoc was originally a fork of the currently unmaintained [pandoc-iki]).
+- [ikiwiki-pandoc], a feature-rich pandoc plugin for [ikiwiki]. Supports most features of pandoc relevant for a wiki, including almost all textual input formats, several math handling options, as well as citation/bibliography processing via pandoc-citeproc. It also supports several export formats, including pdf, docx, odt, beamer and revealjs. (Ikiwiki-pandoc was originally a fork of the currently unmaintained [pandoc-iki]).
 
 ## Installation hints
 
