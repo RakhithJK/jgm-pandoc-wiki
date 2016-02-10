@@ -2,6 +2,8 @@
 foo: bar
 ---
 
+Some math \[e=mc^2\].
+
 
 - one
   - two
