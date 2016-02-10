@@ -2,6 +2,11 @@
 foo: bar
 ---
 
+$$e=mc^2$$
+
+\\[e=mc^2\\]
+
+
 Some math \[e=mc^2\].
 
 
