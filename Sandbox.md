@@ -1,3 +1,8 @@
+---
+title: My *title*
+author: John
+---
+
 - one
   - two
     - three
