@@ -24,6 +24,11 @@
 - [Opening Science](https://github.com/openingscience/book), an example of using Pandoc to create both a printed and electronic book with academic citations (see also the [blog post by Martin Fenner](http://blog.martinfenner.org/2013/12/05/opening-science---the-book/))
 - [Advanced R Programming](https://github.com/hadley/adv-r/), combining pandoc with Jekyll and knitr
 
+# HTML 
+
+- [https://github.com/tonyblundell/pandoc-bootstrap-template](https://github.com/tonyblundell/pandoc-bootstrap-template) A bootstrap template. 
+- [https://github.com/diversen/pandoc-bootstrap-adaptive-template](https://github.com/diversen/pandoc-bootstrap-adaptive-template). A bootstrap adaptive template with a sticky accordion menu. 
+
 # Notable forks of [pandoc-templates](/jgm/pandoc-templates), for `~/.pandoc/templates`
 - [claes / pandoc-templates](/claes/pandoc-templates) is a good illustration of a template with many user-defined variables, e.g for margins, language, papersize, orientation, etc. Because this makes command line specification a bit unwieldy, he includes [simple shell script](/claes/pandoc-templates/blob/master/md2pdf) with unused options commented out to instruct markdown2pdf how to fill in all the blanks.
 - [dsanson / pandoc-templates](/dsanson/pandoc-templates)
