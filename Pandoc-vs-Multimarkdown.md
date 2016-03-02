@@ -357,7 +357,7 @@ Author: Fletcher T. Penney
 Date:   July 25, 2005  
 ~~~~
 
-Or 
+MMD YAML-styled metadata:
 
 ~~~~
 ---
