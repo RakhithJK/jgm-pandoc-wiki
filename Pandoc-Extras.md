@@ -113,6 +113,10 @@ the opened file as input.
 - [Using GPP as a preprocessor](http://randomdeterminism.wordpress.com/2012/06/01/how-i-stopped-worring-and-started-using-markdown-like-tex/) to get TeX-like macro features in Markdown.
 - [pandoc-gpp](http://dloureiro.github.io/pandoc-gpp) by David Loureiro is a wrapper around pandoc and gpp in order to provide some macros for extra markup not available in markdown and its extensions.
 - [mddia](https://github.com/nichtich/ditaa-markdown/) lets you embed [ditaa](http://ditaa.sourceforge.net/) ASCII-art diagrams in Markdown code blocks
+- [PP - A generic Preprocessor (with Pandoc in mind)](http://cdsoft.fr/pp/) lets you embed the following diagrams in Markdown code blocks:
+   - [Graphviz](http://www.graphviz.org/) (needs to be installed separately)
+   - [PlantUML](http://plantuml.com/) (embedded in pp at compile time)
+   - [Ditaa](http://ditaa.sourceforge.net/) (embedded in pp at compile time)
 
 ## Illustrative Pandoc templates
 
