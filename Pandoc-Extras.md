@@ -92,7 +92,7 @@ the opened file as input.
   for pandoc by alphabetum.
 - [Pandoku](https://github.com/lunant/pandoku), another Ruby wrapper
   for Pandoc by Hong Minhee.
-- [Paru](https://github.com/htdebeer/paru), yet another Ruby wrapper for pandoc by Huub de Beer
+- [Paru](https://heerdebeer.org/Software/markdown/paru/), yet another Ruby wrapper for pandoc by Huub de Beer. Since version 0.1 it supports filters as well.
 - [libpandoc, a C interface to the pandoc library](http://github.com/ShabbyX/libpandoc/tree/master),
   by Anton Tayanovskyy, updated for pandoc 1.11.1 by Shahbaz Youssefi.
 - [pander](https://github.com/Rapporter/pander), an [R](http://www.r-project.org/) wrapper
