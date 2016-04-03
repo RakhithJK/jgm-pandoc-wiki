@@ -205,7 +205,7 @@ Smith says blah [-@smith04].
 ~~~~
 
 They will be formatted in the output according to a
-[CSL]((http://citationstyles.org/) stylesheet specified on the
+[CSL](http://citationstyles.org/) stylesheet specified on the
 command line, and a bibliography will be added automatically if the style
 calls for it. Many, many styles are available. You can even switch freely
 between author-date and footnote styles, and pandoc will do the right thing
