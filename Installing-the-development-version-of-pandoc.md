@@ -16,4 +16,4 @@ Then:
 
 The `stack install` command will let you know where it put the binaries (pandoc and pandoc-citeproc).  You may have to add this location (`~/.local/bin`, on linux and OSX systems) to your path.
 
-To pull in the latest changes, after you've done this and there have been changes in the repositories:  Visit each repository in pandoc-build (pandoc-types, texmath, pandoc-citeproc, pandoc) and do `git pull`.  In the pandoc repo, also do `git submodule update` and `stack install --test --stack-yaml stack.full.yaml`.
+To pull in the latest changes, after you've done this and there have been changes in the repositories:  Visit each repository in pandoc-build (pandoc-types, texmath, pandoc-citeproc, pandoc, zip-archive, cmark-hs) and do `git pull`.  In the pandoc repo, also do `git submodule update` and `stack install --test --stack-yaml stack.full.yaml`.
