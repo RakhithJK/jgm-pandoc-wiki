@@ -8,6 +8,8 @@ Then:
     git clone https://github.com/jgm/texmath
     git clone https://github.com/jgm/pandoc-citeproc
     git clone https://github.com/jgm/pandoc
+    git clone https://github.com/jgm/cmark-hs
+    git clone https://github.com/jgm/zip-archive
     cd pandoc
     git submodule update --init
     stack install --test --install-ghc --stack-yaml stack.full.yaml
