@@ -30,3 +30,4 @@ This page collects together third party filters which can be used to add functio
 - [pandoc-placetable](https://github.com/mb21/pandoc-placetable) lightweight implementation of the idea behind the above `pandoc-csv2table` (e.g. doesn't necessarily require pandoc as a cabal dependency)
 - [diagrams-pandoc](http://hackage.haskell.org/package/diagrams-pandoc) for inserting images expressed in the Haskell [diagrams](http://projects.haskell.org/diagrams/) DSL.
 - [mermaid-pandoc](https://github.com/raghur/mermaid-filter) for inserting images expressed in [mermaid](http://knsv.github.io/mermaid/) syntax
+- [pandoc-latex-environment](https://github.com/chdemko/pandoc-latex-environment), for adding LaTeX environement on specific HTML `div` tags
