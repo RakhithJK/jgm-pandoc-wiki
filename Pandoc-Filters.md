@@ -35,9 +35,11 @@ The following is a list of some known 3rd party filters:
 	- [pandoc-crossref](https://github.com/lierdakil/pandoc-crossref), for numbering and cross-referencing figures, equations and tables
 	- [pandoc-numbering](https://github.com/chdemko/pandoc-numbering), for numbering and cross-referencing any kinds of things such as examples, theorems, exercises and so on
 	- [pandoc-listof](https://github.com/chdemko/pandoc-listof), for creating lists of any kinds (can be used efficiently with [pandoc-numbering](https://github.com/chdemko/pandoc-numbering))
+	- [pandoc-amsthm](https://github.com/ickc/pandoc-amsthm): a pandoc amsthm package to define the use of amsthm through YAML front matter, target at HTML and LaTeX outputs. For HTML, CSS counter is used and defined in a template (by the YAML variables). For LaTeX amsthm package is used and defined in a template (by the YAML variables). [latexdivs.py](https://github.com/ickc/pandocfilters/blob/master/examples/latexdivs.py) is required too.
 - LaTeX related:
 	- [Using markdown inside raw latex commands](https://gist.github.com/mpickering/f1718fcdc4c56273ed52)
 	- [pandoc-latex-environment](https://github.com/chdemko/pandoc-latex-environment), for adding LaTeX environement on specific HTML `div` tags
+	- [latexdivs.py](https://github.com/ickc/pandocfilters/blob/master/examples/latexdivs.py): define a syntax to turn any native pandoc Divs into a LaTeX environment: if `latex="true" is in the attribute of the Div, the first class is used to define the LaTeX environment.
 - Tables related:
 	- [pandoc-csv2table](https://github.com/baig/pandoc-csv2table) for including referenced csv files in markdown as markdown rendered tables.
 	- [pandoc-placetable](https://github.com/mb21/pandoc-placetable) lightweight implementation of the idea behind the above `pandoc-csv2table` (e.g. doesn't necessarily require pandoc as a cabal dependency)
