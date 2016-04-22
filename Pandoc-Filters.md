@@ -12,12 +12,12 @@ Filters can be written in the following languages:
 | PHP	| [pandocfilters-php](https://github.com/vinai/pandocfilters-php)	| a port of the python [pandocfilters](https://github.com/jgm/pandocfilters) module to PHP to make writing filters in PHP easier.	| 
 | Node.js	| [pandoc-filter-node](https://github.com/mvhenderson/pandoc-filter-node)	| a Node.js module for writing pandoc filters in JavaScript.	|  
 | Perl	| [Pandoc::Elements](https://metacpan.org/release/Pandoc-Elements)	| a CPAN module for writing pandoc filters in Perl.	| 
-| lua	| [pandoc-jats](https://github.com/mfenner/pandoc-jats)	| a Lua custom writer for Pandoc generating JATS XML.	| 
 | Groovy	| [groovy-pandoc](https://github.com/dfrommi/groovy-pandoc)	| a library for writing Pandoc filters in Groovy.	| 
 
-Syntax highlight tool:
+Other tools:
 
-- [vimhl](https://github.com/lyokha/vim-publish-helper), a vim plugin that makes vim syntax highlighting engine available in pandoc.
+- [vimhl](https://github.com/lyokha/vim-publish-helper), a vim plugin that makes **vim syntax highlighting** engine available in pandoc.
+- [pandoc-jats](https://github.com/mfenner/pandoc-jats), a **Lua custom writer** for Pandoc generating **JATS XML**.
 
 ## Written Filters
 
