@@ -64,6 +64,7 @@ the opened file as input.
 
 ## Preprocessors
 
+- [ickc/pandoc-criticmarkup: using criticmarkup in the pandoc markdown source](https://github.com/ickc/pandoc-criticmarkup): CriticMarkup for pandoc as a preprocessor. It can accept or reject (and optionally overwrite the markdown source), and show the diff in HTML and LaTeX output by chaining it with pandoc.
 - [Using GPP as a preprocessor](http://randomdeterminism.wordpress.com/2012/06/01/how-i-stopped-worring-and-started-using-markdown-like-tex/) to get TeX-like macro features in Markdown.
 - [pandoc-gpp](https://github.com/dloureiro/pandoc-gpp) by David Loureiro is a wrapper around pandoc and gpp in order to provide some macros for extra markup not available in markdown and its extensions.
 - [mddia](https://github.com/nichtich/ditaa-markdown/) lets you embed [ditaa](http://ditaa.sourceforge.net/) ASCII-art diagrams in Markdown code blocks
