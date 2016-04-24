@@ -1,3 +1,26 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Editors](#editors)
+- [Web Services to Process Files by Pandoc](#web-services-to-process-files-by-pandoc)
+- [Workflow](#workflow)
+	- [Preprocessors](#preprocessors)
+	- [Doc processing tools using Pandoc](#doc-processing-tools-using-pandoc)
+		- [Using pandoc with ConTeXt](#using-pandoc-with-context)
+- [Tools for Websites](#tools-for-websites)
+	- [Blogs](#blogs)
+	- [Wikis](#wikis)
+	- [Static website generators](#static-website-generators)
+	- [Serving markdown files with apache](#serving-markdown-files-with-apache)
+	- [Pandoc wrappers and interfaces](#pandoc-wrappers-and-interfaces)
+- [Citation](#citation)
+	- [Integration with Reference Managers](#integration-with-reference-managers)
+	- [Citation Style Language (CSL) with pandoc](#citation-style-language-csl-with-pandoc)
+- [Other Wiki Pages](#other-wiki-pages)
+	- [Filters](#filters)
+	- [Templates: Illustrative Pandoc Templates](#templates-illustrative-pandoc-templates)
+- [Examples of uses of pandoc](#examples-of-uses-of-pandoc)
+
+<!-- /TOC -->
 # Editors
 
 - [Atom Packages](https://atom.io/packages/search?q=pandoc)
@@ -125,7 +148,7 @@ the opened file as input.
 - [groovy-pandoc](https://github.com/dfrommi/groovy-pandoc), a Groovy wrapper for Pandoc by Dennis Frommknecht
 - [Universal Document Converter](https://bitbucket.org/leito/universal-document-converter), a Java wrapper for Pandoc by Leonardo S. De Seta
 
-# Citation #
+# Citation
 
 ## Integration with Reference Managers
 
