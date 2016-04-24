@@ -1,4 +1,4 @@
-## Editors
+# Editors
 
 - [Atom Packages](https://atom.io/packages/search?q=pandoc)
 - [Scripts for using pandoc with BBEdit and TextWrangler], as well as [Notepad++]
@@ -23,26 +23,60 @@ the opened file as input.
 - [docker-pandoc](https://github.com/silvio/docker-pandoc) - use pandoc on hosts without haskel installed (via docker). Brings a inotify based watch tool for nearly live generation of output documents.
 - [Writage], Markdown plugin for Microsoft Word, is integrated with Pandoc.
 
-## Integration with Reference Managers
+# Web Services to Process Files by Pandoc
 
-- [BibDesk Export Templates](https://github.com/dsanson/bibdesk-pandoc-export-templates): drag and drop pandoc-style citations from BibDesk into your document; use pandoc to export formatted reference lists from BibDesk.
-- [zotxt](https://bitbucket.org/egh/zotxt), allowing direct usage of a Zotero library (with [zotxt-emacs](https://bitbucket.org/egh/zotxt-emacs) for completion in emacs)
-- [Zotero Integration Extension](http://baig.github.io/brackets-zotero/): If you miss a Word like workflow working with Zotero where you can just search your Zotero library and insert citations wherever you want, then this extension provides such functionality in [Brackets](http://brackets.io/) for your markdown documents.
-- [Applets for Zotero and Scrivener integration](http://github.com/davepwsmith/zotpick-applescript/) using [Better BibTeX](https://zotplus.github.io/better-bibtex/) plugin's new [Cite as you Write](https://zotplus.github.io/better-bibtex/cayw.html) feature. Use in conjunction with this [workflow for integrating Scrivner, Pandoc, Zotero and Marked 2](http://davepwsmith.github.io/academic-scrivener-howto/)
+- [Docverter](http://www.docverter.com)
+- [Pandoc online](https://foliovision.com/seo-tools/pandoc-online)
+- [Pandoc as a service](http://pandoc-as-a-service.com/)
 
-## Workflow
+# Workflow
 
 - [panzer](https://github.com/msprev/panzer), adds the concept of 'styles' to pandoc. Styles control templates, metadata settings, pandoc command line options, and instructions to run filters and pre/postprocessors in a simple, reusable, and recombinable way.
-- [grunt-pandoc](https://github.com/Dashed/grunt-pandoc), a makefile-like workflow, that uses gruntjs and nodejs, to watch and automatically compile documents using `pandoc`. Useful for large and complex directory of documents to process through pandoc. **Note:* Author now recommends [pandoc-seed-project](https://github.com/Dashed/pandoc-seed-project).
 - [kokoi](https://github.com/zeis/kokoi), a configurable markup file watcher, previewer, and converter that uses Pandoc as the default markup processing engine. _kokoi_ watches for changes on the markup files in the directory _kokoi_ is started, and if they change, automatically reprocesses and previews them directly in the browser.
 - [Pandoc Build Task](https://www.nuget.org/packages/PandocTasks/), a small MSBuild target to transform files with Pandoc. Provided as a Nuget package.
 - [pandoc-schemata](https://github.com/rakali/pandoc-schemata), providing JSON Schema files for Pandoc JSON.
 - [pandoc-seed-project](https://github.com/Dashed/pandoc-seed-project), a git repo seed where by you can clone from. It uses [gulp.js](https://github.com/gulpjs/gulp) and some of its plugins to automate task of using pandoc to watch and compile documents from a source directory to a destination directory. Useful for large and complex directory of documents to process through pandoc.
+- [grunt-pandoc](https://github.com/Dashed/grunt-pandoc), a makefile-like workflow, that uses gruntjs and nodejs, to watch and automatically compile documents using `pandoc`. Useful for large and complex directory of documents to process through pandoc. **Note:* Author now recommends [pandoc-seed-project](https://github.com/Dashed/pandoc-seed-project).
 - [pandocket](https://github.com/wcaleb/pandocket), 'A python script that looks for special lines in a markdown file and uses those lines to convert, clean up, and insert content from URLs into the file for processing by pandoc'
 
-## Citation Style Language (CSL) with pandoc
+## Preprocessors
 
-- [Testing and Using CSL Style Files with Pandoc](https://github.com/KurtPfeifle/pandoc-csl-testing) -- a GitHub repository with a shell script, a Markdown file and usage instructions enabling you to create visual representations of the effects that any one of the [more than 1200 available Citation Style Language (CSL) files](http://citationstyles.org/) may have on your output documents.
+- [Using GPP as a preprocessor](http://randomdeterminism.wordpress.com/2012/06/01/how-i-stopped-worring-and-started-using-markdown-like-tex/) to get TeX-like macro features in Markdown.
+- [pandoc-gpp](https://github.com/dloureiro/pandoc-gpp) by David Loureiro is a wrapper around pandoc and gpp in order to provide some macros for extra markup not available in markdown and its extensions.
+- [mddia](https://github.com/nichtich/ditaa-markdown/) lets you embed [ditaa](http://ditaa.sourceforge.net/) ASCII-art diagrams in Markdown code blocks
+- [PP - A generic Preprocessor (with Pandoc in mind)](http://cdsoft.fr/pp/) lets you embed the following diagrams in Markdown code blocks:
+   - [Graphviz](http://www.graphviz.org/) (needs to be installed separately)
+   - [PlantUML](http://plantuml.com/) (embedded in pp at compile time)
+   - [Ditaa](http://ditaa.sourceforge.net/) (embedded in pp at compile time)
+
+## Doc processing tools using Pandoc
+
+- [Rippledoc](http://www.unexpected-vortices.com/sw/rippledoc/index.html) processes .md files into html. It ripples down from the current directory through nested subdirectories processing md files as it goes. It also generates tables of contents and navigation links, stitching together the documents into an easily-navigable whole.
+
+- [SPAB](http://www.howtoselfpublishabook.org/self-publish-a-book/) a very simple windows GUI that uses Pandoc and a couple other open source tools to produce a .mobi, .epub, .doc, and .pdf ready for the most popular self-publishing services.
+
+- [Pandoc Droplets and Services](https://github.com/dsanson/Pandoc-Droplets-and-Services) is a collection of simple and easily customizable Automator drag-and-drop applets and service menu items that use pandoc to produce pdf, docx, odt, and dzslides output on OS X.
+
+- [Markdown menus](http://www.terminally-incoherent.com/blog/wp-content/uploads/2012/05/markdown-menus.zip), by Luke Maciak, provides contextual menus on Windows for creating PDFs and Word documents from markdown files. Double-click on the reg file to install.
+
+- [PandocMarkdownTools](https://bitbucket.org/zuline/pandocmarkdowntools) is a small collection of scripts that creates a simple menu structure for conversion of Markdown docs using Pandoc. There are also scripts to simplify creation of Pandoc tables in Markdown and to automate replacement of document markers with the table text.
+
+- [tpl4md](https://github.com/dloureiro/tpl4md) by David Loureiro provides markdown templates for widely used documents such as simple pdf documents, complex pdf documents, letters, invoices, orders, or even slides. The goal is to be able to focus on the content that will be written in markdown. The remaining elements are handle by pandoc, latex etc.
+
+- [pandoc-watch](https://github.com/dloureiro/pandoc-watch) by David Loureiro is a simple watcher that call the pandoc command with the provided arguments when a file/folder modification is detected.
+
+- [Uberdoc](https://github.com/sbrosinski/uberdoc) by Stephan Brosinski is a wrapper script for Pandoc which provides a build system to turn a number of markdown files (chapters) into large documents. 
+
+- [Xmindoc](https://github.com/sky-y/xmindoc) is a wrapper script for Pandoc which converts XMind mindmaps to any documents that are available in Pandoc.
+
+### Using pandoc with ConTeXt
+
+- [filter module] by adityam, which allows you to use
+  `\startmarkdown` and `\stopmarkdown` directly in ConTeXt.
+- [an even simpler route] from markdown to PDF, via ConTeXt.
+
+
+# Tools for Websites
 
 ## Blogs
 
@@ -54,10 +88,6 @@ the opened file as input.
 - [gitit], a pandoc-based wiki that stores pages in a git (or
   darcs or mercurial) repository.
 - [ikiwiki-pandoc], a feature-rich pandoc plugin for [ikiwiki]. Supports most features of pandoc relevant for a wiki, including almost all textual input formats, several math handling options, as well as citation/bibliography processing via pandoc-citeproc. It also supports several export formats, including pdf, docx, odt, beamer and revealjs. (Ikiwiki-pandoc was originally a fork of the currently unmaintained [pandoc-iki]).
-
-## Installation hints
-
-- [[Building pandoc on a Raspberry Pi]]
 
 ## Static website generators
 
@@ -73,13 +103,6 @@ the opened file as input.
 ## Serving markdown files with apache
 
 - [apache-pandoc](https://github.com/chdemko/apache-pandoc)
-
-## Using pandoc with ConTeXt
-
-- [filter module] by adityam, which allows you to use
-  `\startmarkdown` and `\stopmarkdown` directly in ConTeXt.
-- [an even simpler route] from markdown to PDF, via ConTeXt.
-
 
 ## Pandoc wrappers and interfaces
 
@@ -102,47 +125,30 @@ the opened file as input.
 - [groovy-pandoc](https://github.com/dfrommi/groovy-pandoc), a Groovy wrapper for Pandoc by Dennis Frommknecht
 - [Universal Document Converter](https://bitbucket.org/leito/universal-document-converter), a Java wrapper for Pandoc by Leonardo S. De Seta
 
-## Web services
+# Citation #
 
-- [Docverter](http://www.docverter.com)
-- [Pandoc online](https://foliovision.com/seo-tools/pandoc-online)
-- [Pandoc as a service](http://pandoc-as-a-service.com/)
+## Integration with Reference Managers
 
-## Preprocessors
+- [BibDesk Export Templates](https://github.com/dsanson/bibdesk-pandoc-export-templates): drag and drop pandoc-style citations from BibDesk into your document; use pandoc to export formatted reference lists from BibDesk.
+- [zotxt](https://bitbucket.org/egh/zotxt), allowing direct usage of a Zotero library (with [zotxt-emacs](https://bitbucket.org/egh/zotxt-emacs) for completion in emacs)
+- [Zotero Integration Extension](http://baig.github.io/brackets-zotero/): If you miss a Word like workflow working with Zotero where you can just search your Zotero library and insert citations wherever you want, then this extension provides such functionality in [Brackets](http://brackets.io/) for your markdown documents.
+- [Applets for Zotero and Scrivener integration](http://github.com/davepwsmith/zotpick-applescript/) using [Better BibTeX](https://zotplus.github.io/better-bibtex/) plugin's new [Cite as you Write](https://zotplus.github.io/better-bibtex/cayw.html) feature. Use in conjunction with this [workflow for integrating Scrivner, Pandoc, Zotero and Marked 2](http://davepwsmith.github.io/academic-scrivener-howto/)
 
-- [Using GPP as a preprocessor](http://randomdeterminism.wordpress.com/2012/06/01/how-i-stopped-worring-and-started-using-markdown-like-tex/) to get TeX-like macro features in Markdown.
-- [pandoc-gpp](https://github.com/dloureiro/pandoc-gpp) by David Loureiro is a wrapper around pandoc and gpp in order to provide some macros for extra markup not available in markdown and its extensions.
-- [mddia](https://github.com/nichtich/ditaa-markdown/) lets you embed [ditaa](http://ditaa.sourceforge.net/) ASCII-art diagrams in Markdown code blocks
-- [PP - A generic Preprocessor (with Pandoc in mind)](http://cdsoft.fr/pp/) lets you embed the following diagrams in Markdown code blocks:
-   - [Graphviz](http://www.graphviz.org/) (needs to be installed separately)
-   - [PlantUML](http://plantuml.com/) (embedded in pp at compile time)
-   - [Ditaa](http://ditaa.sourceforge.net/) (embedded in pp at compile time)
+## Citation Style Language (CSL) with pandoc
 
-## Illustrative Pandoc templates
+- [Testing and Using CSL Style Files with Pandoc](https://github.com/KurtPfeifle/pandoc-csl-testing) -- a GitHub repository with a shell script, a Markdown file and usage instructions enabling you to create visual representations of the effects that any one of the [more than 1200 available Citation Style Language (CSL) files](http://citationstyles.org/) may have on your output documents.
+
+# Other Wiki Pages
+
+## Filters
+
+See [[Pandoc Filters]]
+
+## Templates: Illustrative Pandoc Templates
 
 - This wiki is developing a collection of [[User Contributed Templates]] for purposes of illustration; contribute your own, or if you keep pandoc templates under revision control, link them here.
 
-## Doc processing tools using Pandoc
-
-- [Rippledoc](http://www.unexpected-vortices.com/sw/rippledoc/index.html) processes .md files into html. It ripples down from the current directory through nested subdirectories processing md files as it goes. It also generates tables of contents and navigation links, stitching together the documents into an easily-navigable whole.
-
-- [SPAB](http://www.howtoselfpublishabook.org/self-publish-a-book/) a very simple windows GUI that uses Pandoc and a couple other open source tools to produce a .mobi, .epub, .doc, and .pdf ready for the most popular self-publishing services.
-
-- [Pandoc Droplets and Services](https://github.com/dsanson/Pandoc-Droplets-and-Services) is a collection of simple and easily customizable Automator drag-and-drop applets and service menu items that use pandoc to produce pdf, docx, odt, and dzslides output on OS X.
-
-- [Markdown menus](http://www.terminally-incoherent.com/blog/wp-content/uploads/2012/05/markdown-menus.zip), by Luke Maciak, provides contextual menus on Windows for creating PDFs and Word documents from markdown files. Double-click on the reg file to install.
-
-- [PandocMarkdownTools](https://bitbucket.org/zuline/pandocmarkdowntools) is a small collection of scripts that creates a simple menu structure for conversion of Markdown docs using Pandoc. There are also scripts to simplify creation of Pandoc tables in Markdown and to automate replacement of document markers with the table text.
-
-- [tpl4md](https://github.com/dloureiro/tpl4md) by David Loureiro provides markdown templates for widely used documents such as simple pdf documents, complex pdf documents, letters, invoices, orders, or even slides. The goal is to be able to focus on the content that will be written in markdown. The remaining elements are handle by pandoc, latex etc.
-
-- [pandoc-watch](https://github.com/dloureiro/pandoc-watch) by David Loureiro is a simple watcher that call the pandoc command with the provided arguments when a file/folder modification is detected.
-
-- [Uberdoc](https://github.com/sbrosinski/uberdoc) by Stephan Brosinski is a wrapper script for Pandoc which provides a build system to turn a number of markdown files (chapters) into large documents. 
-
-- [Xmindoc](https://github.com/sky-y/xmindoc) is a wrapper script for Pandoc which converts XMind mindmaps to any documents that are available in Pandoc.
-
-## Examples of uses of pandoc
+# Examples of uses of pandoc
 
 - [Using pandoc for IETF RFC creation], courtesy of Miek Gieben
 - [Preserving old books by rewriting them in markdown], one example of several etexts at [Project Gutenberg] originally transcribed in markdown
