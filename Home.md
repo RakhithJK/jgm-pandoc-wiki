@@ -34,11 +34,3 @@ These extends the compatibility of pandoc:
 
 - [[Pandoc vs Multimarkdown]]
 - [[Pandoc vs Markdown.pl]]
-
-## Miscellaneous ##
-
-The following pages probably should be deleted:
-
-- [[Github markdown lists]]
-- [[Sandbox]]
-- [[Using pandoc to produce reveal.js slides]]
