@@ -9,6 +9,7 @@ Filters can be written in the following languages:
 | language	| link	| description	|  
 |  ------	| ------	| ------	|  
 | Python	| [pandocfilters](https://github.com/jgm/pandocfilters)	| a library for writing pandoc filters in python.	| 
+| Python	| [panflute](https://github.com/sergiocorreia/panflute)	| a pythonic alternative to `pandocfilters`, with batteries included.	| 
 | PHP	| [pandocfilters-php](https://github.com/vinai/pandocfilters-php)	| a port of the python [pandocfilters](https://github.com/jgm/pandocfilters) module to PHP to make writing filters in PHP easier.	| 
 | Node.js	| [pandoc-filter-node](https://github.com/mvhenderson/pandoc-filter-node)	| a Node.js module for writing pandoc filters in JavaScript.	|  
 | Perl	| [Pandoc::Elements](https://metacpan.org/release/Pandoc-Elements)	| a CPAN module for writing pandoc filters in Perl.	| 
