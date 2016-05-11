@@ -41,7 +41,7 @@ The following is a list of some known 3rd party filters:
 	- [Using markdown inside raw latex commands](https://gist.github.com/mpickering/f1718fcdc4c56273ed52)
 	- [pandoc-latex-environment](https://github.com/chdemko/pandoc-latex-environment), for adding LaTeX environment on specific HTML `div` tags
 	- [latexdivs.py](https://github.com/ickc/pandocfilters/blob/master/examples/latexdivs.py): define a syntax to turn any native pandoc Divs into a LaTeX environment: if `latex="true"` is in the attribute of the Div, the first class is used to define the LaTeX environment.
-	- [pandoc-latex-tip](https://github.com/chdemko/pandoc-latex-tip), for decorating specific HTML `div` tags by icons taken from the [Font-Awesome icons collection](http://fontawesome.io/icons/)
+	- [pandoc-latex-tip](https://github.com/chdemko/pandoc-latex-tip), for decorating specific HTML `span` tags by icons taken from the [Font-Awesome icons collection](http://fontawesome.io/icons/)
 - RAW related:
 	- [Pandoc filter to insert arbitrary raw output markup as Code/CodeBlocks with an attribute raw=<outputformat>.](https://gist.github.com/bpj/e6e53cbe679d3ec77e25): Pandoc filter to insert arbitrary raw output markup as Code/CodeBlocks with an attribute `raw=<outputformat>`.
 	- [Include Files](http://pandoc.org/scripting.html#include-files): finds all the inline code blocks with attribute include, and replaces their contents with the contents of the file given
