@@ -45,6 +45,7 @@ The following is a list of some known 3rd party filters:
 - RAW related:
 	- [Pandoc filter to insert arbitrary raw output markup as Code/CodeBlocks with an attribute raw=<outputformat>.](https://gist.github.com/bpj/e6e53cbe679d3ec77e25): Pandoc filter to insert arbitrary raw output markup as Code/CodeBlocks with an attribute `raw=<outputformat>`.
 	- [Include Files](http://pandoc.org/scripting.html#include-files): finds all the inline code blocks with attribute include, and replaces their contents with the contents of the file given
+        - [pandoc-doc2tex-filter](https://github.com/kuba-orlik/pandoc-dot2tex-filter) - a filter that converts dot notation to PGF/TikZ graphics for latex/pdf rendering.
 - Tables related:
 	- [pandoc-csv2table](https://github.com/baig/pandoc-csv2table) for including referenced csv files in markdown as markdown rendered tables.
 	- [pandoc-placetable](https://github.com/mb21/pandoc-placetable) lightweight implementation of the idea behind the above `pandoc-csv2table` (e.g. doesn't necessarily require pandoc as a cabal dependency)
