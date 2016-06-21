@@ -28,6 +28,7 @@
 
 - [https://github.com/tonyblundell/pandoc-bootstrap-template](https://github.com/tonyblundell/pandoc-bootstrap-template) A bootstrap template. 
 - [https://github.com/diversen/pandoc-bootstrap-adaptive-template](https://github.com/diversen/pandoc-bootstrap-adaptive-template). A bootstrap adaptive template with a sticky accordion menu. 
+- [mindoc](https://github.com/bitfragment/mindoc): minimal template producing a HTML document with responsive styling and section navigation menu. Designed to make academic documents including course syllabi and scholarly articles accessible on small screens.
 
 # Notable forks of [pandoc-templates](/jgm/pandoc-templates), for `~/.pandoc/templates`
 - [claes / pandoc-templates](/claes/pandoc-templates) is a good illustration of a template with many user-defined variables, e.g for margins, language, papersize, orientation, etc. Because this makes command line specification a bit unwieldy, he includes [simple shell script](/claes/pandoc-templates/blob/master/md2pdf) with unused options commented out to instruct markdown2pdf how to fill in all the blanks.
