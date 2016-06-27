@@ -123,6 +123,7 @@ the opened file as input.
     - [jekyll-pandoc](https://github.com/mfenner/jekyll-pandoc), used for the [Opening Science](https://github.com/openingscience/book) book
     - (Also see [this post](http://drz.ac/2013/01/03/blogging-with-math/) for implementation on OctoPress)
 - [Pandocomatic](https://github.com/htdebeer/pandocomatic)
+- [pdsite](http://pdsite.org)
 
 ## Serving markdown files with apache
 
