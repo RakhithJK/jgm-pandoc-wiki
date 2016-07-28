@@ -28,6 +28,7 @@
 
 - [https://github.com/tonyblundell/pandoc-bootstrap-template](https://github.com/tonyblundell/pandoc-bootstrap-template) A bootstrap template. 
 - [https://github.com/diversen/pandoc-bootstrap-adaptive-template](https://github.com/diversen/pandoc-bootstrap-adaptive-template). A bootstrap adaptive template with a sticky accordion menu. 
+- [https://github.com/diversen/pandoc-uikit](https://github.com/diversen/pandoc-uikit). A pandoc UIKIT adaptive template with a sticky accordion menu. 
 - [mindoc](https://github.com/bitfragment/mindoc): minimal template producing a HTML document with responsive styling and section navigation menu. Designed to make academic documents including course syllabi and scholarly articles accessible on small screens.
 
 # Notable forks of [pandoc-templates](/jgm/pandoc-templates), for `~/.pandoc/templates`
