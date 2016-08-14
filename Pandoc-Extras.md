@@ -93,6 +93,8 @@ the opened file as input.
 
 - [Xmindoc](https://github.com/sky-y/xmindoc) is a wrapper script for Pandoc which converts XMind mindmaps to any documents that are available in Pandoc.
 
+- [pdc](https://github.com/bk/pdc) is a command line wrapper for pandoc which makes it possible to completely control the conversion process from the first YAML meta block in the input document(s), including multiple output formats at the same time, templates, pre- and post-processors, etc.
+
 ### Using pandoc with ConTeXt
 
 - [filter module] by adityam, which allows you to use
