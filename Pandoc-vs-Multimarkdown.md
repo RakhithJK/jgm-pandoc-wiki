@@ -1,4 +1,4 @@
-This is an evolving document comparing features of Pandoc (1.13) and
+This is an evolving document comparing features of Pandoc (1.17) and
 Fletcher Penney's Multimarkdown (version 3).
 
 - [Pandoc User's Guide](http://johnmacfarlane.net/pandoc/README.html)
@@ -150,16 +150,6 @@ modified between parsing and writing. For examples, see
 There is also a python module for writing pandoc filters using python.
 
 ## Features in MMD but not pandoc
-
-### Image and link attributes
-
-MMD supports image and link attributes using the following syntax:
-
-~~~~
-[image]: http://path.to/image "Image title" width=40px height=400px
-[link]:  http://path.to/link.html "Some Link" class=external
-         style="border: solid black 1px;"
-~~~~
 
 ### Glossary
 
@@ -367,3 +357,24 @@ Author: Fletcher T. Penney
 Date:   July 25, 2005  
 ---
 ~~~~
+
+### Image and link attributes
+
+MMD supports image and link attributes using the following syntax:
+
+~~~~
+[image]: http://path.to/image "Image title" width=40px height=400px
+[link]:  http://path.to/link.html "Some Link" class=external
+         style="border: solid black 1px;"
+~~~~
+
+From version 1.16 onwards, Pandoc supports both inline and reference-style image and link attributes, using curly brackets as delimiters:
+
+~~~
+An inline ![image](foo.jpg){#id .class width=30 height=20px}
+and a reference ![image][ref] with attributes.
+
+[ref]: foo.jpg "optional title" {#id .class key=val key2="val 2"}
+~~~
+
+Parsing of MMD link and image attributes can be enabled with the extension `mmd_link_attributes`.
