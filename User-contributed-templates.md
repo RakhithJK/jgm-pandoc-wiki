@@ -18,6 +18,7 @@
 - [md2latex](https://bitbucket.org/zuline/md2latex) is a collection of templates and scripts which are designed to allow you to write in APA 6 style using Markdown and to convert to APA 6 Style in LaTeX.
 - [Pandoc Project Boilerplate](https://github.com/juh2/pandoc-project-boilerplate) This is the boilerplate to produce a book and an ebook with Pandoc.
 - [A skeleton template and generator for creating academic papers and targeting common formats, with SVG support.](https://github.com/jbn/paper.git)
+- [Lecture material: PDF slides and HTML/EPUB handouts using Pandoc and Beamer](https://github.com/cagix/pandoc-lecture)
 
 # E-books
 - [Pandoc Markdown ebook template](https://github.com/evangoer/pandoc-ebook-template)
