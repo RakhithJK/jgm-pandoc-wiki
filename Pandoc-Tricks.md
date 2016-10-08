@@ -1,6 +1,18 @@
 Here's some tricks that is allowed by pandoc but not obvious at first sight.
 
-# Math in Pure Markdown
+# From Markdown, To Markdown
+
+using `pandoc -f markdown... -t markdown...` can have surprisingly useful applications:
+
+## Cleanup
+
+As shown in issue [#2814](https://github.com/jgm/pandoc/issues/2814), it can be used to clean up / normalize your markdown file.
+
+## TOC generation
+
+*e.g.* you have a long markdown file in GitHub and want to have a TOC, you can use `pandoc -t markdown_github --toc -o example-with-toc.md example.md`
+
+## Math in Pure Markdown
 
 The manual said:
 
