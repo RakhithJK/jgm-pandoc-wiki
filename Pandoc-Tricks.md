@@ -48,7 +48,7 @@ Then the output becomes:
 
 If you wrote a template snippet that do not form a complete template. The `-H`, `-B`, or `-A` option would not help because pandoc would put your snippet as is and wouldn't process it as a template. *i.e.* The snippet is included after the template is processed.
 
-A trick mentioned by @cagix in jgm/pandoc-templates#220 is this:
+A trick mentioned by [@cagix](https://github.com/cagix) in [jgm/pandoc-templates#220](https://github.com/jgm/pandoc-templates/issues/220) is this:
 
 ```bash
 pandoc --template=template_snippet document.md -o processed_snippet
