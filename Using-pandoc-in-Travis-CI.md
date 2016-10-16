@@ -7,3 +7,5 @@ It seems the best way to configure Travis CI to build pandoc files is through `l
 If `language: R` is used, TeXLive, `tlmgr`, `pandoc` are default to it.
 
 See documentation at: [Building an R Project - Travis CI](https://docs.travis-ci.com/user/languages/r/).
+
+Also see an example and the statistics of different build in [ickc/travis-ci-pandoc-latex-config](https://github.com/ickc/travis-ci-pandoc-latex-config).
