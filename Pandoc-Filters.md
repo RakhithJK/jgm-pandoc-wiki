@@ -4,7 +4,7 @@ This page collects together third party filters which can be used to add functio
 
 ## Writing Filters
 
-Filters can be written in the following languages:
+Filters can be written in any programming language. [[Pandoc wrappers and interfaces]] are available in the following programming languages to facilitate modification of the AST:
 
 | language	| link	| description	|  
 |  ------	| ------	| ------	|  
