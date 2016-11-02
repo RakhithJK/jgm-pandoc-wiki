@@ -15,8 +15,7 @@ Several wrappers and interfaces exist to use pandoc in other programming languag
 | [node-pdc](https://github.com/pvorb/node-pdc) | JavaScript | wrapper | Paul Vorbach |
 | [simple-pandoc](https://www.npmjs.com/package/simple-pandoc) | JavaScript | wrapper | Hyunje Jun |
 | [paja](https://www.npmjs.com/package/paja) | JavaScript | wrapper | Huub de Beer |
-| [pandoc-filter](https://www.npmjs.com/package/pandoc-filter) | JavaScript | interface | Michael V. Henderson |
-| [pandoc-filter-node](https://github.com/mvhenderson/pandoc-filter-node) | JavaScript | interface | Mike Henderson |
+| [pandoc-filter](https://www.npmjs.com/package/pandoc-filter) | JavaScript | interface | Mike Henderson |
 | [groovy-pandoc](https://github.com/dfrommi/groovy-pandoc) | Groovy | interface | Dennis Frommknecht |
 | [Pandoc](https://metacpan.org/pod/Pandoc) | Perl | wrapper | Jakob Voß |
 | [Pandoc::Elements](https://metacpan.org/pod/Pandoc::Elements) | Perl | interface | Jakob Voß |
