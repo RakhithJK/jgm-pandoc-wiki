@@ -1,4 +1,4 @@
-Several wrappers and interfaces exist to use pandoc in other programming languages or via a graphical user interface (**GUI**). A **wrappers** can be used to run the pandoc executable while an **interface** give access to the abstract syntax tree (AST) of Pandoc documents, for instance to create [[pandoc filters]]. A **generator** is an interface that can only be used to create pandoc documents but not to modify them.
+Several wrappers and interfaces exist to use pandoc in other programming languages or via a graphical user interface (**GUI**). A **wrappers** can be used to run the pandoc executable while an **interface** give access to the abstract syntax tree (AST) of Pandoc documents, for instance to create [[pandoc filters]]. A **writer** is an interface that can only be used to create pandoc documents but not to modify them.
 
 | Name and link | Language | Type | Maintainer
 | ------------- | ------------- | --- | ----- |
@@ -10,7 +10,7 @@ Several wrappers and interfaces exist to use pandoc in other programming languag
 | [Pandoku](https://github.com/lunant/pandoku) | Ruby | wrapper | Hong Minhee |
 | [Paru](https://heerdebeer.org/Software/markdown/paru/) | Ruby | wrapper and interface | Huub de Beer |
 | [libpandoc](http://github.com/ShabbyX/libpandoc/tree/master) | C | wrapper |  Shahbaz Youssefi |
-| [pander](https://github.com/Rapporter/pander) | R | generator | Gergely Daróczi |
+| [pander](https://github.com/Rapporter/pander) | R | writer | Gergely Daróczi |
 | [scala-pandoc](https://github.com/pvorb/scala-pandoc) | Scala | wrapper | Paul Vorbach |
 | [node-pdc](https://github.com/pvorb/node-pdc) | JavaScript | wrapper | Paul Vorbach |
 | [simple-pandoc](https://www.npmjs.com/package/simple-pandoc) | JavaScript | wrapper | Hyunje Jun |
