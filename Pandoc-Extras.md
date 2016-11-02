@@ -133,24 +133,7 @@ the opened file as input.
 
 ## Pandoc wrappers and interfaces
 
-- [Pandoctor](https://github.com/smargh/alfred_pandoctor), an [Alfred](http://www.alfredapp.com/) workflow that acts as a GUI for pandoc. Allows for one-off conversions as well as templates. Created by Stephen Margheim
-- [PanConvert](http://panconvert.sourceforge.net), a cross-platform pandoc gui-wrapper. Allows using pandoc in a gui-environment
-- [pypandoc](https://github.com/bebraw/pypandoc), a python wrapper
-- [Pyandoc](https://github.com/kennethreitz/pyandoc), a python wrapper
-  for pandoc by Kenneth Reitz.
-- [pandoc-ruby](https://github.com/alphabetum/pandoc-ruby), a ruby wrapper
-  for pandoc by alphabetum.
-- [Pandoku](https://github.com/lunant/pandoku), another Ruby wrapper
-  for Pandoc by Hong Minhee.
-- [Paru](https://heerdebeer.org/Software/markdown/paru/), yet another Ruby wrapper for pandoc by Huub de Beer. Since version 0.1 it supports filters as well.
-- [libpandoc, a C interface to the pandoc library](http://github.com/ShabbyX/libpandoc/tree/master),
-  by Anton Tayanovskyy, updated for pandoc 1.11.1 by Shahbaz Youssefi.
-- [pander](https://github.com/Rapporter/pander), an [R](http://www.r-project.org/) wrapper
-  for pandoc by Gergely Daróczi.
-- [scala-pandoc](https://github.com/pvorb/scala-pandoc), a Scala/Java wrapper for Pandoc by Paul Vorbach
-- [node-pdc](https://github.com/pvorb/node-pdc), a Node.js wrapper for Pandoc by Paul Vorbach
-- [groovy-pandoc](https://github.com/dfrommi/groovy-pandoc), a Groovy wrapper for Pandoc by Dennis Frommknecht
-- [Universal Document Converter](https://bitbucket.org/leito/universal-document-converter), a Java wrapper for Pandoc by Leonardo S. De Seta
+See [[Pandoc wrappers and interfaces]]
 
 # Citation
 
