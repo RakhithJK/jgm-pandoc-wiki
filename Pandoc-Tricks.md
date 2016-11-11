@@ -73,6 +73,29 @@ In the output `grid.md`:
 +--------------------------+--------------------------+--------------------------+
 ```
 
+## Repeated Footnotes Anchors and Headers Across Multiple Files
+
+If you use auto-identifiers for the headers, and there are different headers of the same name across different folders, you'd want to catenate them together, and pandoc do this for you:
+
+```bash
+pandoc file1.md file2.md ...
+```
+
+But if there are repeated footnotes anchors on both files, you need `--file-scope`, which will parsed each files individually (so the footnotes anchors are "local" to the individual file):
+
+```bash
+pandoc file1.md file2.md --file-scope ...
+```
+
+What if the 2 files has both problems? i.e. headers of same name (hence the same id by the auto-identifier) and footnotes of the same anchors appears across the files. Either approach gives you problem.
+
+In this case, you can use "to markdown from markdown" to write an intermediate markdown file using `--file-scope`, which handles the colliding footnote anchor for you, and then generate from that intermediate markdown file, the auto-identifiers will handle the headers for you:
+
+```bash
+pandoc --file-scope -o intermediate.md file1.md file2.md
+pandoc intermediate.md ...
+```
+
 # Template Snippet
 
 If you wrote a template snippet that do not form a complete template. The `-H`, `-B`, or `-A` option would not help because pandoc would put your snippet as is and wouldn't process it as a template. *i.e.* The snippet is included after the template is processed.
