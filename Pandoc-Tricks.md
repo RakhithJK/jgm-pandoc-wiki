@@ -44,6 +44,35 @@ Then the output becomes:
 > 
 > Try it!
 
+## Convert Between the 4 Table Syntaxes in Pandoc
+
+Say, in your source markdown file `pipe.md`:
+
+```markdown
+| testing     | pandoc            | tables  |
+|-------------|-------------------|---------|
+| simple cell | no multiline cell | and     |
+| so          | on                | no list |
+```
+
+In command line,
+
+```bash
+pandoc -t markdown-simple_tables-multiline_tables-pipe_tables -s -o grid.md pipe.md
+```
+
+In the output `grid.md`:
+
+```markdown
++--------------------------+--------------------------+--------------------------+
+| testing                  | pandoc                   | tables                   |
++==========================+==========================+==========================+
+| simple cell              | no multiline cell        | and                      |
++--------------------------+--------------------------+--------------------------+
+| so                       | on                       | no list                  |
++--------------------------+--------------------------+--------------------------+
+```
+
 # Template Snippet
 
 If you wrote a template snippet that do not form a complete template. The `-H`, `-B`, or `-A` option would not help because pandoc would put your snippet as is and wouldn't process it as a template. *i.e.* The snippet is included after the template is processed.
