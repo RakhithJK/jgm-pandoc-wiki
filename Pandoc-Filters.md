@@ -28,6 +28,7 @@ The following is a list of some known 3rd party filters:
 	- [pandoc-svg](https://gist.github.com/jeromerobert/3996eca3acd12e4c3d40), a pandoc filter to convert svg files to pdf by Jerome Robert.
 	- [diagrams-pandoc](http://hackage.haskell.org/package/diagrams-pandoc) for inserting images expressed in the Haskell [diagrams](http://projects.haskell.org/diagrams/) DSL.
 	- [mermaid-pandoc](https://github.com/raghur/mermaid-filter) for inserting images expressed in [mermaid](http://knsv.github.io/mermaid/) syntax
+	- [r-pandoc](https://github.com/cdupont/r-pandoc) for inserting plots expressed in the R language
 - Numbering related:
 	- [Numerical reference to sections](https://gist.github.com/jkr/bcfacbfdcf4cc4bafcf6), using a specified sign (by default `#`) in internal links. Metadata can configure special sign and whether links should be preserved or converted to plain text.
 	- [pandoc-fignos](https://github.com/tomduck/pandoc-fignos), for numbering figures and figure references.
