@@ -56,3 +56,4 @@ The following is a list of some known 3rd party filters:
 - Others:
 	- [Adding support](https://gist.github.com/mpickering/8bc9bb34c4e9b076b107) for indexing with the syntax ``(# term, subterm)`` in html and latex
 	- [Adding non-breaking spaces inside a URL to preserve formatting](https://gist.github.com/mpickering/fdc747b9c8306659cb43)
+	- [lablinkfix](https://github.com/klpn/lablinkfix) updates links to the Swedish Labour Movement Archives and Library catalogues.
