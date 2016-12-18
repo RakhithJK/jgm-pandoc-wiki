@@ -1,6 +1,7 @@
 -   [From Markdown, To Markdown](#from-markdown-to-markdown)
     -   [Cleanup](#cleanup)
     -   [TOC generation](#toc-generation)
+    -   [Using Markdown Templates](#using-markdown-templates)
     -   [Math in Pure Markdown](#math-in-pure-markdown)
     -   [Convert Between the 4 Table Syntaxes in Pandoc](#convert-between-the-4-table-syntaxes-in-pandoc)
     -   [Repeated Footnotes Anchors and Headers Across Multiple Files](#repeated-footnotes-anchors-and-headers-across-multiple-files)
@@ -25,6 +26,71 @@ As shown in issue [\#2814](https://github.com/jgm/pandoc/issues/2814), it can be
 ## TOC generation
 
 *e.g.* you have a long markdown file in GitHub and want to have a TOC, you can use `pandoc -t markdown_github --toc -o example-with-toc.md example.md`
+
+This a useful workaround to update the TOC of very long documents, but —beware!— if you use this trick for writing over the input file, you'll end stacking TOCs — each new Table of Contents being generated above the previouly built ones, and indexing them too. This technique is useful when working with different source and output files.
+
+Also, you can add a title to the TOC using the `toc-title` variable, but only if you use a markdown template — as explained ahead.
+
+## Using Markdown Templates
+ 
+Did you know that you can use pandoc template with markdown too?
+
+Ask pandoc to write-out the default template for markdown:
+
+``` bash
+pandoc --print-default-template=markdown > template.markdwon
+```
+
+And now let's peek at the template we got:
+
+```
+$if(titleblock)$
+$titleblock$
+
+$endif$
+$for(header-includes)$
+$header-includes$
+
+$endfor$
+$for(include-before)$
+$include-before$
+
+$endfor$
+$if(toc)$
+$toc$
+
+$endif$
+$body$
+$for(include-after)$
+
+$include-after$
+$endfor$
+```
+
+As you can see, there's plenty of conditional statements to play with, allowing for additional control over the output markdown file.
+
+You can also use the `toc-title` template variable to tell pandoc to add a title on top of the generated TOC. Change the template’s `toc` block like this:
+
+```
+$if(toc)$
+$if(toc-title)$
+# $toc-title$
+$endif$
+
+$toc$
+
+$endif$
+```
+
+And now invoke pandoc like this:
+
+``` bash
+pandoc --toc -V toc-title:"Table of Contents" --template=template.markdown -o example-with-toc.md example.md
+```
+
+And you'll see in the `example-with-toc.md` file an auto-generated Table of Contents with a `# Table of Contents` title over it.
+
+> **NOTE**: if you also include some extra markdown contents with the `--include-before-body` option (eg: `--include-before-body=somefile.md`) the contents of the included file will go before the TOC (at least, with the template used in this example) and any headings it contais will not be included in the TOC — ie: the TOC only indexes what comes after the `$toc$` template tag. This is useful if you'd like to include an Abstract before the TOC.
 
 ## Math in Pure Markdown
 
