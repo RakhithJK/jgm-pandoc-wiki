@@ -126,6 +126,7 @@ the opened file as input.
     - (Also see [this post](http://drz.ac/2013/01/03/blogging-with-math/) for implementation on OctoPress)
 - [Pandocomatic](https://github.com/htdebeer/pandocomatic)
 - [pdsite](http://pdsite.org)
+- [gh-themes-magick](https://github.com/tajmone/gh-themes-magick): publish your GitHub project’s single page website from `master` branch’s `/docs/` folder using GitHub themes, and let pandoc scripts update its contents to mirror the project’s `README.md`.
 
 ## Serving markdown files with apache
 
