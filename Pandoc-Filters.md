@@ -52,6 +52,7 @@ The following is a list of some known 3rd party filters:
 - Tables related:
 	- [pandoc-csv2table](https://github.com/baig/pandoc-csv2table) for including referenced csv files in markdown as markdown rendered tables.
 	- [pandoc-placetable](https://github.com/mb21/pandoc-placetable) lightweight implementation of the idea behind the above `pandoc-csv2table` (e.g. doesn't necessarily require pandoc as a cabal dependency)
+	- [ickc/pantable: CSV Tables in Markdown: Pandoc Filter for CSV Tables](https://github.com/ickc/pantable): a Python alternatives to the above 2 filters, using panflute, with some enhancements (e.g. auto-width, fractional width, etc.)
 	- Creating a [link table](http://stackoverflow.com/questions/26406816/pandoc-is-there-a-way-to-include-an-appendix-of-links-in-a-pdf-from-markdown/26415375#26415375) at the end of your document.
 - Others:
 	- [Adding support](https://gist.github.com/mpickering/8bc9bb34c4e9b076b107) for indexing with the syntax ``(# term, subterm)`` in html and latex
