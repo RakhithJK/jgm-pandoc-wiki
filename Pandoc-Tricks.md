@@ -6,6 +6,7 @@
     -   [Convert Between the 4 Table Syntaxes in Pandoc](#convert-between-the-4-table-syntaxes-in-pandoc)
     -   [Repeated Footnotes Anchors and Headers Across Multiple Files](#repeated-footnotes-anchors-and-headers-across-multiple-files)
 -   [Template Snippet](#template-snippet)
+-   [Left-aligning Tables](#left-aligning-tables)
 
 Here's some tricks that is allowed by pandoc but not obvious at first sight.
 
