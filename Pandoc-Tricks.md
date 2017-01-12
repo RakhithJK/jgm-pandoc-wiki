@@ -188,3 +188,14 @@ pandoc -H processed_snippet document.md -o document.pdf
 ```
 
 The first line will process your template snippet according to the properties of the document, but since your snippet (probably) do not have `$body$`, the body would not be in the output. Now the snippet is processed and can then be included through `-H` as is in the 2nd line.
+
+# Left-aligning Tables
+
+Based on [this pandoc-discuss exchange](https://groups.google.com/forum/#!topic/pandoc-discuss/pmiw78NvZl4) and [this TeX StackExchange topic](http://tex.stackexchange.com/questions/6456/set-a-global-policy-for-floats-positioning) it is possible to left-align all tables a document (in the PDF output from LaTeX) with this single invocation in the YAML header block:
+```
+---
+header-includes:
+  - \usepackage[margins=raggedright]{floatrow}
+---
+```
+This applies to all floats and fine-grained control may be achieved with the options outlined in [the documentation for the `floatrow` LaTeX package](http://mirrors.ctan.org/macros/latex/contrib/floatrow/floatrow.pdf).
