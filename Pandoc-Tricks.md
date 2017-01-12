@@ -192,11 +192,11 @@ The first line will process your template snippet according to the properties of
 
 # Left-aligning Tables
 
-Based on [this pandoc-discuss exchange](https://groups.google.com/forum/#!topic/pandoc-discuss/pmiw78NvZl4) and [this TeX StackExchange topic](http://tex.stackexchange.com/questions/6456/set-a-global-policy-for-floats-positioning) it is possible to left-align all tables a document (in the PDF output from LaTeX) with this single invocation in the YAML header block:
+Based on [this pandoc-discuss exchange](https://groups.google.com/forum/#!topic/pandoc-discuss/pmiw78NvZl4) and [this TeX StackExchange topic](http://tex.stackexchange.com/questions/6456/set-a-global-policy-for-floats-positioning), it is possible to left-align all tables in a document (in the PDF output from LaTeX) with this single invocation in the YAML header block of the markdown document:
 ```
 ---
 header-includes:
   - \usepackage[margins=raggedright]{floatrow}
 ---
 ```
-This applies to all floats and fine-grained control may be achieved with the options outlined in [the documentation for the `floatrow` LaTeX package](http://mirrors.ctan.org/macros/latex/contrib/floatrow/floatrow.pdf).
+This applies to all floats, and fine-grained control may be achieved with the options outlined in [the documentation for the `floatrow` LaTeX package](http://mirrors.ctan.org/macros/latex/contrib/floatrow/floatrow.pdf).
