@@ -6,7 +6,7 @@
     -   [Convert Between the 4 Table Syntaxes in Pandoc](#convert-between-the-4-table-syntaxes-in-pandoc)
     -   [Repeated Footnotes Anchors and Headers Across Multiple Files](#repeated-footnotes-anchors-and-headers-across-multiple-files)
 -   [Template Snippet](#template-snippet)
--   [Left-aligning Tables](#left-aligning-tables)
+-   [Left-aligning Tables in LaTeX](#left-aligning-tables-in-latex)
 
 Here's some tricks that is allowed by pandoc but not obvious at first sight.
 
@@ -190,7 +190,7 @@ pandoc -H processed_snippet document.md -o document.pdf
 
 The first line will process your template snippet according to the properties of the document, but since your snippet (probably) do not have `$body$`, the body would not be in the output. Now the snippet is processed and can then be included through `-H` as is in the 2nd line.
 
-# Left-aligning Tables
+# Left-aligning Tables in LaTeX
 
 Based on [this pandoc-discuss exchange](https://groups.google.com/forum/#!topic/pandoc-discuss/pmiw78NvZl4) and [this TeX StackExchange topic](http://tex.stackexchange.com/questions/6456/set-a-global-policy-for-floats-positioning), it is possible to left-align all tables in a document (in the PDF output from LaTeX) with this single invocation in the YAML header block of the markdown document:
 ```
