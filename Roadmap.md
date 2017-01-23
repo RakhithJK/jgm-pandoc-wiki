@@ -9,7 +9,6 @@ Pandoc doesn't have a strict roadmap but this page should serve as an overview a
 - changing JSON serialization format to be more human-readable, less Haskell-ADT-oriented, [see this comment](https://github.com/jgm/pandoc/issues/3211#issuecomment-258783108)
 - [a Figure block element](https://github.com/jgm/pandoc/issues/3177), capable of containing multiple images 
 - [internal links/references to tables and figures](https://github.com/jgm/pandoc/issues/813)
-- [LineBlock element](https://github.com/jgm/pandoc/issues/1623)
 - [PageBreak element](https://github.com/jgm/pandoc/issues/1934)
 - replace Strikeout element with a Deleted element; add an [Inserted element](https://github.com/jgm/pandoc/issues/3035)
 - [colspans in tables](https://github.com/jgm/pandoc/issues/1024) (and possibly also rowspan)
