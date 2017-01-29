@@ -6,6 +6,7 @@
     -   [Convert Between the 4 Table Syntaxes in Pandoc](#convert-between-the-4-table-syntaxes-in-pandoc)
     -   [Repeated Footnotes Anchors and Headers Across Multiple Files](#repeated-footnotes-anchors-and-headers-across-multiple-files)
 -   [Template Snippet](#template-snippet)
+-   [YAML Metadata for Any Format](#yaml-metadata-for-any-format)
 -   [Left-aligning Tables in LaTeX](#left-aligning-tables-in-latex)
 
 Here's some tricks that is allowed by pandoc but not obvious at first sight.
@@ -184,11 +185,32 @@ If you wrote a template snippet that do not form a complete template. The `-H`, 
 A trick mentioned by [@cagix](https://github.com/cagix) in [jgm/pandoc-templates\#220](https://github.com/jgm/pandoc-templates/issues/220) is this:
 
 ``` bash
-pandoc --template=template_snippet document.md -o processed_snippet
+pandoc --template=template_snippet.tex document.md -o processed_snippet
 pandoc -H processed_snippet document.md -o document.pdf
 ```
 
 The first line will process your template snippet according to the properties of the document, but since your snippet (probably) do not have `$body$`, the body would not be in the output. Now the snippet is processed and can then be included through `-H` as is in the 2nd line.
+
+If you use bash, a short version using process substitution is
+
+```bash
+pandoc -H <(pandoc --template=template_snippet.tex document.md) document.md -o document.pdf
+```
+
+# YAML Metadata for Any Format
+
+YAML metadata is only defined for pandoc's markdown syntax. See [jgm/pandoc#1960](https://github.com/jgm/pandoc/issues/1960#issuecomment-273587588).
+
+Currently, there is a workaround like this:
+
+```bash
+pandoc -f markdown -t native -s metadata.yml | sed '$ d' > metadata.native
+pandoc -t native -o document.native document.<fromFormat>
+pandoc -f native -s -o document.<toFormat> metadata.native document.native
+# bash only (uses process substitution)
+YAML=metadata.yml; INPUT=document.md; OUTPUT=document.pdf
+pandoc -f native -s -o $OUTPUT <(pandoc -f markdown -t native -s $YAML | sed '$ d') <(pandoc -t native $INPUT)
+```
 
 # Left-aligning Tables in LaTeX
 
