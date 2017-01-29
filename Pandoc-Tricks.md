@@ -186,31 +186,32 @@ A trick mentioned by [@cagix](https://github.com/cagix) in [jgm/pandoc-templates
 
 ``` bash
 pandoc --template=template_snippet.tex document.md -o processed_snippet
-pandoc -H processed_snippet document.md -o document.pdf
+pandoc ... -H processed_snippet document.md -o document.<toFormat>
+# Or shorter but bash only (process substitution)
+SNIPPET=template_snippet.tex; INPUT=document.md; OUTPUT=document.<toFormat>
+pandoc ... -H <(pandoc --template=$SNIPPET $INPUT) $INPUT -o $OUTPUT
 ```
 
 The first line will process your template snippet according to the properties of the document, but since your snippet (probably) do not have `$body$`, the body would not be in the output. Now the snippet is processed and can then be included through `-H` as is in the 2nd line.
-
-If you use bash, a short version using process substitution is
-
-```bash
-pandoc -H <(pandoc --template=template_snippet.tex document.md) document.md -o document.pdf
-```
 
 # YAML Metadata for Any Format
 
 YAML metadata is only defined for pandoc's markdown syntax. See [jgm/pandoc#1960](https://github.com/jgm/pandoc/issues/1960#issuecomment-273587588).
 
-Currently, there is a workaround like this:
+Currently, there is a workaround like this (while the YAML metadata only accepts markdown syntax):
 
 ```bash
 pandoc -f markdown -t native -s metadata.yml | sed '$ d' > metadata.native
 pandoc -t native -o document.native document.<fromFormat>
 pandoc -f native -s -o document.<toFormat> metadata.native document.native
-# bash only (uses process substitution)
-YAML=metadata.yml; INPUT=document.md; OUTPUT=document.pdf
-pandoc -f native -s -o $OUTPUT <(pandoc -f markdown -t native -s $YAML | sed '$ d') <(pandoc -t native $INPUT)
+# Or shorter but bash only (process substitution)
+YAML=metadata.yml; INPUT=document.<fromFormat>; OUTPUT=document.<toFormat>
+pandoc ... -f native -s -o $OUTPUT <(pandoc -f markdown -t native -s $YAML | sed '$ d') <(pandoc -t native $INPUT)
 ```
+
+Explanation:
+
+The `sed` in the first line: because the `metadata.yml` is regarding as a markdown document with no body, so the last line of the metadata in native format is `[]`, which you need to remove. Another way of removing it is `head -n -1` (would not work on Mac's default `head`). From my test it seems the meta in native is always in one-line, if true then `head -n1` will work (which also works on Mac).
 
 # Left-aligning Tables in LaTeX
 
