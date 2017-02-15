@@ -62,3 +62,4 @@ The following is a list of some known 3rd party filters:
 	- [lablinkfix](https://github.com/klpn/lablinkfix) updates links to the Swedish Labour Movement Archives and Library catalogues.
 	- [second-date](https://gist.github.com/7937d04120ac27fcfb1955ae15773b05)  changes `date` metadata to a different strftime format using python's dateutil.
     - [pandoc-abbreviations](https://github.com/scokobro/pandoc-abbreviations) allows the use of arbitrary abbreviations, defined in an abbreviations file or in the source document's YAML header, which are replaced on  processing. Useful for maintaining consistency of terminology etc.
+    - [pandoc_abnt](https://github.com/limarka/pandoc_abnt) allow to specify the source of images and tables, and automatically corrects *Alineas* according to Brazilian's standard for Academic writings (ABNT NBR 14724:2011). 
