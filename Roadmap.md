@@ -1,10 +1,5 @@
 Pandoc doesn't have a strict roadmap but this page should serve as an overview about major changes to pandoc that are on our radar.
 
-## Architectural changes
-
-- restructuring readers and writers in typeclasses so that they can be run consistently in either pure or in IO, see [jgms's explanation](https://groups.google.com/forum/#!msg/pandoc-discuss/oA7a_zPzzak/jnlIbaFhCgAJ;context-place=searchin/pandoc-discuss/2.0%7Csort:relevance), also [issue 2930](https://github.com/jgm/pandoc/issues/2930)
-- improve infrastructure for giving warnings and information (e.g. about things that are being skipped or ignored)
-
 ## AST changes
 
 - [Attributes for all elements](https://github.com/jgm/pandoc/issues/684)
