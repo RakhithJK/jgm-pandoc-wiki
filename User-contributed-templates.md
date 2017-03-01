@@ -21,7 +21,7 @@
 - [Lecture material: PDF slides and HTML/EPUB handouts using Pandoc and Beamer](https://github.com/cagix/pandoc-lecture)
 
 # E-books
-- [Pandoc Markdown ebook template](https://github.com/evangoer/pandoc-ebook-template)
+- [Pandoc Markdown ebook template](https://github.com/evangoer/pandoc-ebook-template) (EPub, html and PDF)
 - [Opening Science](https://github.com/openingscience/book), an example of using Pandoc to create both a printed and electronic book with academic citations (see also the [blog post by Martin Fenner](http://blog.martinfenner.org/2013/12/05/opening-science---the-book/))
 - [Advanced R Programming](https://github.com/hadley/adv-r/), combining pandoc with Jekyll and knitr
 
