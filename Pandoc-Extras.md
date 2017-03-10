@@ -124,7 +124,7 @@ the opened file as input.
     - [jekyll-pandoc-multiple-formats](https://github.com/fauno/jekyll-pandoc-multiple-formats)
     - [jekyll-pandoc](https://github.com/mfenner/jekyll-pandoc), used for the [Opening Science](https://github.com/openingscience/book) book
     - (Also see [this post](http://drz.ac/2013/01/03/blogging-with-math/) for implementation on OctoPress)
-- [Pandocomatic](https://github.com/htdebeer/pandocomatic)
+- [Pandocomatic](https://heerdebeer.org/Software/markdown/pandocomatic/). Can also be used to automate the use of pandoc in a more general way.
 - [pdsite](http://pdsite.org)
 - [gh-themes-magick](https://github.com/tajmone/gh-themes-magick): publish your GitHub project’s single page website from `master` branch’s `/docs/` folder using GitHub themes, and let pandoc scripts update its contents to mirror the project’s `README.md`.
 
