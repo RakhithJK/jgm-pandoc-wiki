@@ -30,7 +30,7 @@ The following is a list of some known 3rd party filters:
 	- [diagrams-pandoc](http://hackage.haskell.org/package/diagrams-pandoc) for inserting images expressed in the Haskell [diagrams](http://projects.haskell.org/diagrams/) DSL.
 	- [mermaid-pandoc](https://github.com/raghur/mermaid-filter) for inserting images expressed in [mermaid](http://knsv.github.io/mermaid/) syntax
 	- [r-pandoc](https://github.com/cdupont/r-pandoc) for inserting plots expressed in the R language
-        - [paru-screenshot.rb](https://github.com/htdebeer/paru-filter-collection#paru-screenshotrb) for automatically taking a screen shot of a web page and including that shot as an image in a markdown file.
+	- [paru-screenshot.rb](https://github.com/htdebeer/paru-filter-collection#paru-screenshotrb) for automatically taking a screen shot of a web page and including that shot as an image in a markdown file.
 - Numbering related:
 	- [Numerical reference to sections](https://gist.github.com/jkr/bcfacbfdcf4cc4bafcf6), using a specified sign (by default `#`) in internal links. Metadata can configure special sign and whether links should be preserved or converted to plain text.
 	- [pandoc-fignos](https://github.com/tomduck/pandoc-fignos), for numbering figures and figure references.
