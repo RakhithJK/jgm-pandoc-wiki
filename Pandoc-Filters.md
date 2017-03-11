@@ -14,6 +14,7 @@ Filters can be written in any programming language. [[Pandoc wrappers and interf
 | Node.js	| [pandoc-filter-node](https://github.com/mvhenderson/pandoc-filter-node)	| a Node.js module for writing pandoc filters in JavaScript.	|  
 | Perl	| [Pandoc::Elements](https://metacpan.org/release/Pandoc-Elements)	| a CPAN module for writing pandoc filters in Perl.	| 
 | Groovy	| [groovy-pandoc](https://github.com/dfrommi/groovy-pandoc)	| a library for writing Pandoc filters in Groovy.	| 
+| Ruby | [paru](https://heerdebeer.org/Software/markdown/paru/) | a Ruby gem to write pandoc filters in Ruby. |
 
 Other tools:
 
