@@ -23,7 +23,7 @@ Be careful of `@` though, you need to escape it in pandoc since it is treated as
 
 ## Cleanup
 
-As shown in issue [\#2814](https://github.com/jgm/pandoc/issues/2814), it can be used to clean up / normalize your markdown file.
+As shown in issue [\#2814](https://github.com/jgm/pandoc/issues/2814), rendering a document to itself can be used to clean up / normalize your markdown file.
 
 ## TOC generation
 
