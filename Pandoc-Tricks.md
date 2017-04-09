@@ -8,6 +8,7 @@
 -   [Template Snippet](#template-snippet)
 -   [YAML Metadata for Any Format](#yaml-metadata-for-any-format)
 -   [Left-aligning Tables in LaTeX](#left-aligning-tables-in-latex)
+-   [GFM Task Lists with Pandoc](#gfm-task-lists-with-pandoc)
 
 Here's some tricks that is allowed by pandoc but not obvious at first sight.
 
@@ -223,3 +224,17 @@ header-includes:
 ---
 ```
 This applies to all floats, and fine-grained control may be achieved with the options outlined in [the documentation for the `floatrow` LaTeX package](http://mirrors.ctan.org/macros/latex/contrib/floatrow/floatrow.pdf).
+
+# GFM Task Lists with Pandoc
+
+GitHub flavored markdown's task lists can be mimicked in pandoc via the `GFM-TaskList.pp` custom pp macros module. Macro syntax example:
+
+    !TaskList(
+    !Task[x][I'm a _checked_ task]
+    !Task[ ][I'm an _unchecked_ task]
+    )
+
+For more information, and to download the `GFM-TaskList.pp` macros module:
+
+- ["Pandoc-Goodies" project: pp-macros library](https://github.com/tajmone/pandoc-goodies/tree/master/pp)
+- [Live HTML preview of Task List created with pandoc and pp macros](https://htmlpreview.github.io/?https://github.com/tajmone/pandoc-goodies/blob/master/templates/html5/github/GitHub-Template-Preview.html#task-lists)
