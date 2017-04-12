@@ -77,7 +77,8 @@ the opened file as input.
 
 - [Rippledoc](http://www.unexpected-vortices.com/sw/rippledoc/index.html) processes .md files into html. It ripples down from the current directory through nested subdirectories processing md files as it goes. It also generates tables of contents and navigation links, stitching together the documents into an easily-navigable whole.
 
-- [SPAB](http://www.howtoselfpublishabook.org/self-publish-a-book/) a very simple windows GUI that uses Pandoc and a couple other open source tools to produce a .mobi, .epub, .doc, and .pdf ready for the most popular self-publishing services.
+- [SPAB](http://www.storyhack.com/self-publish-a-book/ "Storyhack.com reprint of the Bryce Beattie's original article: SPAB installer not available for download") a very simple windows GUI that uses Pandoc and a couple other open source tools to produce a .mobi, .epub, .doc, and .pdf ready for the most popular self-publishing services. (See also:
+ [WaybackMachine](https://web.archive.org/web/20130218031035/http://www.howtoselfpublishabook.org/self-publish-a-book "Archived copy of the original article from 2011"); [_How to Self Publish a Book_](http://www.storyhack.com/how-to-self-publish-a-book/ "Article by Bryce Beattie, 2016").)
 
 - [Pandoc Droplets and Services](https://github.com/dsanson/Pandoc-Droplets-and-Services) is a collection of simple and easily customizable Automator drag-and-drop applets and service menu items that use pandoc to produce pdf, docx, odt, and dzslides output on OS X.
 
