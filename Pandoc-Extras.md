@@ -50,7 +50,7 @@ the opened file as input.
 
 - [Docverter](http://www.docverter.com)
 - [Pandoc online](https://foliovision.com/seo-tools/pandoc-online)
-- [Pandoc as a service](http://pandoc-as-a-service.com/)
+- [Pandoc as a service](https://github.com/mrded/pandoc-as-a-service "GitHub source files for running service locally, by Dmitry Demenchuk. Original online service no longer available"): Serving on localhost. (See also: [WaybackMachine](https://web.archive.org/web/20150919182811/http://pandoc-as-a-service.com/ "Archived copy of the original online service by Dmitry Demenchuk"))
 
 # Workflow
 
