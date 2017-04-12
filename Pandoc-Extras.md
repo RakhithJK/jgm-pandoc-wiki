@@ -118,15 +118,15 @@ the opened file as input.
 
 ## Static website generators
 
-- [yst](https://github.com/jgm/yst)
-- [Hakyll](http://jaspervdj.be/hakyll/)
-- A [bash shell script](https://github.com/wcaleb/website) by Caleb McDaniel to generate a site using pandoc
-- Jekyll
+- [yst](https://github.com/jgm/yst): create static websites from YAML data and string templates, written in Haskell.
+- [Hakyll](http://jaspervdj.be/hakyll/): a static website compiler library in Haskell.
+- [Website](https://github.com/wcaleb/website): a bash shell script by Caleb McDaniel to generate a site using pandoc.
+- Jekyll:
     - [jekyll-pandoc-multiple-formats](https://github.com/fauno/jekyll-pandoc-multiple-formats)
     - [jekyll-pandoc](https://github.com/mfenner/jekyll-pandoc), used for the [Opening Science](https://github.com/openingscience/book) book
     - (Also see [this post](http://drz.ac/2013/01/03/blogging-with-math/) for implementation on OctoPress)
-- [Pandocomatic](https://heerdebeer.org/Software/markdown/pandocomatic/). Can also be used to automate the use of pandoc in a more general way.
-- [pdsite](http://pdsite.org)
+- [Pandocomatic](https://heerdebeer.org/Software/markdown/pandocomatic/) RubyGem. Can also be used to automate the use of pandoc in a more general way.
+- [pdsite](http://pdsite.org): single shell script with no dependencies, runs on Unix-like systems.
 - [gh-themes-magick](https://github.com/tajmone/gh-themes-magick): publish your GitHub project’s single page website from `master` branch’s `/docs/` folder using GitHub themes, and let pandoc scripts update its contents to mirror the project’s `README.md`.
 
 ## Serving markdown files with apache
