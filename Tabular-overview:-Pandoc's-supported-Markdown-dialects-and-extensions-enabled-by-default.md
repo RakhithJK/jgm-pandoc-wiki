@@ -10,6 +10,8 @@ For information about the different sets of extensions enabled in different Mark
 
 ----
 
+## Table (valid for Pandoc v1.15.x)
+
 |                            Extension| markdown (Pandoc) | markdown\_phpextra | markdown\_github | markdown\_mmd | markdown\_strict |
 |------------------------------------:|:-----------------:|:------------------:|:----------------:|:-------------:|:----------------:|
 |                        abbreviations|         no        |         yes        |        no        |       no      |        no        |
