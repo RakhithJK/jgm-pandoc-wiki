@@ -1,3 +1,15 @@
+## Update
+
+As of Pandoc v1.18 (released 26 Oct 2016) and all later releases, the following table isn't all that useful any more. The Pandoc command
+
+     pandoc --list-extensions
+
+will print all available extensions for your current pandoc binary, as well as their enabled (**`+`**) or disabled (**`-`**) status.
+
+For information about the different sets of extensions enabled in different Markdown dialects consult the manpage; look for the *"Markdown variants"* part.
+
+----
+
 |                            Extension| markdown (Pandoc) | markdown\_phpextra | markdown\_github | markdown\_mmd | markdown\_strict |
 |------------------------------------:|:-----------------:|:------------------:|:----------------:|:-------------:|:----------------:|
 |                        abbreviations|         no        |         yes        |        no        |       no      |        no        |
