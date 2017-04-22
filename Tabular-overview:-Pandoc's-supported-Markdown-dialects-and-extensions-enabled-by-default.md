@@ -1,4 +1,4 @@
-## Update
+### Update
 
 As of Pandoc v1.18 (released 26 Oct 2016) and all later releases, the following table isn't all that useful any more. The Pandoc command
 
