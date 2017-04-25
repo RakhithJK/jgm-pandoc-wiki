@@ -56,6 +56,7 @@ the opened file as input.
 
 - [panzer](https://github.com/msprev/panzer), adds the concept of 'styles' to pandoc. Styles control templates, metadata settings, pandoc command line options, and instructions to run filters and pre/postprocessors in a simple, reusable, and recombinable way.
 - [kokoi](https://github.com/zeis/kokoi), a configurable markup file watcher, previewer, and converter that uses Pandoc as the default markup processing engine. _kokoi_ watches for changes on the markup files in the directory _kokoi_ is started, and if they change, automatically reprocesses and previews them directly in the browser.
+- [Pandocomatic](https://heerdebeer.org/Software/markdown/pandocomatic/), Pandocomatic is a tool to automate using pandoc. With pandocomatic you can express common patterns of using pandoc for generating your documents. Applied to a directory, pandocomatic can act as a static site generator.
 - [Pandoc Build Task](https://www.nuget.org/packages/PandocTasks/), a small MSBuild target to transform files with Pandoc. Provided as a Nuget package.
 - [pandoc-schemata](https://github.com/rakali/pandoc-schemata), providing JSON Schema files for Pandoc JSON.
 - [pandoc-seed-project](https://github.com/Dashed/pandoc-seed-project), a git repo seed where by you can clone from. It uses [gulp.js](https://github.com/gulpjs/gulp) and some of its plugins to automate task of using pandoc to watch and compile documents from a source directory to a destination directory. Useful for large and complex directory of documents to process through pandoc.
