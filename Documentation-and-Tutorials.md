@@ -26,9 +26,7 @@ Der Text beschreibt die Auszeichnungssprache Markdown und die Benutzung des Prog
 Er geht auf die Erzeugung von eBüchern (ePub und Kindle) sowie den Export nach OpenOffice und MS Office ein.
 Außerdem bietet er Vorlagen (templates) zur Verwendung mit LaTeX.
 
-Das komplette Projekt gibt es auf [https://github.com/AKielhorn/Markdown-Intro].
-
-Das PDF Dokument kann man unter [http://dl.dropbox.com/u/6568507/Ziele-md.pdf] herunterladen, das dazugehörige Begleitmaterial sowie die Vorlagen gibt es als Zip archiv unter [http://dl.dropbox.com/u/6568507/Ziele.zip].
+Das komplette Projekt gibt es auf https://github.com/AKielhorn/Markdown-Intro.
 
 ### Chinese Introduction / 中文翻譯
 
