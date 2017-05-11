@@ -61,6 +61,7 @@ the opened file as input.
 - [Pandoc Build Task](https://www.nuget.org/packages/PandocTasks/), a small MSBuild target to transform files with Pandoc. Provided as a Nuget package.
 - [pandoc-schemata](https://github.com/rakali/pandoc-schemata), providing JSON Schema files for Pandoc JSON.
 - [pandocket](https://github.com/wcaleb/pandocket), 'A python script that looks for special lines in a markdown file and uses those lines to convert, clean up, and insert content from URLs into the file for processing by pandoc'
+- [Mighty Make](https://lf-araujo.github.io/lf-araujo.github.io/2017/04/08/mightymake.html), a building system and an attempt to standardize the folder structure tailored to large pandoc projects, like thesis or large reports.
 
 ## Preprocessors
 
