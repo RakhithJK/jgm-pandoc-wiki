@@ -41,7 +41,7 @@ Did you know that you can use pandoc template with markdown too?
 Ask pandoc to write-out the default template for markdown:
 
 ``` bash
-pandoc --print-default-template=markdown > template.markdwon
+pandoc --print-default-template=markdown > template.markdown
 ```
 
 And now let's peek at the template we got:
