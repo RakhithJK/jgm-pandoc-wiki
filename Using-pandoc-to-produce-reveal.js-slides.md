@@ -1,11 +1,50 @@
-You can use pandoc to produce slides using [reveal.js](http://lab.hakim.se/reveal-js/).
+You can use pandoc to produce beautiful slides using [reveal.js](http://lab.hakim.se/reveal-js/).
 
-First, create a reveal.js template:  Edit the demo file `index.html` in the [reveal.js repository](http://github.com/hakimel/reveal.js).  Remove everything inside the `<div class="slides">`, and replace it with `$body$`.  Save this as `template.revealjs`.
+# Setup
 
-Now use this command to produce your slide show:
+Download the latest [`reveal.js`](https://github.com/hakimel/reveal.js/archive/master.zip) and place it in a folder called `reveal.js`:
 
-    pandoc --section-divs -t revealjs -s --template template.revealjs -o myslides.html myslides.txt
+    wget https://github.com/hakimel/reveal.js/archive/master.tar.gz
+    tar xzvf master.tar.gz
+    mv reveal.js-master reveal.js
 
-You'll need the `js`, `lib`, and `css` directories from the reveal.js repository in the same directory as myslides.html.
+You can skip the above step by referencing the reveal.js URL when calling pandoc later. To do that, add the `-V revealjs-url=http://lab.hakim.se/reveal-js` option in your `pandoc` call. Note that in this case, you will require Internet access to show your slides, and that they will not be standalone.
 
-See also [this gist](https://gist.github.com/aaronwolen/5017084).
+Now, create a file called `myslides.md` with your content. It may optionally include a YAML front matter for title, author, and date:
+
+    ---
+    author: John Doe
+    title: Demo Slide
+    date: June 21, 2017
+    ---
+    # Foo
+    ```python
+    print("hello world")
+    ```
+    # Bar
+    * test
+    * test
+
+# Creating the Slides
+
+Use this command to produce your slideshow:
+
+    pandoc -t revealjs -s -o myslides.html myslides.md
+
+# Themes
+
+You can use `-V theme=$theme` to set your theme as `$theme`, with the following options:
+
+- `beige`
+- `black`
+- `blood`
+- `league`
+- `moon`
+- `night`
+- `serif`
+- `simple`
+- `sky`
+- `solarized`
+- `white`
+
+Here are [some example presentations using reveal.js](https://github.com/hakimel/reveal.js/wiki/Example-Presentations).
