@@ -20,6 +20,7 @@
 - [Pandoc Project Boilerplate](https://github.com/juh2/pandoc-project-boilerplate) This is the boilerplate to produce a book and an ebook with Pandoc.
 - [A skeleton template and generator for creating academic papers and targeting common formats, with SVG support.](https://github.com/jbn/paper.git)
 - [Lecture material: PDF slides and HTML/EPUB handouts using Pandoc and Beamer](https://github.com/cagix/pandoc-lecture)
+- [Pandoc Journal Templates](https://github.com/sachsmc/pandoc-journal-templates) - github repository with journal templates for several major journals (incl. JASA, TAS, JBES, JCGS, SBP, Technometrics, Biometrical Journal, Biometrics, Biometrika, Biostatistics, AOAS, AOP, AAP, AOS, SSY, Journal of Statistical Software, Statistics in Medicine, and The R Journal)
 
 # E-books
 - [Pandoc Markdown ebook template](https://github.com/evangoer/pandoc-ebook-template) (EPub, html and PDF)
