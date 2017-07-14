@@ -5,7 +5,7 @@ You can use pandoc to produce beautiful slides using [reveal.js](http://lab.haki
 Download the latest [`reveal.js`](https://github.com/hakimel/reveal.js/archive/master.zip) and place it in a folder called `reveal.js`:
 
     wget https://github.com/hakimel/reveal.js/archive/master.tar.gz
-    tar xzvf master.tar.gz
+    tar -xzvf master.tar.gz
     mv reveal.js-master reveal.js
 
 You can skip the above step by referencing the reveal.js URL when calling pandoc later. To do that, add the `-V revealjs-url=http://lab.hakim.se/reveal-js` option in your `pandoc` call. Note that in this case, you will require Internet access to show your slides, and that they will not be standalone.
