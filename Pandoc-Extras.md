@@ -95,6 +95,8 @@ the opened file as input.
 
 - [Xmindoc](https://github.com/sky-y/xmindoc) is a wrapper script for Pandoc which converts XMind mindmaps to any documents that are available in Pandoc.
 
+- [Octavo](https://github.com/OolonColoophid/octavo) is a wrapper script for Pandoc that helps to render multiple versions of the same markdown file, FTP them to a server, and insert text into the document that refers to these other versions in plain English. It supports special markdown to produce highlight boxes and other features, comes with its own templates (in Tufte style, normal PDF, Word, html, etc.), and can produce spoken audio versions.
+
 ### Using pandoc with ConTeXt
 
 - [filter module] by adityam, which allows you to use
