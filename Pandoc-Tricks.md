@@ -241,3 +241,11 @@ For more information, and to download the `GFM-TaskList.pp` macros module:
 - [Live HTML preview of Task List created with pandoc and pp macros](https://htmlpreview.github.io/?https://github.com/tajmone/pandoc-goodies/blob/master/templates/html5/github/GitHub-Template-Preview.html#task-lists)
 
 # Today in date metadata
+
+Add this to the pandoc command you use:
+
+```bash
+-M date="`date "+%B %e, %Y"`"
+```
+
+POSIX only.
