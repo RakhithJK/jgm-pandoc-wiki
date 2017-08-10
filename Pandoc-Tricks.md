@@ -9,6 +9,7 @@
 -   [YAML Metadata for Any Format](#yaml-metadata-for-any-format)
 -   [Left-aligning Tables in LaTeX](#left-aligning-tables-in-latex)
 -   [GFM Task Lists with Pandoc](#gfm-task-lists-with-pandoc)
+-   [Today in date metadata](#today-in-date-metadata)
 
 Here's some tricks that is allowed by pandoc but not obvious at first sight.
 
@@ -238,3 +239,5 @@ For more information, and to download the `GFM-TaskList.pp` macros module:
 
 - ["Pandoc-Goodies" project: pp-macros library](https://github.com/tajmone/pandoc-goodies/tree/master/pp)
 - [Live HTML preview of Task List created with pandoc and pp macros](https://htmlpreview.github.io/?https://github.com/tajmone/pandoc-goodies/blob/master/templates/html5/github/GitHub-Template-Preview.html#task-lists)
+
+# Today in date metadata
