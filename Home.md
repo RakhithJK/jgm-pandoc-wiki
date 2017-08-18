@@ -2,9 +2,9 @@
 
 This is a place for users to share pandoc tips.
 
-## "Extensions" ##
+## Extensions ##
 
-These extends the compatibility of pandoc:
+These extend the capabilities of pandoc:
 
 - [[Pandoc Extras]]: tools built around pandoc
 - [[User-contributed templates]]: other templates to build standalone output formats.
