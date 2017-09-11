@@ -29,7 +29,7 @@
 - [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
 - [R Markdown](http://rmarkdown.rstudio.com), using knitr and pandoc
-- [Sublime Text](https://sublime.wbond.net/search/pandoc), a number of plugins available for [Sublime Text](http://www.sublimetext.com/) via the plugin [Package Control](https://sublime.wbond.net/installation). See [Plaintxt Productivity](http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html) and [Writing academic papers in Markdown using Pandoc](http://blog.cigrainger.com/2014/07/pandoc-markdown.html) for further details.
+- [Sublime Text](https://sublime.wbond.net/search/pandoc), a number of plugins available for [Sublime Text](http://www.sublimetext.com/) via the plugin [Package Control](https://sublime.wbond.net/installation). See [Plaintxt Productivity](http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html) and [Writing academic papers in Markdown using Pandoc](http://web.archive.org/web/20141014045547/http://blog.cigrainger.com/2014/07/pandoc-markdown.html) for further details.
 - [TextMate bundle for pandoc], courtesy of David Sanson (for TextMate 2 only)
 - [Texts], Markdown WYSIWYM editor, is integrated with Pandoc.
 - [vim-pandoc project], integration with pandoc and utilities for vim, courtesy of Felipe Morales (fmoralesc) and others. Covers:
