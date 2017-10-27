@@ -1,4 +1,4 @@
-Pandoc doesn't have a strict roadmap but this page should serve as an overview about major changes to pandoc that are on our radar.
+Pandoc doesn't have a strict roadmap but this page should serve as an overview about major changes to pandoc that are under consideration, possibly for inclusion in pandoc 2.1
 
 ## AST changes
 
@@ -11,6 +11,7 @@ Pandoc doesn't have a strict roadmap but this page should serve as an overview a
 - replace Strikeout element with a Deleted element; add an [Inserted element](https://github.com/jgm/pandoc/issues/3035)
 - [colspans in tables](https://github.com/jgm/pandoc/issues/1024) (and possibly also rowspan)
 - [change Format from String to a sum type](https://github.com/jgm/pandoc/issues/547)
+- possible [`Underline` element](https://github.com/jgm/pandoc/pull/2270)
 
 ## Filters/JSON
 
