@@ -47,6 +47,7 @@ The following is a list of some known 3rd party filters:
 	- [pandoc-latex-tip](https://github.com/chdemko/pandoc-latex-tip), for decorating specific HTML `span` tags by icons taken from the [Font-Awesome icons collection](http://fontawesome.io/icons/)
 	- [pandoc-latex-admonition](https://github.com/chdemko/pandoc-latex-admonition), for decorating specific HTML `div` tags by admonitions
 	- [asciimathml-pandocfilter](https://github.com/yuwash/asciimathml-pandocfilter): to add read support for AsciiMathML syntax through conversion into LaTeX
+        - [mathjax-pandoc-filter](https://github.com/lierdakil/mathjax-pandoc-filter) to turn TeX math into embedded SVG
  - [pandoc-latex-barcode](https://github.com/daamien/pandoc-latex-barcode): insert a barcode or a QR code into a latex/PDF document.
 - RAW related:
 	- [Pandoc filter to insert arbitrary raw output markup as Code/CodeBlocks with an attribute raw=<outputformat>.](https://gist.github.com/bpj/e6e53cbe679d3ec77e25): Pandoc filter to insert arbitrary raw output markup as Code/CodeBlocks with an attribute `raw=<outputformat>`.
