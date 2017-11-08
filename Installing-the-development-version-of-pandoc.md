@@ -16,3 +16,5 @@ Depending on your needs, you'll have to do the same for the following repositori
     https://github.com/jgm/zip-archive
 
 The `stack install` command will let you know where it put the binaries (pandoc and pandoc-citeproc).  You may have to add this location (`~/.local/bin`, on linux and OSX systems) to your path.
+
+For more info, see also [CONTRIBUTING.md](https://github.com/jgm/pandoc/blob/master/CONTRIBUTING.md)
