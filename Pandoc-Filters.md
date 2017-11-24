@@ -51,6 +51,7 @@ The following is a list of some known 3rd party filters:
 	- [pandoc-latex-tip](https://github.com/chdemko/pandoc-latex-tip), for decorating specific HTML `span` tags by icons taken from the [Font-Awesome icons collection](http://fontawesome.io/icons/)
 	- [pandoc-latex-admonition](https://github.com/chdemko/pandoc-latex-admonition), for decorating specific HTML `div` tags by admonitions
 	- [pandoc-latex-barcode](https://github.com/daamien/pandoc-latex-barcode): insert a barcode or a QR code into a latex/PDF document.
+	- [pandoc-latex-fontsize](https://github.com/chdemko/pandoc-latex-fontsize), for specifying LaTeX font size on `span`, `code`, `div` and `codeblock` elements
 - RAW related:
 	- [Pandoc filter to insert arbitrary raw output markup as Code/CodeBlocks with an attribute raw=<outputformat>.](https://gist.github.com/bpj/e6e53cbe679d3ec77e25): Pandoc filter to insert arbitrary raw output markup as Code/CodeBlocks with an attribute `raw=<outputformat>`.
 	- [Include Files](http://pandoc.org/scripting.html#include-files): finds all the inline code blocks with attribute include, and replaces their contents with the contents of the file given
