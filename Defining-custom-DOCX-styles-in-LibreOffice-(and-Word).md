@@ -44,7 +44,7 @@ To change a paragraph style follow these steps:
 
 6.  Modify the style to match your requirements.  Note that some settings are in unexpected places.  For example language is set in the *Font* tab while writing direction is set in the *Alignment* tab. 
 
-[1] Unfortunately you can't easily link to the documentation of individual Pandoc options. Go to the [pandoc manual page] and use your browser's search box to look for `--reference-docx=FILE`.
+[1] Unfortunately you can't easily link to the documentation of individual Pandoc options. Go to the [pandoc manual page] and use your browser's search box to look for `--reference-doc=FILE`.
 
 [2] These are also where you want to go to e.g. change the font globally in your document or *reference-docx*.
 
