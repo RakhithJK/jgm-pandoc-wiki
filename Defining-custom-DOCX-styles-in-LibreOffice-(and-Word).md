@@ -8,9 +8,7 @@ In case you wonder LibreOffice handles DOCX documents very well, and Pandoc work
 
 ### Word
 
-<http://shaunakelly.com/word/styles/modifyastyle.html>
-
-N.B. I haven't actually done this in Word in over a decade, so I can't vouch for the accuracy of this page, but it's the top hit and seems thorough enough. 
+[Here is a general tutorial for older versions of Word](http://shaunakelly.com/word/styles/modifyastyle.html), & official documentation for the more recent Word versions for [Windows](https://support.office.com/en-us/article/Customize-or-create-new-styles-in-Word-d38d6e47-f6fc-48eb-a607-1eb120dec563) and [macOS](https://support.office.com/en-us/article/Customize-styles-in-Word-for-Mac-1ef7d8e1-1506-4b21-9e81-adc5f698f86a). The underlying interface is very similar across different versions of Word.
 
 ### LibreOffice
 
