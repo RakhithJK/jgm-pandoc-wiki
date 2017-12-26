@@ -1,30 +1,48 @@
-## Linux system
-The following is about using Chinese with pandoc on Linux platform, including the problem with PDF output, which requires XeLaTeX/LuaLaTeX and custom fonts.
+## Prerequisite
+### Install a LaTeX distribution
+Make sure first that LaTeX engine with support for xelatex is installed. You can install [Tex Live](https://www.tug.org/texlive/quickinstall.html). On Windows systems, [MikTex](https://miktex.org/) is also an viable option. But TeX Live is prefered.
 
-- 首先编译遇到内存溢出问题, 是ghc7.4.1以前有bug,用7.4.1能编过.
-
-- 然后遇到说network依赖的ghc版本不对的问题,pasace 用3 network用2. 这个执行haskell-updater, unmask安装不成功的package就可以.
-
-- 然后遇到latex问题,报错,装了texlive-fontsrecommands也不好使.中文乱码. 为了使之后的编译通过，建议把 ctex 包也安装了。
-
-- 然后原来需要xelatex, 且指定中文字体名:
-
-```bash
-pandoc  srs.md -o srs.pdf --latex-engine=xelatex -V CJKmainfont=WenQuanYi\ Micro\ Hei\ Mono
+### Find a valid Chinese font
+You can use `fc-list :lang=zh` to find valid Chinese font on your system, an example output is shown below:
+```
+[~]$ fc-list :lang=zh
+/usr/share/fonts/source_han_serif/SourceHanSerifCN-ExtraLight.otf: Source Han Serif CN,思源宋体 CN,Source Han Serif CN ExtraLight,思源宋体 CN ExtraLight:style=ExtraLight,Regular
+/usr/share/fonts/source_han_serif/SourceHanSerifCN-Bold.otf: Source Han Serif CN,思源宋体 CN:style=Bold
+/usr/share/fonts/wqy-microhei/wqy-microhei.ttc: WenQuanYi Micro Hei Mono,文泉驛等寬微米黑,文泉驿等宽微米黑:style=Regular
+/usr/share/fonts/wqy-zenhei/wqy-zenhei.ttc: WenQuanYi Zen Hei Sharp,文泉驛點陣正黑,文泉驿点阵正黑:style=Regular
+/usr/share/fonts/source_han_serif/SourceHanSerifCN-SemiBold.otf: Source Han Serif CN,思源宋体 CN,Source Han Serif CN SemiBold,思源宋体 CN SemiBold:style=SemiBold,Regular
+/usr/share/fonts/source_han_serif/SourceHanSerifCN-Medium.otf: Source Han Serif CN,思源宋体 CN,Source Han Serif CN Medium,思源宋体 CN Medium:style=Medium,Regular
+/usr/share/fonts/wqy-microhei/wqy-microhei.ttc: WenQuanYi Micro Hei,文泉驛微米黑,文泉驿微米黑:style=Regular
+/usr/share/fonts/cjkuni-uming/uming.ttc: AR PL UMing TW MBE:style=Light
+/usr/share/fonts/source_han_serif/SourceHanSerifCN-Light.otf: Source Han Serif CN,思源宋体 CN,Source Han Serif CN Light,思源宋体 CN Light:style=Light,Regular
+/usr/share/fonts/source_han_serif/SourceHanSerifCN-Heavy.otf: Source Han Serif CN,思源宋体 CN,Source Han Serif CN Heavy,思源宋体 CN Heavy:style=Heavy,Regular
+/usr/share/fonts/wqy-zenhei/wqy-zenhei.ttc: WenQuanYi Zen Hei Mono,文泉驛等寬正黑,文泉驿等宽正黑:style=Regular
+/usr/share/fonts/wqy-zenhei/wqy-zenhei.ttc: WenQuanYi Zen Hei,文泉驛正黑,文泉驿正黑:style=Regular
+/usr/share/fonts/cjkuni-uming/uming.ttc: AR PL UMing TW:style=Light
+/usr/share/fonts/cjkuni-uming/uming.ttc: AR PL UMing HK:style=Light
+/usr/share/fonts/cjkuni-uming/uming.ttc: AR PL UMing CN:style=Light
+/usr/share/fonts/source_han_serif/SourceHanSerifCN-Regular.otf: Source Han Serif CN,思源宋体 CN:style=Regular
 ```
 
-## Windows system
-On Windows systems, make sure first that LaTeX engine is installed (either TeX Live or MiKTeX is fine). Then you can use two different ways to generate pdf.
+## Producing PDF on Linux system
+
 ### First way
+Use the following command to produce your pdf file (reference [here](http://pandoc.org/faqs.html#i-get-a-blank-document-when-i-try-to-convert-a-markdown-document-in-chinese-to-pdf-using-pandoc--o-test.pdf-test.markdown.)):
+```bash
+pandoc  srs.md -o srs.pdf --latex-engine=xelatex -V mainfont='WenQuanYi Micro Hei Mono'
+```
+Note that in the above command, it should be `mainfont` not `CJKmainfont`.
+
+### Second way
 Add the following setting to your markdown file,
 ```yaml
 ---
-CJKmainfont: KaiTi
+mainfont: WenQuanYi Micro Hei Mono
 ---
 ```
-Then use `pandoc --pdf-engine=xelatex test.md -o test1.pdf` to generate the pdf file. Make sure that the value (i.e., `KaiTi`) after `CJKmainfont` is a valid font on your system. Check [here](https://jdhao.github.io/2017/05/13/guide-on-how-to-use-chinese-with-matplotlib/) to see how to find the available Chinese font on your system.
+Then use `pandoc --latex-engine=xelatex test.md -o test1.pdf` to generate the pdf file.
 
-### second way
+### Third way
 You can use `ctexart` class and do not need to manually designate a font (the package will do it for you). Add the following setting to your markdown file,
 ```
 ---
@@ -32,4 +50,32 @@ documentclass:
     - ctexart
 ---
 ```
-The pdf-generating command is the same as first way.
+The pdf-generating command is the same as second way.
+
+
+## Producing PDF on Windows system
+The command is more or less the same as Linux system. On windows, `--latex-engine` option is removed in favor of `--pdf-engine`. 
+
+### First way
+Use the following command to produce your pdf file:
+```bash
+pandoc  srs.md -o srs.pdf --pdf-engine=xelatex -V CJKmainfont=KaiTi
+```
+### Second way
+Add the following setting to your markdown file,
+```yaml
+---
+CJKmainfont: KaiTi
+---
+```
+Then use `pandoc --pdf-engine=xelatex test.md -o test1.pdf` to generate the pdf file.
+
+### Third way
+You can use `ctexart` class and do not need to manually designate a font (the package will do it for you). Add the following setting to your markdown file,
+```
+---
+documentclass:
+    - ctexart
+---
+```
+The pdf-generating command is the same as second way.
