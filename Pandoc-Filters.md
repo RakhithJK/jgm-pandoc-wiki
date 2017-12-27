@@ -62,10 +62,12 @@ The following is a list of some known 3rd party filters:
 	- [pandoc-placetable](https://github.com/mb21/pandoc-placetable) lightweight implementation of the idea behind the above `pandoc-csv2table` (e.g. doesn't necessarily require pandoc as a cabal dependency)
 	- [ickc/pantable: CSV Tables in Markdown: Pandoc Filter for CSV Tables](https://github.com/ickc/pantable): a Python alternatives to the above 2 filters, using panflute, with some enhancements (e.g. auto-width, fractional width, etc.)
 	- Creating a [link table](http://stackoverflow.com/questions/26406816/pandoc-is-there-a-way-to-include-an-appendix-of-links-in-a-pdf-from-markdown/26415375#26415375) at the end of your document.
+- Text related:
+    - [pandoc-abbreviations](https://github.com/scokobro/pandoc-abbreviations) allows the use of arbitrary abbreviations, defined in an abbreviations file or in the source document's YAML header, which are replaced on  processing. Useful for maintaining consistency of terminology etc.
+    - [pandoc-mustache](https://github.com/michaelstepner/pandoc-mustache) replaces variables like `{{varname}}` in a pandoc document with their values, which are stored in a separate YAML file.
 - Others:
 	- [Adding support](https://gist.github.com/mpickering/8bc9bb34c4e9b076b107) for indexing with the syntax ``(# term, subterm)`` in html and latex
 	- [Adding non-breaking spaces inside a URL to preserve formatting](https://gist.github.com/mpickering/fdc747b9c8306659cb43)
 	- [lablinkfix](https://github.com/klpn/lablinkfix) updates links to the Swedish Labour Movement Archives and Library catalogues.
 	- [second-date](https://gist.github.com/7937d04120ac27fcfb1955ae15773b05)  changes `date` metadata to a different strftime format using python's dateutil.
-    - [pandoc-abbreviations](https://github.com/scokobro/pandoc-abbreviations) allows the use of arbitrary abbreviations, defined in an abbreviations file or in the source document's YAML header, which are replaced on  processing. Useful for maintaining consistency of terminology etc.
     - [pandoc_abnt](https://github.com/limarka/pandoc_abnt) allow to specify the source of images and tables, and automatically corrects *Alineas* according to Brazilian's standard for Academic writings (ABNT NBR 14724:2011). 
