@@ -30,4 +30,4 @@ Pandoc doesn't have a strict roadmap but this page should serve as an overview a
 
 ## Other
 
-- [Custom styles in ODT, ICML (and maybe LaTeX and RST) writers](https://github.com/jgm/pandoc/issues/2106)
+- [Custom styles in ODT, ICML (and maybe LaTeX and RST) writers](https://github.com/jgm/pandoc/issues/2106) (maybe also [in Docbook](https://github.com/jgm/pandoc/issues/3657))
