@@ -31,7 +31,7 @@ As shown in issue [\#2814](https://github.com/jgm/pandoc/issues/2814), rendering
 
 *e.g.* you have a long markdown file in GitHub and want to have a TOC, you can use `pandoc -t markdown_github --toc -o example-with-toc.md example.md`
 
-This a useful workaround to update the TOC of very long documents, but —beware!— if you use this trick for writing over the input file, you'll end stacking TOCs — each new Table of Contents being generated above the previouly built ones, and indexing them too. This technique is useful when working with different source and output files.
+This a useful workaround to update the TOC of very long documents, but —beware!— if you use this trick for writing over the input file, you'll end stacking TOCs — each new Table of Contents being generated above the previously built ones, and indexing them too. This technique is useful when working with different source and output files.
 
 Also, you can add a title to the TOC using the `toc-title` variable, but only if you use a markdown template — as explained ahead.
 
@@ -94,7 +94,7 @@ pandoc --toc -V toc-title:"Table of Contents" --template=template.markdown -o ex
 
 And you'll see in the `example-with-toc.md` file an auto-generated Table of Contents with a `# Table of Contents` title over it.
 
-> **NOTE**: if you also include some extra markdown contents with the `--include-before-body` option (eg: `--include-before-body=somefile.md`) the contents of the included file will go before the TOC (at least, with the template used in this example) and any headings it contais will not be included in the TOC — ie: the TOC only indexes what comes after the `$toc$` template tag. This is useful if you'd like to include an Abstract before the TOC.
+> **NOTE**: if you also include some extra markdown contents with the `--include-before-body` option (eg: `--include-before-body=somefile.md`) the contents of the included file will go before the TOC (at least, with the template used in this example) and any headings it contains will not be included in the TOC — ie: the TOC only indexes what comes after the `$toc$` template tag. This is useful if you'd like to include an Abstract before the TOC.
 
 ## Math in Pure Markdown
 
