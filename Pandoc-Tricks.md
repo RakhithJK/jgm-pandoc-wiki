@@ -221,7 +221,10 @@ Based on [this pandoc-discuss exchange](https://groups.google.com/forum/#!topic/
 ```
 ---
 header-includes:
-  - \usepackage[margins=raggedright]{floatrow}
+  - |
+    ```{=latex}
+    \usepackage[margins=raggedright]{floatrow}
+    ```
 ---
 ```
 This applies to all floats, and fine-grained control may be achieved with the options outlined in [the documentation for the `floatrow` LaTeX package](http://mirrors.ctan.org/macros/latex/contrib/floatrow/floatrow.pdf).
