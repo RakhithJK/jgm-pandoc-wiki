@@ -25,6 +25,11 @@ Other tools:
 
 The following is a list of some known 3rd party filters:
 
+- Document (DOCX/ODT) related:
+	- Because DOCX and ODT files cannot use templates, we are limited in how we can transform metadata into document content. Several [paru](https://heerdebeer.org/Software/markdown/paru/) filters can help to solve this problem, given a metadata format involving authors with affiliation/corresponence fields and institute information: [README](https://github.com/iandol/dotpandoc/tree/master/filters); and individual filters [authorSimplifyMetadata](https://github.com/iandol/dotpandoc/blob/master/filters/authorSimplifyMetadata),
+ [prependInstitute](https://github.com/iandol/dotpandoc/blob/master/filters/prependInstitute),
+ [prependKeywords](https://github.com/iandol/dotpandoc/blob/master/filters/prependKeywords),
+ [prependComments](https://github.com/iandol/dotpandoc/blob/master/filters/prependComments) — prepend filters combined as [prependAll](https://github.com/iandol/dotpandoc/blob/master/filters/prependAll).
 - Images related:
 	- [pandoc-svg](https://gist.github.com/jeromerobert/3996eca3acd12e4c3d40), a pandoc filter to convert svg files to pdf by Jerome Robert.
 	- [diagrams-pandoc](http://hackage.haskell.org/package/diagrams-pandoc) for inserting images expressed in the Haskell [diagrams](http://projects.haskell.org/diagrams/) DSL.
