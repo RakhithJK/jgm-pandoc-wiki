@@ -7,13 +7,9 @@ Then:
     stack setup # only first time
     stack install
 
-Depending on your needs, you'll have to do the same for the following repositories:
+If you also want pandoc-citeproc, add
 
-    https://github.com/jgm/pandoc-types
-    https://github.com/jgm/texmath
-    https://github.com/jgm/pandoc-citeproc
-    https://github.com/jgm/cmark-hs
-    https://github.com/jgm/zip-archive
+    stack install pandoc-citeproc
 
 The `stack install` command will let you know where it put the binaries (pandoc and pandoc-citeproc).  You may have to add this location (`~/.local/bin`, on linux and OSX systems) to your path.
 
