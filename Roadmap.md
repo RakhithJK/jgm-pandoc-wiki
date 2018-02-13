@@ -12,6 +12,7 @@ Pandoc doesn't have a strict roadmap but this page should serve as an overview a
 - [colspans in tables](https://github.com/jgm/pandoc/issues/1024) (and possibly also rowspan)
 - [change Format from String to a sum type](https://github.com/jgm/pandoc/issues/547)
 - possible [`Underline` element](https://github.com/jgm/pandoc/pull/2270)
+- [Endnotes support for Docx, ODT and Muse](https://github.com/jgm/pandoc/pull/4042)
 
 ## Filters/JSON
 
