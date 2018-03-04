@@ -71,9 +71,17 @@ the opened file as input.
 - [pandoc-gpp](https://github.com/dloureiro/pandoc-gpp) by David Loureiro is a wrapper around pandoc and gpp in order to provide some macros for extra markup not available in markdown and its extensions.
 - [mddia](https://github.com/nichtich/ditaa-markdown/) lets you embed [ditaa](http://ditaa.sourceforge.net/) ASCII-art diagrams in Markdown code blocks
 - [PP - A generic Preprocessor (with Pandoc in mind)](http://cdsoft.fr/pp/) lets you embed the following diagrams in Markdown code blocks:
-   - [Graphviz](http://www.graphviz.org/) (needs to be installed separately)
-   - [PlantUML](http://plantuml.com/) (embedded in pp at compile time)
-   - [Ditaa](http://ditaa.sourceforge.net/) (embedded in pp at compile time)
+    + [Graphviz](http://www.graphviz.org/) (needs to be installed separately)
+    + [PlantUML](http://plantuml.com/) (embedded in pp at compile time)
+    + [Ditaa](http://ditaa.sourceforge.net/) (embedded in pp at compile time)
+    + [Asymptote](http://asymptote.sourceforge.net/) and [R](https://www.r-project.org/) figures
+    
+    and offers many powerful features to expand pandoc power:
+    
+    + built-in macros
+    + custom macros definition
+    + literate programming
+    + usage of [Bash](https://www.gnu.org/software/bash/), [Cmd](https://en.wikipedia.org/wiki/Cmd.exe), [PowerShell](https://en.wikipedia.org/wiki/PowerShell), [Python](https://www.python.org/), [Haskell](https://www.haskell.org/) and [R](https://www.r-project.org/) scripts (inline or external)
 
 ## Doc processing tools using Pandoc
 
