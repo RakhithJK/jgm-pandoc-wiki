@@ -1,17 +1,29 @@
--   [From Markdown, To Markdown](#from-markdown-to-markdown)
-    -   [Cleanup](#cleanup)
-    -   [TOC generation](#toc-generation)
-    -   [Using Markdown Templates](#using-markdown-templates)
-    -   [Math in Pure Markdown](#math-in-pure-markdown)
-    -   [Convert Between the 4 Table Syntaxes in Pandoc](#convert-between-the-4-table-syntaxes-in-pandoc)
-    -   [Repeated Footnotes Anchors and Headers Across Multiple Files](#repeated-footnotes-anchors-and-headers-across-multiple-files)
--   [Template Snippet](#template-snippet)
--   [YAML Metadata for Any Format](#yaml-metadata-for-any-format)
--   [Left-aligning Tables in LaTeX](#left-aligning-tables-in-latex)
--   [GFM Task Lists with Pandoc](#gfm-task-lists-with-pandoc)
--   [Today in date metadata](#today-in-date-metadata)
+Here's some tricks that are allowed by pandoc but not obvious at first sight.
 
-Here's some tricks that is allowed by pandoc but not obvious at first sight.
+-----
+
+**Table of Contents**
+
+<!-- MarkdownTOC autolink="true" bracket="round" autoanchor="false" lowercase="true" lowercase_only_ascii="true" uri_encoding="true" depth="3" -->
+
+- [From Markdown, To Markdown](#from-markdown-to-markdown)
+    - [Cleanup](#cleanup)
+    - [TOC generation](#toc-generation)
+    - [Using Markdown Templates](#using-markdown-templates)
+    - [Math in Pure Markdown](#math-in-pure-markdown)
+    - [Convert Between the 4 Table Syntaxes in Pandoc](#convert-between-the-4-table-syntaxes-in-pandoc)
+    - [Repeated Footnotes Anchors and Headers Across Multiple Files](#repeated-footnotes-anchors-and-headers-across-multiple-files)
+- [Template Snippet](#template-snippet)
+- [YAML Metadata for Any Format](#yaml-metadata-for-any-format)
+- [Left-aligning Tables in LaTeX](#left-aligning-tables-in-latex)
+- [GFM Task Lists with Pandoc](#gfm-task-lists-with-pandoc)
+    - [Via Lua Filter](#via-lua-filter)
+    - [Via PP Macros](#via-pp-macros)
+- [Today in date metadata](#today-in-date-metadata)
+
+<!-- /MarkdownTOC -->
+
+-----
 
 # From Markdown, To Markdown
 
@@ -218,18 +230,53 @@ The `sed` in the first line: because the `metadata.yml` is regarding as a markdo
 # Left-aligning Tables in LaTeX
 
 Based on [this pandoc-discuss exchange](https://groups.google.com/forum/#!topic/pandoc-discuss/pmiw78NvZl4) and [this TeX StackExchange topic](http://tex.stackexchange.com/questions/6456/set-a-global-policy-for-floats-positioning), it is possible to left-align all tables in a document (in the PDF output from LaTeX) with this single invocation in the YAML header block of the markdown document:
-```
+
+`````` yaml
 ---
 header-includes:
   - |
     ```{=latex}
     \usepackage[margins=raggedright]{floatrow}
     ```
----
-```
+...
+``````
+
 This applies to all floats, and fine-grained control may be achieved with the options outlined in [the documentation for the `floatrow` LaTeX package](http://mirrors.ctan.org/macros/latex/contrib/floatrow/floatrow.pdf).
 
 # GFM Task Lists with Pandoc
+
+There are currently two ways to allow support of GitHub Flavored Markdown Task Lists:
+
+1. Via the [Task-List Lua] pandoc filter
+2. Via custom PP macros
+
+The former is the recommended way, the latter was introduced before the Lua filter came into place.
+
+## Via Lua Filter
+
+Download the [`task-list.lua`][task-list.lua] file and save it in `$DATADIR/pandoc/filters/`, so it will be visible to pandoc system-wide. Now, when you invoke pandoc with the `--lua-filter=task-list.lua`, Task Lists in markdown source documents will be supported as on GitHub.
+
+Command line usage example:
+
+```shell
+pandoc --lua-filter=task-list.lua -o filename.html filename.md
+```
+
+The Task Lists filter will also take care of injecting the required CSS in HTML documents, in order to represent the Task List styles correctly. 
+
+From the [Task-List Lua] documentation:
+
+> This filter recognizes this syntax and converts the ballot boxes into a representation suitable for the chosen output format. Ballot boxes are rendered as
+> 
+> - checkbox input elements in HTML,
+> - ASCII boxes in gfm and org-mode, and
+> - ballot box UTF-8 characters otherwise.
+
+
+[Task-List Lua]: https://github.com/pandoc/lua-filters/tree/master/task-list "Visit the pandoc 'lua-filters' repository"
+[task-list.lua]: https://github.com/pandoc/lua-filters/blob/master/task-list/task-list.lua "See the source file of 'task-list.lua' on GitHub"
+
+## Via PP Macros
 
 GitHub flavored markdown's task lists can be mimicked in pandoc via the `GFM-TaskList.pp` custom pp macros module. Macro syntax example:
 
@@ -237,6 +284,8 @@ GitHub flavored markdown's task lists can be mimicked in pandoc via the `GFM-Tas
     !Task[x][I'm a _checked_ task]
     !Task[ ][I'm an _unchecked_ task]
     )
+
+The PP macros approach is more verbose and breaks a document's comptability outside of PP usage context (eg, a `README.md` file on GitHub); this solution was deviced for pandoc v1.x, long before the [Task-List Lua] solution was available. While it might still be usefeul in some specific contexts, using the Lua filter approach is recommended instead.
 
 For more information, and to download the `GFM-TaskList.pp` macros module:
 
