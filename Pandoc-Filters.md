@@ -58,6 +58,7 @@ The following is a list of some known 3rd party filters:
 	- [pandoc-latex-admonition](https://github.com/chdemko/pandoc-latex-admonition), for decorating specific `div` and `codeblock` elments by admonitions
 	- [pandoc-latex-barcode](https://github.com/daamien/pandoc-latex-barcode): insert a barcode or a QR code into a latex/PDF document.
 	- [pandoc-latex-fontsize](https://github.com/chdemko/pandoc-latex-fontsize), for specifying LaTeX font size on `span`, `code`, `div` and `codeblock` elements
+	- [pandoc-latex-color](https://github.com/chdemko/pandoc-latex-color), for specifying X11 color on `span` and `div` elements
 	- [pandoc-latex-unlisted](https://github.com/chdemko/pandoc-latex-unlisted), for unlisting some specific headers in the table of contents
 	- [pandoc-latex-newpage](https://github.com/chdemko/pandoc-latex-newpage), for converting horizontal rules into new page
 - RAW related:
