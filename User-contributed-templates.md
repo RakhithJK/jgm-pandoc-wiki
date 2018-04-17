@@ -18,6 +18,8 @@
 - [Alternative template for creating a PhD thesis in markdown + pandoc](https://github.com/tompollard/phd_thesis_markdown)
 - [Simple example on how to write a thesis in markdown with Pandoc](https://github.com/mabl/pandoc-thesis)
 - [Boilerplate for writing a paper with Markdown/Latex and Pandoc](https://github.com/davecap/markdown-latex-boilerplate)
+- [A sound and versatile Pandoc LaTeX boilerplate to produce academic books using modular Markdown files featuring KOMA-Scrip
+](https://github.com/qualiacode/arabica)
 - [md2latex](https://bitbucket.org/zuline/md2latex) is a collection of templates and scripts which are designed to allow you to write in APA 6 style using Markdown and to convert to APA 6 Style in LaTeX.
 - [Pandoc Project Boilerplate](https://github.com/juh2/pandoc-project-boilerplate) This is the boilerplate to produce a book and an ebook with Pandoc.
 - [A skeleton template and generator for creating academic papers and targeting common formats, with SVG support.](https://github.com/jbn/paper.git)
