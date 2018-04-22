@@ -74,6 +74,7 @@ The following is a list of some known 3rd party filters:
 - Text related:
     - [pandoc-abbreviations](https://github.com/scokobro/pandoc-abbreviations) allows the use of arbitrary abbreviations, defined in an abbreviations file or in the source document's YAML header, which are replaced on  processing. Useful for maintaining consistency of terminology etc.
     - [pandoc-mustache](https://github.com/michaelstepner/pandoc-mustache) replaces variables like `{{varname}}` in a pandoc document with their values, which are stored in a separate YAML file.
+    - [pandoc-quotes](https://github.com/odkr/pandoc-quotes) replaces plain, that is, non-typographic, quotation marks with typographic ones for languages other than English.
 - Running Code related:
 	- [R-pandoc](https://github.com/cdupont/R-pandoc) for generating R plots
 	- [filter_pandoc_run_py](https://github.com/caiofcm/filter_pandoc_run_py) for executing python codes written in code blocks and also embedding print output and pyplot figures
