@@ -107,6 +107,8 @@ the opened file as input.
 
 - [Octavo](https://github.com/OolonColoophid/octavo) is a wrapper script for Pandoc that helps to render multiple versions of the same markdown file, FTP them to a server, and insert text into the document that refers to these other versions in plain English. It supports special markdown to produce highlight boxes and other features, comes with its own templates (in Tufte style, normal PDF, Word, html, etc.), and can produce spoken audio versions.
 
+- [PanDiff](https://github.com/davidar/pandiff) produces prose diffs for any document format supported by Pandoc, and can output Markdown with CriticMarkup, HTML, PDF, and Word docx with Track Changes
+
 ### Using pandoc with ConTeXt
 
 - [filter module] by adityam, which allows you to use
