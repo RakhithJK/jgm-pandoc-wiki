@@ -84,4 +84,4 @@ The following is a list of some known 3rd party filters:
 	- [lablinkfix](https://github.com/klpn/lablinkfix) updates links to the Swedish Labour Movement Archives and Library catalogues.
 	- [second-date](https://gist.github.com/7937d04120ac27fcfb1955ae15773b05)  changes `date` metadata to a different strftime format using python's dateutil.
     - [pandoc_abnt](https://github.com/limarka/pandoc_abnt) allow to specify the source of images and tables, and automatically corrects *Alineas* according to Brazilian's standard for Academic writings (ABNT NBR 14724:2011). 
-    - [pandoc-refheadstyle](https://github.com/odkr/pandoc-refheadstyle) sets a custom style for the reference section header; there's a Lua version: [pandoc-refheadstyle.lua](https://github.com/odkr/pandoc-refheadstyle.lua), too.
+    - [pandoc-refheadstyle](https://github.com/odkr/pandoc-refheadstyle) sets a custom style for the reference section header; there's a Lua version, too: [pandoc-refheadstyle.lua](https://github.com/odkr/pandoc-refheadstyle.lua)
