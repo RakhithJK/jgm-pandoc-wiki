@@ -25,6 +25,7 @@ Pandoc doesn't have a strict roadmap but this page should serve as an overview a
 - [Command-line options --css and --include-in-header override corresponding metadata fields instead of accumulating](https://github.com/jgm/pandoc/issues/3139)
 - [Combining multiple metadata blocks](https://github.com/jgm/pandoc/issues/3115)
 - [Allow complex metadata fields to be defined on the command line (e.g. using JSON)](https://github.com/jgm/pandoc/issues/3732)
+- [Change merge-behaviour of two metadata blocks](https://github.com/jgm/pandoc/issues/4057)
 
 ## Other
 
