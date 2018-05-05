@@ -20,6 +20,7 @@ Other tools:
 
 - [vimhl](https://github.com/lyokha/vim-publish-helper), a vim plugin that makes **vim syntax highlighting** engine available in pandoc.
 - [pandoc-jats](https://github.com/mfenner/pandoc-jats), a **Lua custom writer** for Pandoc generating **JATS XML**.
+- [pandocmeta.lua](https://github.com/odkr/pandocmeta.lua), a simple Lua package that converts Pandoc metadata types into a, possibly multi-dimensional, table.
 
 ## Written Filters
 
