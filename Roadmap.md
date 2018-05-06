@@ -32,3 +32,4 @@ See also the [Task list issue](https://github.com/jgm/pandoc/issues/1852).
 ## Other
 
 - [Custom styles in ODT, ICML (and maybe LaTeX and RST) writers](https://github.com/jgm/pandoc/issues/2106) (maybe also [in Docbook](https://github.com/jgm/pandoc/issues/3657))
+- [Image alignment in more readers and writers](https://github.com/jgm/pandoc/issues/4542)
