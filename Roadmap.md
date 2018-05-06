@@ -1,4 +1,6 @@
-Pandoc doesn't have a strict roadmap but this page should serve as an overview about major changes to pandoc that are under consideration, possibly for inclusion in pandoc 2.1
+Pandoc doesn't have a strict roadmap but this page should serve as an overview about major changes to pandoc that are under consideration.
+
+See also the [Task list issue](https://github.com/jgm/pandoc/issues/1852).
 
 ## AST changes
 
