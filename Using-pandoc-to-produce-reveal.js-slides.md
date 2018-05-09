@@ -50,3 +50,8 @@ You can use `-V theme=$theme` to set your theme as `$theme`, with the following 
 - `white`
 
 Here are [some example presentations using reveal.js](https://github.com/hakimel/reveal.js/wiki/Example-Presentations).
+
+# Transistions
+You can use `-V transistion=$transition` to set your theme as `$transition`, with the following options:
+
+- `cube`
