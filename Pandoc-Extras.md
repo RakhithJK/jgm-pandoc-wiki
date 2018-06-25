@@ -4,6 +4,7 @@
 - [Web Services to Process Files by Pandoc](#web-services-to-process-files-by-pandoc)
 - [Workflow](#workflow)
 	- [Preprocessors](#preprocessors)
+ 		- [Additional readers](#additional-readers)
 	- [Doc processing tools using Pandoc](#doc-processing-tools-using-pandoc)
 		- [Using pandoc with ConTeXt](#using-pandoc-with-context)
 - [Tools for Websites](#tools-for-websites)
@@ -83,6 +84,10 @@ the opened file as input.
     + custom macros definition
     + literate programming
     + usage of [Bash](https://www.gnu.org/software/bash/), [Cmd](https://en.wikipedia.org/wiki/Cmd.exe), [PowerShell](https://en.wikipedia.org/wiki/PowerShell), [Python](https://www.python.org/), [Haskell](https://www.haskell.org/) and [R](https://www.r-project.org/) scripts (inline or external)
+
+### Additional Readers
+
+- Perl module [Pod::Simple::Pandoc](https://metacpan.org/pod/Pod::Simple::Pandoc) parses [Plain Old Documentation (POD)](https://en.wikipedia.org/wiki/Plain_Old_Documentation) markup format to Pandoc data model.
 
 ## Doc processing tools using Pandoc
 
