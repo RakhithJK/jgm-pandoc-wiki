@@ -68,7 +68,7 @@ CJKmainfont: KaiTi
 ```
 然后使用 `pandoc --pdf-engine=xelatex test.md -o test1.pdf` 生成 PDF 文件.
 
-### Third way
+### 方案三
 你可以使用 `ctexart` 类而不需要手动指定字体 (宏包将替你执行此操作), 将以下设置添加到markdown文档中,
 ```
 ---
