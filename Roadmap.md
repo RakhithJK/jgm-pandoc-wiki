@@ -13,7 +13,6 @@ See also the [Task list issue](https://github.com/jgm/pandoc/issues/1852).
 - replace Strikeout element with a Deleted element; add an [Inserted element](https://github.com/jgm/pandoc/issues/3035)
 - [colspans in tables](https://github.com/jgm/pandoc/issues/1024) (and possibly also rowspan)
 - [change Format from String to a sum type](https://github.com/jgm/pandoc/issues/547)
-- possible [`Underline` element](https://github.com/jgm/pandoc/pull/2270)
 - [Endnotes support for Docx, ODT and Muse](https://github.com/jgm/pandoc/pull/4042)
 
 ## Filters/JSON
