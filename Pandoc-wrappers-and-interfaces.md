@@ -25,4 +25,6 @@ Several wrappers and interfaces exist to use pandoc in other programming languag
 | PanConvert ([GitHub](https://github.com/apaeffgen/PanConvert), [SourceForge](http://panconvert.sourceforge.net)) | Python  | GUI | Andreas Paeffgen |
 | [PasPandoc](https://github.com/htdebeer/PasPandoc) | Pascal | wrapper | Huub de Beer |
 | [Paperify](https://www.paperify.org) ([Github](https://github.com/olastor/paperify)) | Web | interface | olastor |
+| [Typademic](https://typademic.ch) ([Github](https://github.com/maehr/typademic) | Web | interface | Moritz Mähr |
+
 
