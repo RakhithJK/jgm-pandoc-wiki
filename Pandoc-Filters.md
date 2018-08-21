@@ -55,7 +55,7 @@ The following is a list of some known 3rd party filters:
 	- [Using markdown inside raw latex commands](https://gist.github.com/mpickering/f1718fcdc4c56273ed52)
 	- [pandoc-latex-environment](https://github.com/chdemko/pandoc-latex-environment), for adding LaTeX environment on specific HTML `div` tags
 	- [latexdivs.py](https://github.com/jgm/pandocfilters/blob/master/examples/latexdivs.py): define a syntax to turn any native pandoc Divs into a LaTeX environment: if `latex="true"` is in the attribute of the Div, the first class is used to define the LaTeX environment.
-	- [pandoc-latex-tip](https://github.com/chdemko/pandoc-latex-tip), for decorating specific `span`, `code`, `div` and `codeblock` elements by icons taken from the [Font-Awesome icons collection](http://fontawesome.io/icons/)
+	- [pandoc-latex-tip](https://github.com/chdemko/pandoc-latex-tip), for decorating specific `span`, `code`, `div` and `codeblock` elements by icons taken from popular icon collections.
 	- [pandoc-latex-admonition](https://github.com/chdemko/pandoc-latex-admonition), for decorating specific `div` and `codeblock` elments by admonitions
 	- [pandoc-latex-barcode](https://github.com/daamien/pandoc-latex-barcode): insert a barcode or a QR code into a latex/PDF document.
 	- [pandoc-latex-fontsize](https://github.com/chdemko/pandoc-latex-fontsize), for specifying LaTeX font size on `span`, `code`, `div` and `codeblock` elements
