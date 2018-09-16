@@ -21,11 +21,8 @@ See also the [Task list issue](https://github.com/jgm/pandoc/issues/1852).
 
 ## YAML/command-line metadata handling
 
-- [Feature request: Ability to specify a YAML metadata file for all reader types](https://github.com/jgm/pandoc/issues/1960)
 - [Specify command-line options using YAML metadata](https://github.com/jgm/pandoc/issues/4627)
 - [Command-line options --css and --include-in-header override corresponding metadata fields instead of accumulating](https://github.com/jgm/pandoc/issues/3139)
-- [Combining multiple metadata blocks](https://github.com/jgm/pandoc/issues/3115)
-- [Allow complex metadata fields to be defined on the command line (e.g. using JSON)](https://github.com/jgm/pandoc/issues/3732)
 - [Change merge-behaviour of two metadata blocks](https://github.com/jgm/pandoc/issues/4057)
 
 ## Other
