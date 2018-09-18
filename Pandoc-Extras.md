@@ -57,6 +57,7 @@ the opened file as input.
 # Workflow
 
 - [panzer](https://github.com/msprev/panzer), adds the concept of 'styles' to pandoc. Styles control templates, metadata settings, pandoc command line options, and instructions to run filters and pre/postprocessors in a simple, reusable, and recombinable way.
+- [panrun](https://github.com/mb21/panrun): minimal script that runs pandoc with the options it finds in the YAML metadata of the input file.
 - [kokoi](https://github.com/zeis/kokoi), a configurable markup file watcher, previewer, and converter that uses Pandoc as the default markup processing engine. _kokoi_ watches for changes on the markup files in the directory _kokoi_ is started, and if they change, automatically reprocesses and previews them directly in the browser.
 - [pdc](https://github.com/bk/pdc) is a command line wrapper for pandoc which makes it possible to completely control the conversion process from the first YAML meta block in the input document(s), including multiple output formats at the same time, templates, pre- and post-processors, etc.
 - [Pandocomatic](https://heerdebeer.org/Software/markdown/pandocomatic/), allows you to configure flexible YAML templates that control Pandoc settings, filters, metadata and pre/postprocessing. Applied to a directory, pandocomatic can act as a static site generator.
