@@ -25,6 +25,7 @@
 # Editors
 
 - [Atom Packages](https://atom.io/packages/search?q=pandoc)
+- [Emacs package for exporting using pandoc](https://github.com/robtillotson/org-pandoc)
 - [Scripts for using pandoc with BBEdit and TextWrangler], as well as [Notepad++]
 - [pandoc-mode for emacs], by Joost Kremers
 - [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor
