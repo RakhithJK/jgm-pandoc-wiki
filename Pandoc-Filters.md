@@ -1,4 +1,4 @@
-Pandoc provides an interface for users to write programs (known as filters) which act on the intermediate AST. A tutorial about filters can be found [here](http://johnmacfarlane.net/pandoc/scripting.html).
+Pandoc provides an interface for users to write programs (known as filters) which act on the intermediate AST. A tutorial about filters can be found [here](http://pandoc.org/filters.html).
 
 This page collects together third party filters which can be used to add functionality to pandoc.
 
