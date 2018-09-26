@@ -1,4 +1,4 @@
-Pandoc provides an interface for users to write programs (known as filters) which act on the intermediate AST. A tutorial about filters can be found [here](http://pandoc.org/filters.html).
+Pandoc provides an interface for users to write programs (known as filters) which act on the intermediate AST. For more info see the [filter tutorial](http://pandoc.org/filters.html) and the [Lua filter tutorial](http://pandoc.org/lua-filters.html).
 
 This page collects together third party filters which can be used to add functionality to pandoc.
 
@@ -24,7 +24,9 @@ Other tools:
 
 ## Written Filters
 
-The following is a list of some known 3rd party filters:
+A number of filters written in Lua are collected at https://github.com/pandoc/lua-filters .
+
+Some other known 3rd party filters:
 
 - Document (DOCX/ODT) related:
 	- Because DOCX and ODT files cannot use templates, we are limited in how we can transform metadata into document content. Several [paru](https://heerdebeer.org/Software/markdown/paru/) filters can help to solve this, given a metadata format involving authors with affiliation/correspondence fields and institute information: [README](https://github.com/iandol/dotpandoc/tree/master/filters); and individual filters: [simplifyMetadata](https://github.com/iandol/dotpandoc/blob/master/filters/simplifyMetadata),
