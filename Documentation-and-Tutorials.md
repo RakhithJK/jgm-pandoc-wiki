@@ -11,7 +11,7 @@ The best reference for Pandoc is the official [readme](http://johnmacfarlane.net
 ## Professional/Academic
 
 - Healy, Kieran. ‘[Plain Text, Papers, Pandoc](http://kieranhealy.org/blog/archives/2014/01/23/plain-text/)’, 23 January 2014.
-- Maxwell, John. ‘[Building Publishing Workflows with Pandoc and Git](http://www.ccsp.sfu.ca/2013/11/building-publishing-workflows-with-pandoc-and-git/)’. *Publishing @ SFU*, 1 November 2013.
+- Maxwell, John. ‘[Building Publishing Workflows with Pandoc and Git](https://publishing.sfu.ca/2013/11/building-publishing-workflows-with-pandoc-and-git/)’. *Publishing @ SFU*, 1 November 2013.
 - Maxwell, John. ‘[On Pandoc](http://tkbr.ccsp.sfu.ca:5001/Slides/On%20Pandoc)’. Presented at the eBound Canada Digital Production Workshop Vancouver, Vancouver, BC, 26 February 2014.
 - Ovadia, Steven. ‘Markdown for Librarians and Academics’. *Behavioral & Social Sciences Librarian* 33, no. 2 (2014): 120–24. doi:[10.1080/01639269.2014.904696](http://dx.doi.org/10.1080/01639269.2014.904696).
 - [Testing CSL Style Files](https://github.com/KurtPfeifle/pandoc-csl-testing) with Pandoc. (CSLs are for automatic bibliography/citation creation and formatting). GitHub repository with shell script, example Markdown file and Howto text.
