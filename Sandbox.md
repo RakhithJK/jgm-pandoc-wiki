@@ -5,7 +5,7 @@ title: ho there
 ok<?hugo:test?>
 
 
-Hi <span id="foo">a</span>.
+Hi <a id="foo">a</a>.
 
 # -3.3#4   He_&#160;ä.der
 
