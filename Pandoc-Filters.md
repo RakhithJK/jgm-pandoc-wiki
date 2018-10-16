@@ -84,6 +84,7 @@ Some other known 3rd party filters:
 - Running Code related:
 	- [R-pandoc](https://github.com/cdupont/R-pandoc) for generating R plots
 	- [filter_pandoc_run_py](https://github.com/caiofcm/filter_pandoc_run_py) for executing python codes written in code blocks and also embedding print output and pyplot figures
+    - [pandoc-pyplot](https://github.com/LaurentRDC/pandoc-pyplot) to generate and embed Matplotlib figures based on code blocks in documents. Easy integration with Haskell libraries (e.g. [Hakyll](https://jaspervdj.be/hakyll/))
 - Others:
 	- [Adding support](https://gist.github.com/mpickering/8bc9bb34c4e9b076b107) for indexing with the syntax ``(# term, subterm)`` in html and latex
 	- [Adding non-breaking spaces inside a URL to preserve formatting](https://gist.github.com/mpickering/fdc747b9c8306659cb43)
