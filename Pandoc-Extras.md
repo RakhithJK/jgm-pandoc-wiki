@@ -148,6 +148,7 @@ the opened file as input.
 - [Pandocomatic](https://heerdebeer.org/Software/markdown/pandocomatic/) RubyGem. Can also be used to automate the use of pandoc in a more general way.
 - [pdsite](http://pdsite.org): single shell script with no dependencies, runs on Unix-like systems.
 - [gh-themes-magick](https://github.com/tajmone/gh-themes-magick): publish your GitHub project’s single page website from `master` branch’s `/docs/` folder using GitHub themes, and let pandoc scripts update its contents to mirror the project’s `README.md`.
+- [simple-template/pandoc](https://github.com/simple-template/pandoc): A system to generate static websites using Make.
 
 ## Serving markdown files with apache
 
