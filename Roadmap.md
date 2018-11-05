@@ -10,7 +10,7 @@ See also the [Task list issue](https://github.com/jgm/pandoc/issues/1852).
 - [short and long captions for tables](https://github.com/jgm/pandoc/issues/2978), figures, [headers](https://github.com/jgm/pandoc/issues/4409)
 - [internal links/references to tables and figures](https://github.com/jgm/pandoc/issues/813)
 - [PageBreak element](https://github.com/jgm/pandoc/issues/1934)
-- [Handle insertions and deletions (<ins> and <del>) consistently across readers/writers](https://github.com/jgm/pandoc/issues/1560)
+- [Handle insertions and deletions (`<ins>` and `<del>`) consistently across readers/writers](https://github.com/jgm/pandoc/issues/1560)
 - [colspans in tables](https://github.com/jgm/pandoc/issues/1024) (and possibly also rowspan)
 - [change Format from String to a sum type](https://github.com/jgm/pandoc/issues/547)
 - [Endnotes support for Docx, ODT and Muse](https://github.com/jgm/pandoc/pull/4042)
