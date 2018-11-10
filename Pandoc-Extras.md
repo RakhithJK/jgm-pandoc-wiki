@@ -28,6 +28,7 @@
 - [Emacs package for exporting using pandoc](https://github.com/robtillotson/org-pandoc)
 - [Scripts for using pandoc with BBEdit and TextWrangler], as well as [Notepad++]
 - [pandoc-mode for emacs], by Joost Kremers
+- [PanWriter](https://panwriter.com) ([GitHub page](https://github.com/mb21/panwriter/)) – distraction-free markdown editor with pandoc integration and paginated preview
 - [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
 - [R Markdown](http://rmarkdown.rstudio.com), using knitr and pandoc
