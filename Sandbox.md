@@ -1,3 +1,3 @@
-# Hi&nbsp;there
+# Hi&auml;there
 
 # Hi
