@@ -2,7 +2,7 @@
 
 # -foo-bar
 
-# blue $
+# blue -
 
 # (2.there)
 
