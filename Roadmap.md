@@ -14,6 +14,7 @@ See also the [Task list issue](https://github.com/jgm/pandoc/issues/1852).
 - [colspans in tables](https://github.com/jgm/pandoc/issues/1024) (and possibly also rowspan)
 - [change Format from String to a sum type](https://github.com/jgm/pandoc/issues/547)
 - [Endnotes support for Docx, ODT and Muse](https://github.com/jgm/pandoc/pull/4042)
+- [Comment AST element](https://github.com/jgm/pandoc/issues/1926)
 
 ## Filters/JSON
 
