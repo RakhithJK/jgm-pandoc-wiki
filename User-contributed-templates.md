@@ -6,7 +6,7 @@
 
 # Everyday
 
-- [A LaTeX template for lecture notes and exercises with a focus on computer science](https://github.com/Wandmalfarbe/pandoc-latex-template)
+- [Eisvogel: A LaTeX template for lecture notes and exercises with a focus on computer science](https://github.com/Wandmalfarbe/pandoc-latex-template)
 - [A simple letter template for Pandoc](https://github.com/aaronwolen/pandoc-letter)
 - [Template for making Tufte-style handouts](https://github.com/wcaleb/pandoc-templates/blob/master/handout.tex)
 - [The Markdown Resume](https://github.com/mszep/pandoc_resume)
