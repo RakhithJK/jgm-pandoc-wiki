@@ -43,6 +43,7 @@
 - [vim HTML viewer use pandoc], by lambdalisue
 - [vim HTML viewer use pandoc, konqueror or firefox], by tex
 - [vim Unite BibTeX source for pandoc], by Mark Sprevak
+- [fzf BibTeX], successor of vim Unite BiBTeX (vim Unite is no longer being maintained)
 - [The Zim desktop wiki] can export content to markdown using pandoc extensions (need zim version 0.55 and up)
 the opened file as input.
 - [pandoc-live](https://github.com/ocharles/pandoc-live) is a little utility can be used to watch a Pandoc document for changes, and display the rendering in real-time in a web browser.
@@ -199,6 +200,7 @@ See [[Pandoc Filters]]
 [vim HTML viewer use pandoc]: https://github.com/lambdalisue/shareboard.vim
 [vim HTML viewer use pandoc, konqueror or firefox]: https://github.com/tex/vimpreviewpandoc
 [vim Unite BibTeX source for pandoc]: https://github.com/msprev/unite-bibtex
+[fzf BibTeX]: https://github.com/msprev/fzf-bibtex
 [TextMate bundle for pandoc]: http://github.com/dsanson/Pandoc.tmbundle
 [jsMath]: http://www.math.union.edu/~dpvc/jsMath/
 [WordPress EasyFilter]: http://assorted.sourceforge.net/wp-easy-filter/
