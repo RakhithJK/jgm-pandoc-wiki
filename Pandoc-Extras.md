@@ -56,7 +56,7 @@ the opened file as input.
 - [Pandoc online](https://foliovision.com/seo-tools/pandoc-online)
 - [Pandoc as a service](https://github.com/mrded/pandoc-as-a-service "GitHub source files for running service locally, by Dmitry Demenchuk. Original online service no longer available"): Serving on localhost. (See also: [WaybackMachine](https://web.archive.org/web/20150919182811/http://pandoc-as-a-service.com/ "Archived copy of the original online service by Dmitry Demenchuk"))
 - [Markup.rocks](http://markup.rocks) runs a version of pandoc compiled to javascript via ghcjs. Conversion takes place client-side, in the browser, and a live preview of the result is available.
-- [Pandoc with go](http://webprogrammieren.de:8001/) 
+
 # Workflow
 
 - [panzer](https://github.com/msprev/panzer), adds the concept of 'styles' to pandoc. Styles control templates, metadata settings, pandoc command line options, and instructions to run filters and pre/postprocessors in a simple, reusable, and recombinable way.
