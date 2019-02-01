@@ -19,4 +19,24 @@ If you expect to receive further text adjusted at a later point in time, it is t
 
 ### Custom styles
 
-Since pandoc 2.6, you can use markdown to embed custom paragraph styles and character styles in your document. See [custom styles in the pandoc MANUAL](http://pandoc.org/MANUAL.html#custom-styles).
+Since pandoc 2.6, you can use markdown to embed custom paragraph styles and character styles in your document.
+
+If you define a `div` or `span` with the attribute `custom-style`,
+pandoc will apply your specified style to the contained elements. So,
+for example using the `bracketed_spans` syntax,
+
+    [Get out]{custom-style="Emphatically"}, he said.
+
+would produce a docx file with "Get out" styled with character
+style `Emphatically`. Similarly, using the `fenced_divs` syntax,
+
+    Dickinson starts the poem simply:
+
+    ::: {custom-style="Poetry"}
+    A Bird came down the Walk.
+    He did not know I saw.
+    :::
+
+would style the two contained lines with the `Poetry` paragraph style.
+
+For more info, see [custom styles in the pandoc MANUAL](http://pandoc.org/MANUAL.html#custom-styles).
