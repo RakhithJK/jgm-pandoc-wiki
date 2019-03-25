@@ -21,7 +21,6 @@ Several wrappers and interfaces exist to use pandoc in other programming languag
 | [Pandoc::Elements](https://metacpan.org/pod/Pandoc::Elements) | Perl | interface | Jakob Voß |
 | [Universal Document Converter](https://bitbucket.org/leito/universal-document-converter) | Java | wrapper | Leonardo S. De Seta |
 | [pandocfilters-php](https://github.com/vinai/pandocfilters-php) | PHP | interface | Vinai Kopp |
-| [Pandoctor](https://github.com/smargh/alfred_pandoctor) |  Python | GUI | Stephen Margheim |
 | PanConvert ([GitHub](https://github.com/apaeffgen/PanConvert), [SourceForge](http://panconvert.sourceforge.net)) | Python  | GUI | Andreas Paeffgen |
 | [PasPandoc](https://github.com/htdebeer/PasPandoc) | Pascal | wrapper | Huub de Beer |
 | [Paperify](https://www.paperify.org) ([Github](https://github.com/olastor/paperify)) | Web | interface | olastor |
