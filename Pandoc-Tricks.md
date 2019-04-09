@@ -246,52 +246,7 @@ This applies to all floats, and fine-grained control may be achieved with the op
 
 # GFM Task Lists with Pandoc
 
-There are currently two ways to allow support of GitHub Flavored Markdown Task Lists:
-
-1. Via the [Task-List Lua] pandoc filter
-2. Via custom PP macros
-
-The former is the recommended way, the latter was introduced before the Lua filter came into place.
-
-## Via Lua Filter
-
-Download the [`task-list.lua`][task-list.lua] file and save it in `$DATADIR/pandoc/filters/`, so it will be visible to pandoc system-wide. Now, when you invoke pandoc with the `--lua-filter=task-list.lua`, Task Lists in markdown source documents will be supported as on GitHub.
-
-Command line usage example:
-
-```shell
-pandoc --lua-filter=task-list.lua -o filename.html filename.md
-```
-
-The Task Lists filter will also take care of injecting the required CSS in HTML documents, in order to represent the Task List styles correctly. 
-
-From the [Task-List Lua] documentation:
-
-> This filter recognizes this syntax and converts the ballot boxes into a representation suitable for the chosen output format. Ballot boxes are rendered as
-> 
-> - checkbox input elements in HTML,
-> - ASCII boxes in gfm and org-mode, and
-> - ballot box UTF-8 characters otherwise.
-
-
-[Task-List Lua]: https://github.com/pandoc/lua-filters/tree/master/task-list "Visit the pandoc 'lua-filters' repository"
-[task-list.lua]: https://github.com/pandoc/lua-filters/blob/master/task-list/task-list.lua "See the source file of 'task-list.lua' on GitHub"
-
-## Via PP Macros
-
-GitHub flavored markdown's task lists can be mimicked in pandoc via the `GFM-TaskList.pp` custom pp macros module. Macro syntax example:
-
-    !TaskList(
-    !Task[x][I'm a _checked_ task]
-    !Task[ ][I'm an _unchecked_ task]
-    )
-
-The PP macros approach is more verbose and breaks a document's comptability outside of PP usage context (eg, a `README.md` file on GitHub); this solution was deviced for pandoc v1.x, long before the [Task-List Lua] solution was available. While it might still be usefeul in some specific contexts, using the Lua filter approach is recommended instead.
-
-For more information, and to download the `GFM-TaskList.pp` macros module:
-
-- ["Pandoc-Goodies" project: pp-macros library](https://github.com/tajmone/pandoc-goodies/tree/master/pp)
-- [Live HTML preview of Task List created with pandoc and pp macros](https://htmlpreview.github.io/?https://github.com/tajmone/pandoc-goodies/blob/master/templates/html5/github/GitHub-Template-Preview.html#task-lists)
+Task lists are part of pandoc as of v2.6. Syntax is the same as GFM.
 
 # Today in date metadata
 
