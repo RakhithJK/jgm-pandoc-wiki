@@ -66,6 +66,7 @@ Some other known 3rd party filters:
 	- [pandoc-latex-newpage](https://github.com/chdemko/pandoc-latex-newpage), for converting horizontal rules into new page
 	- [pandoc-latex-french-spaces](https://github.com/chdemko/pandoc-latex-french-spaces), for dealing with french spaces around some punctuation marks
 	- [pandoc-latex-margin](https://github.com/chdemko/pandoc-latex-margin), for setting left and right margins on `div` and `codeblock` elements
+	- [pandoc-beamer-block](https://github.com/chdemko/pandoc-beamer-block), for using `block`, `alertblock`  and `exampleblock` environment defined in beamer.
 - RAW related:
 	- [Pandoc filter to insert arbitrary raw output markup as Code/CodeBlocks with an attribute raw=<outputformat>.](https://gist.github.com/bpj/e6e53cbe679d3ec77e25): Pandoc filter to insert arbitrary raw output markup as Code/CodeBlocks with an attribute `raw=<outputformat>`.
 	- [Include Files](http://pandoc.org/scripting.html#include-files): finds all the inline code blocks with attribute include, and replaces their contents with the contents of the file given
