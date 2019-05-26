@@ -53,6 +53,7 @@ Some other known 3rd party filters:
     - [mathjax-pandoc-filter](https://github.com/lierdakil/mathjax-pandoc-filter) rendering math to SVG using mathjax-node
     - [asciimathml-pandocfilter](https://github.com/yuwash/asciimathml-pandocfilter): to add read support for AsciiMathML syntax through conversion into LaTeX
     - [pandoc-unicode-math](https://github.com/marhop/pandoc-unicode-math) replaces Unicode math symbols and greek letters like ∀, ∈, →, λ, or Ω in math environments by equivalent Latex commands like `\forall`, `\in`, `\rightarrow`, `\lambda`, or `\Omega`.
+    - [SugarTeX](https://github.com/kiwi0fruit/sugartex) is a more readable LaTeX language extension and transcompiler to LaTeX. Fast Unicode autocomplete in Atom editor via SugarTeX Completions for Atom.
 - LaTeX related:
 	- [Using markdown inside raw latex commands](https://gist.github.com/mpickering/f1718fcdc4c56273ed52)
 	- [pandoc-latex-environment](https://github.com/chdemko/pandoc-latex-environment), for adding LaTeX environment on specific HTML `div` tags
