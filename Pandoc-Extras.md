@@ -69,6 +69,7 @@ the opened file as input.
 - [pandocket](https://github.com/wcaleb/pandocket), 'A python script that looks for special lines in a markdown file and uses those lines to convert, clean up, and insert content from URLs into the file for processing by pandoc'
 - [Mighty Make](https://lf-araujo.github.io/lf-araujo.github.io/2017/04/08/mightymake.html), a building system and an attempt to standardize the folder structure tailored to large pandoc projects, like thesis or large reports.
 - [fish-completion-pandoc](https://github.com/dsanson/fish-completion-pandoc), a pandoc completion script for use with the fish shell.
+- [Pandoctools](https://github.com/kiwi0fruit/pandoctools) is a set of tools for writing reproducible Markdown reports. They rely on Pandoc and Jupyter kernels. At it's core is a profile manager of text processing pipelines (crossplatform bash scripts) that define chain operations over text (Pandoc filters, any text CLI filters).
 
 ## Preprocessors
 
