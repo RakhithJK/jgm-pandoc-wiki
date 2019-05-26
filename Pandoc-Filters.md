@@ -83,10 +83,10 @@ Some other known 3rd party filters:
     - [pandoc-mustache](https://github.com/michaelstepner/pandoc-mustache) replaces variables like `{{varname}}` in a pandoc document with their values, which are stored in a separate YAML file.
     - [pandoc-quotes.lua](https://github.com/odkr/pandoc-quotes.lua) and the older [pandoc-quotes](https://github.com/odkr/pandoc-quotes) replace non-typographic, quotation marks with typographic ones for languages other than US English.
 - Running Code related:
-	- [R-pandoc](https://github.com/cdupont/R-pandoc) for generating R plots
-	- [filter_pandoc_run_py](https://github.com/caiofcm/filter_pandoc_run_py) for executing python codes written in code blocks and also embedding print output and pyplot figures
-        - [pandoc-pyplot](https://github.com/LaurentRDC/pandoc-pyplot) to generate and embed Matplotlib figures based on code blocks in documents. Easy integration with Haskell libraries (e.g. [Hakyll](https://jaspervdj.be/hakyll/))
-        - [Knitty](https://github.com/kiwi0fruit/knitty): is a Pandoc filter for reproducible reports via Jupyter and Pandoc ([Stitch](https://github.com/kiwi0fruit/knitty/blob/master/docs/stitch.md)'s fork that is a Knitr-RMarkdown-like lib). Insert Python code (or other Jupyter kernel code) to the Markdown document or write in *plain Python/Julia/R/any-kernel-lang* with block-commented Markdown and have code's results in the Pandoc output document.
+    - [R-pandoc](https://github.com/cdupont/R-pandoc) for generating R plots
+    - [filter_pandoc_run_py](https://github.com/caiofcm/filter_pandoc_run_py) for executing python codes written in code blocks and also embedding print output and pyplot figures
+    - [pandoc-pyplot](https://github.com/LaurentRDC/pandoc-pyplot) to generate and embed Matplotlib figures based on code blocks in documents. Easy integration with Haskell libraries (e.g. [Hakyll](https://jaspervdj.be/hakyll/))
+    - [Knitty](https://github.com/kiwi0fruit/knitty): is a Pandoc filter for reproducible reports via Jupyter and Pandoc ([Stitch](https://github.com/kiwi0fruit/knitty/blob/master/docs/stitch.md)'s fork that is a Knitr-RMarkdown-like lib). Insert Python code (or other Jupyter kernel code) to the Markdown document or write in *plain Python/Julia/R/any-kernel-lang* with block-commented Markdown and have code's results in the Pandoc output document.
 - Others:
 	- [Adding support](https://gist.github.com/mpickering/8bc9bb34c4e9b076b107) for indexing with the syntax ``(# term, subterm)`` in html and latex
 	- [Adding non-breaking spaces inside a URL to preserve formatting](https://gist.github.com/mpickering/fdc747b9c8306659cb43)
