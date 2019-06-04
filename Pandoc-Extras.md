@@ -70,6 +70,7 @@ the opened file as input.
 - [Mighty Make](https://lf-araujo.github.io/lf-araujo.github.io/2017/04/08/mightymake.html), a building system and an attempt to standardize the folder structure tailored to large pandoc projects, like thesis or large reports.
 - [fish-completion-pandoc](https://github.com/dsanson/fish-completion-pandoc), a pandoc completion script for use with the fish shell.
 - [Pandoctools](https://github.com/kiwi0fruit/pandoctools) is a set of tools for writing reproducible Markdown reports. They rely on Pandoc and Jupyter kernels. At it's core is a profile manager of text processing pipelines (crossplatform bash scripts) that define chain operations over text (Pandoc filters, any text CLI filters).
+- [bookbuildeR](https://github.com/thomasWeise/bookbuildeR) is a tool chain for compiling e-books from pandoc flavored Markdown to pdf, epub, html, and azw3, which also comes as a docker container and can also be used via online continuous integration tools such as Travis CI to automatically compile books whose sources are hosted on GitHub upon commits and automatically publish the results to GitHub pages. It also supports separating book sources in one repository and example program codes into another one, which is suitable for computer science books.
 
 ## Preprocessors
 
