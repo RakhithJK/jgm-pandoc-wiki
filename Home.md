@@ -26,6 +26,7 @@ These extend the capabilities of pandoc:
 	- [[Pandoc with gentoo]]
 	- [[Pandoc with Chinese]](简体中文)
 	- [[Trials and Tribulations: How to find correct font names for Pandoc's use with LuaLaTeX?]]
+        - [[Minimal TeXLive installation for Pandoc]]
 
 
 ## Comparisons ##
