@@ -4,6 +4,7 @@
 - [Web Services to Process Files by Pandoc](#web-services-to-process-files-by-pandoc)
 - [Workflow](#workflow)
 	- [Preprocessors](#preprocessors)
+ 		- [Legacy](#legacy)
  		- [Additional readers](#additional-readers)
 	- [Doc processing tools using Pandoc](#doc-processing-tools-using-pandoc)
 		- [Using pandoc with ConTeXt](#using-pandoc-with-context)
@@ -74,10 +75,6 @@ the opened file as input.
 
 ## Preprocessors
 
-- [ickc/pancritic: using CriticMarkup with pandoc](https://github.com/ickc/pancritic): pancritic parses CriticMarkup in pandoc as a wrapper or preprocessor. It can accept or reject or show the diff. in HTML/LaTeX-based outputs.
-- [Using GPP as a preprocessor](https://adityam.github.io/context-blog/post/markdown-with-gpp/) to get TeX-like macro features in Markdown.
-- [pandoc-gpp](https://github.com/dloureiro/pandoc-gpp) by David Loureiro is a wrapper around pandoc and gpp in order to provide some macros for extra markup not available in markdown and its extensions.
-- [mddia](https://github.com/nichtich/ditaa-markdown/) lets you embed [ditaa](http://ditaa.sourceforge.net/) ASCII-art diagrams in Markdown code blocks
 - [PP - A generic Preprocessor (with Pandoc in mind)](http://cdsoft.fr/pp/) lets you embed the following diagrams in Markdown code blocks:
     + [Graphviz](http://www.graphviz.org/) (needs to be installed separately)
     + [PlantUML](http://plantuml.com/) (embedded in pp at compile time)
@@ -90,6 +87,18 @@ the opened file as input.
     + custom macros definition
     + literate programming
     + usage of [Bash](https://www.gnu.org/software/bash/), [Cmd](https://en.wikipedia.org/wiki/Cmd.exe), [PowerShell](https://en.wikipedia.org/wiki/PowerShell), [Python](https://www.python.org/), [Haskell](https://www.haskell.org/) and [R](https://www.r-project.org/) scripts (inline or external)
+
+- [pancritic - using CriticMarkup with pandoc](https://github.com/ickc/pancritic)
+
+    pancritic parses [CriticMarkup](http://criticmarkup.com/) in pandoc as a wrapper or preprocessor.
+    CriticMarkup is an in-place diff format, while `pancritic` applies/resolves the indicated diffs.
+    It supports HTML and LaTeX outputs.
+
+### Legacy
+
+- (included in PP) [Using GPP as a preprocessor](https://adityam.github.io/context-blog/post/markdown-with-gpp/) to get TeX-like macro features in Markdown.
+- (abandonned since 2013) [pandoc-gpp](https://github.com/dloureiro/pandoc-gpp) by David Loureiro is a wrapper around pandoc and gpp in order to provide some macros for extra markup not available in markdown and its extensions.
+- (included in PP) [mddia](https://github.com/nichtich/ditaa-markdown/) lets you embed [ditaa](http://ditaa.sourceforge.net/) ASCII-art diagrams in Markdown code blocks
 
 ### Additional Readers
 
