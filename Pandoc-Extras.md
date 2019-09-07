@@ -129,6 +129,8 @@ the opened file as input.
 
 - [PanDiff](https://github.com/davidar/pandiff) produces prose diffs for any document format supported by Pandoc, and can output Markdown with CriticMarkup, HTML, PDF, and Word docx with Track Changes
 
+- [Bookmanager](https://pypi.org/project/cyberaide-bookmanager/) creates a publication from a number of distributed sources in github or your filesystem based on markdown files that are conveniently integrated in a table of content using yaml. It is especially useful to create customized books, lecture notes, or handouts and allows for easy customization of content for lecture notes.
+
 ### Using pandoc with ConTeXt
 
 - [filter module] by adityam, which allows you to use
