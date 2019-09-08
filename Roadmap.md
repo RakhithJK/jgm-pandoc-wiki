@@ -28,3 +28,4 @@ Pandoc doesn't have a strict roadmap but this page should serve as an overview a
 
 - [Custom styles in ODT, ICML (and maybe LaTeX and RST) writers](https://github.com/jgm/pandoc/issues/2106) (maybe also [in Docbook](https://github.com/jgm/pandoc/issues/3657))
 - [Image alignment in more readers and writers](https://github.com/jgm/pandoc/issues/4542)
+- [Include files](https://github.com/jgm/pandoc/issues/553)
