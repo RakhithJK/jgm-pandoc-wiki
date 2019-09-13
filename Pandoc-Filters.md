@@ -25,9 +25,7 @@ Other tools:
 
 ## Written Filters
 
-A number of filters written in Lua are collected at https://github.com/pandoc/lua-filters .
-
-Some other known 3rd party filters:
+See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for some select filters written in Lua. Some other known 3rd party filters:
 
 - Document (DOCX/ODT) related:
 	- Because DOCX and ODT files cannot use templates, we are limited in how we can transform metadata into document content. Several [paru](https://heerdebeer.org/Software/markdown/paru/) filters can help to solve this, given a metadata format involving authors with affiliation/correspondence fields and institute information: [README](https://github.com/iandol/dotpandoc/tree/master/filters); and individual filters: [simplifyMetadata](https://github.com/iandol/dotpandoc/blob/master/filters/simplifyMetadata),
