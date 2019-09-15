@@ -16,6 +16,7 @@ Filters can be written in any programming language. [[Pandoc wrappers and interf
 | Groovy	| [groovy-pandoc](https://github.com/dfrommi/groovy-pandoc)	| a library for writing Pandoc filters in Groovy.	| 
 | Ruby | [paru](https://heerdebeer.org/Software/markdown/paru/) | a Ruby gem to write pandoc filters in Ruby. |
 | Lua | [pandoc's official documentation](https://pandoc.org/lua-filters.html) | Pandoc includes a [lua](https://www.lua.org/) interpreter by default so is quite lightweight|
+| Elixir | [Panpipe](https://github.com/marcelotto/panpipe) | a library for writing pandoc filters in Elixir |
 
 Other tools:
 
