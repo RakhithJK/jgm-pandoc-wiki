@@ -1,3 +1,7 @@
+For **Raspberry Pi 4** binaries, see also [ickc/pandoc-arm](https://github.com/ickc/pandoc-arm/releases).
+
+### Raspberry Pi 1 Model B
+
 The following guide is written for Raspberry Pi 1 Model B. YMMV on other models including the newer one.
 
 The pandoc supplied by Raspbian is rather old (1.9.4.2)
