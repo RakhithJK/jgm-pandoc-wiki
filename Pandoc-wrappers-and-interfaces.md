@@ -3,10 +3,14 @@ Several wrappers and interfaces exist to use pandoc in other programming languag
 Language	| Type	| Name and link	| Maintainer  
 ---	| ---	| ---	| ---  
 C	| wrapper	| [libpandoc](http://github.com/ShabbyX/libpandoc/tree/master)	| Shahbaz Youssefi  
+Electron	| GUI	| [PandocElectron](https://niebert.github.io/PanDocElectron/) ([Github](https://github.com/niebert/PanDocElectron))	| Engelbert Niehaus
+Elixir	| interface	| [Panpipe](https://github.com/marcelotto/panpipe)	| Marcel Otto  
 Groovy	| interface	| [groovy-pandoc](https://github.com/dfrommi/groovy-pandoc)	| Dennis Frommknecht  
 Java	| wrapper	| [Universal Document Converter](https://bitbucket.org/leito/universal-document-converter)	| Leonardo S. De Seta  
+JavaScript	| wrapper	| [grunt-node-pandoc](https://www.npmjs.com/package/grunt-node-pandoc)	| Eric R. Shinn  
 JavaScript	| interface	| [pandoc-filter](https://www.npmjs.com/package/pandoc-filter)	| Mike Henderson  
 JavaScript	| wrapper	| [node-pdc](https://github.com/pvorb/node-pdc)	| Paul Vorbach  
+JavaScript	| wrapper	| [node-pandoc](https://www.npmjs.com/package/node-pandoc)	| Eric R. Shinn  
 JavaScript	| wrapper	| [simple-pandoc](https://www.npmjs.com/package/simple-pandoc)	| Hyunje Jun  
 JavaScript	| wrapper	| [paja](https://www.npmjs.com/package/paja)	| Huub de Beer  
 Pascal	| wrapper	| [PasPandoc](https://github.com/htdebeer/PasPandoc)	| Huub de Beer  
@@ -25,5 +29,3 @@ Ruby	| wrapper	| [Pandoku](https://github.com/lunant/pandoku)	| Hong Minhee
 Scala	| wrapper	| [scala-pandoc](https://github.com/pvorb/scala-pandoc)	| Paul Vorbach  
 Web	| interface	| [Paperify](https://www.paperify.org) ([Github](https://github.com/olastor/paperify))	| olastor  
 Web	| interface	| [Typademic](https://typademic.ch) ([Github](https://github.com/maehr/typademic))	| Moritz Mähr
-Electron	| GUI	| [PandocElectron](https://niebert.github.io/PanDocElectron/) ([Github](https://github.com/niebert/PanDocElectron))	| Engelbert Niehaus
-Elixir	| interface	| [Panpipe](https://github.com/marcelotto/panpipe)	| Marcel Otto  
