@@ -17,6 +17,9 @@ sight.
   - [Left-aligning Tables in LaTeX](#left-aligning-tables-in-latex)
   - [GFM Task Lists with Pandoc](#gfm-task-lists-with-pandoc)
   - [Today in date metadata](#today-in-date-metadata)
+  - [Definition list terms on their own line in LaTeX](#definition-list-terms-on-their-own-line-in-latex)
+  - [Level 4 and 5 headings on their own line in LaTeX](#level-4-and-5-headings-on-their-own-line-in-latex)
+
 
 # From Markdown, To Markdown
 
@@ -302,3 +305,71 @@ Add this to the pandoc command you use:
     -M date="$(date "+%B %e, %Y")"
 
 POSIX only.
+
+# Definition list terms on their own line in LaTeX
+
+Most tools, including most Web browsers render definition lists with the (first) definition on a separate, indented line below the term:
+
+````text
+Term
+
+  Definition A.
+  Second line of definition.
+  
+  Definition B.
+````
+
+LaTeX instead sets the term in bold and the first definition run-in on the same line, which doesn't look good if you have space between paragraphs as Pandoc does:
+
+````text
+**Term**  Definition A.
+  Second line of definition.
+  
+  Definition B.
+````
+
+It is easy to fix this without loading any extra package. Just make sure the following is in your LaTeX preamble:
+
+````latex
+% "Clone" the original \item command
+\let\originalitem\item
+
+% Redefine the \item command using the "clone"
+\renewcommand{\item}[1][]%
+{\originalitem[#1]\hfill\par}
+````
+
+This still leaves the term in boldface. To get the term in the normal typeface change the invocation of `\originalitem[#1]` to
+
+````latex
+\originalitem[\textnormal{#1}]
+````
+
+Put this in your custom template or add a `header-includes` field to your document metadata:
+
+````````yaml
+---
+header-includes:
+  - |
+    ````{=latex}
+    % insert the fix here
+    ````
+````````
+
+# Level 4 and 5 headings on their own line in LaTeX
+
+In LaTeX level 4 headings are rendered with the `\paragraph` command and level 5 headings are rendered with the `\subparagraph` command.  These commands set the (first) paragraph after the heading run-in with the heading.  There is an easy way to fix this. Make sure to include the following in your LaTeX preamble:
+
+````latex
+% Make "clones" of the commands
+\let\originalparagraph\paragraph
+\let\originalsubparagraph\subparagraph
+
+% Redefine the commands using the "clones"
+\renewcommand{\paragraph}[1]%
+{\originalparagraph{#1}\hfill}
+\renewcommand{\subparagraph}[1]%
+{\originalsubparagraph{#1}\hfill}
+````
+
+Note that unlike [the similar fix for definition list terms](#definition-list-terms-on-their-own-line-in-latex) there should *not* be any `\par` after the `\hfill` here!
