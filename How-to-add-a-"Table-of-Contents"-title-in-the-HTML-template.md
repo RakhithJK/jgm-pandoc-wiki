@@ -20,11 +20,11 @@ or on Windows
     pandoc -D html >C:\Documents And Settings\USERNAME\Application Data\pandoc\templates\default.html
 
 Then go to where this 'default.html' is and edit it.
-Search for `$toc$` and change the lines around it
+Search for `$table-of-contents$` and change the lines around it
 
     $if(toc)$
     <div id="$idprefix$TOC">
-    $toc$
+    $table-of-contents$
     </div>
     $endif$
 
@@ -35,7 +35,7 @@ into
     $if(toctitle)$
     <h2 id="$idprefix$toctitle">$toctitle$</h2>
     $endif$
-    $toc$
+    $table-of-contents$
     </div>
     $endif$
 
@@ -45,7 +45,7 @@ only sometimes to be in a different language:
     $if(toc)$
     <div id="$idprefix$TOC">
     <h2 id="$idprefix$toctitle">$if(toctitle)$$toctitle$$else$Table of Contents$endif$</h2>
-    $toc$
+    $table-of-contents$
     </div>
     $endif$
 
