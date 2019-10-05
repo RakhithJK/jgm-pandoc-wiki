@@ -335,8 +335,11 @@ It is easy to fix this without loading any extra package. Just make sure the fol
 \let\originalitem\item
 
 % Redefine the \item command using the "clone"
-\renewcommand{\item}[1][]%
-{\originalitem[#1]\hfill\par}
+\makeatletter
+\renewcommand{\item}[1][\@nil]{%
+    \def\tmp{#1}%
+    \ifx\tmp\@nnil\originalitem\else\originalitem[#1]\hfill\par\fi}
+\makeatother
 ````
 
 This still leaves the term in boldface. To get the term in the normal typeface change the invocation of `\originalitem[#1]` to
