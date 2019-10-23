@@ -43,7 +43,7 @@ markdown file.
 ## TOC generation
 
 *e.g.* you have a long markdown file in GitHub and want to have a TOC,
-you can use `pandoc -t gfm --toc -o example-with-toc.md example.md`
+you can use `pandoc -s -t gfm --toc -o example-with-toc.md example.md`
 
 This a useful workaround to update the TOC of very long documents, but—beware!—if
 you use this trick for writing over the input file,
