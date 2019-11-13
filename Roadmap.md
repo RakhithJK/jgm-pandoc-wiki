@@ -3,7 +3,6 @@ Pandoc doesn't have a strict roadmap but this page should serve as an overview a
 ## AST changes
 
 - [Attributes for all elements](https://github.com/jgm/pandoc/issues/684)
-- changing `String` to `Text` everywhere
 - [a Figure block element](https://github.com/jgm/pandoc/issues/3177), capable of containing multiple images 
 - [short and long captions for tables](https://github.com/jgm/pandoc/issues/2978), figures, [headers](https://github.com/jgm/pandoc/issues/4409)
 - [internal links/references to tables and figures](https://github.com/jgm/pandoc/issues/813)
