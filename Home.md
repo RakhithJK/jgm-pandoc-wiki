@@ -33,3 +33,76 @@ These extend the capabilities of pandoc:
 
 - [[Pandoc vs Multimarkdown]]
 - [[Pandoc vs Markdown.pl]]
+
+## Exit Codes ##
+
+based on <src/Text/Pandoc/Error.hs>
+
+3
+:   Failing because there were warnings
+
+4
+:   Application error
+
+5
+:   Error compiling template
+
+6
+:   Option error
+
+21
+:   Unknown input format
+
+22
+:   Unknown output format
+
+23
+:   Unsupported file extension
+
+31
+:   EPUB subdirectory contains illegal characters
+
+43
+:   Error producing PDF
+
+47
+:   PDF program not found
+
+61
+:   Could not fetch via HTTP
+
+62
+:   Should never happen
+
+63
+:   Some error
+
+64
+:   Parse error
+
+65
+:   Parsec error (?)
+
+66
+:   Make pdf error
+
+67
+:   Syntax map error
+
+83
+:   Error running filter
+
+91
+:   Loop encountered in expanding macro
+
+92
+:   UTF-8 decoding error
+
+93
+:   IPython notebook decoding error
+
+97
+:   Could not find data file
+
+99
+:   Resource not found
