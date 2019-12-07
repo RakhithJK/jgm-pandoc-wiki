@@ -19,6 +19,7 @@ sight.
   - [Today in date metadata](#today-in-date-metadata)
   - [Definition list terms on their own line in LaTeX](#definition-list-terms-on-their-own-line-in-latex)
   - [Level 4 and 5 headings on their own line in LaTeX](#level-4-and-5-headings-on-their-own-line-in-latex)
+  - [Globbing input files in the right order](#globbing-input-files-in-the-right-order)
 
 
 # From Markdown, To Markdown
@@ -376,3 +377,81 @@ In LaTeX level 4 headings are rendered with the `\paragraph` command and level 5
 ````
 
 Note that unlike [the similar fix for definition list terms](#definition-list-terms-on-their-own-line-in-latex) there should *not* be any `\par` after the `\hfill` here!
+
+## Globbing input files in the right order
+
+As you probably know you can pass multiple input files to `pandoc` on the command line and they will be treated as a single long file, with blank lines inserted between them:
+
+````sh
+$ pandoc this.md that.md other.md -o all.html
+````
+
+You can even [glob][globbing-glob] a whole gang of files. This will concatenate all files with an `.md` extension in the current directory (aka folder):
+
+````sh
+$ pandoc *.md -o all.html
+````
+
+There is a snag with globbing like this, however: `pandoc` will get the list of file names sorted in ASCII order — i.e. similar to alphabetical ordering, but using the order of  characters in the [ASCII encoding][globbing-ASCII] as sorting order (or actually according to the sorting order of the current [locale][globbing-locale] in your [shell][globbing-shell]) where letters A-Z and a-z happen to come alphabetically, but with all of A-Z before all of a-z — in any case possibly not in the order they are supposed to come in the text: given the three files given in the first example the `*.md` glob pattern is equivalent to
+
+````sh
+other.md
+that.md
+this.md
+````
+
+There is however an age-old workaround, which actually exploits the glob sorting feature:
+
+If you want the files in a specific order give them names starting with a zero-padded number:
+
+````sh
+00-intro.md
+01-this.md
+02-that.md
+03-other.md
+...
+09-something.md
+10-anything.md
+11-more.md
+````
+
+The leading 0 in 01..09 makes sure that they sort before 10... This is necessary because the shell has no concept of numeric sorting but sorts all characters in globbed file names in ASCII order, but in ASCII order 0 comes before 1, which comes before 2 and so on, and all digits come before all letters.
+
+It is usually a good idea to add an extra trailing 0 as well (or more if you have a lot of files or are going to move files around a lot):
+
+````sh
+000-intro.md
+010-this.md
+020-that.md
+030-other.md
+...
+090-something.md
+100-anything.md
+110-more.md
+````
+
+this way if you want to move a part of the text around or add a part between existing parts you don't need to renumber all the files; you can just give the files containing the moved parts suitable intermediate numbers:
+
+````sh
+000-intro.md
+010-this.md
+015-other.md # used to be 030
+020-that.md
+...
+090-something.md
+100-anything.md
+105-additional.md # new file!
+110-more.md
+````
+
+Using this technique the numbering of the file names may get out of synch with the numbering of sections/chapters in the text, but that is OK; you should generally rely on the names/labels of chapters/sections as identifiers and let Pandoc itself, LaTeX and/or [pandoc-crossref][globbing-pandoc-crossref] handle the actual section numbering.  The numbers in the file names are *file* numbers, in a format which is good for *the shell*, and as human friendly as possible.
+
+[globbing-glob]: https://en.wikipedia.org/wiki/Glob_(programming)
+
+[globbing-ASCII]: https://en.wikipedia.org/wiki/ASCII
+
+[globbing-locale]: https://en.wikipedia.org/wiki/Locale_(computer_software)
+
+[globbing-shell]: https://en.wikipedia.org/wiki/Command-line_interface
+
+[globbing-pandoc-crossref]: https://github.com/lierdakil/pandoc-crossref
