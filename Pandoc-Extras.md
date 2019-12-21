@@ -72,6 +72,13 @@ the opened file as input.
 - [fish-completion-pandoc](https://github.com/dsanson/fish-completion-pandoc), a pandoc completion script for use with the fish shell.
 - [Pandoctools](https://github.com/kiwi0fruit/pandoctools) is a set of tools for writing reproducible Markdown reports. They rely on Pandoc and Jupyter kernels. At it's core is a profile manager of text processing pipelines (crossplatform bash scripts) that define chain operations over text (Pandoc filters, any text CLI filters).
 - [bookbuildeR](https://github.com/thomasWeise/bookbuildeR) is a tool chain for compiling e-books from pandoc flavored Markdown to pdf, epub, html, and azw3, which also comes as a docker container and can also be used via online continuous integration tools such as Travis CI to automatically compile books whose sources are hosted on GitHub upon commits and automatically publish the results to GitHub pages. It also supports separating book sources in one repository and example program codes into another one, which is suitable for computer science books.
+- [GitHub Actions](https://github.com/features/actions) is a workflow automation tool (CI/CD) from GitHub.
+  You can run pandoc on GitHub Actions on every push (or other GitHub event) to, for example, convert a source document to another markup and publish the results.
+  There are two approaches to make pandoc available on GitHub Actions:
+  1. You can [reference container actions](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/configuring-a-workflow#referencing-a-container-on-docker-hub) based on the [official docker pandoc images](https://github.com/pandoc/dockerfiles) in your GitHub Actions workflows.
+    To learn how to set this up, see [these examples](https://github.com/maxheld83/pandoc-action-example).
+  2. If, instead, you want to install pandoc on the host machine *directly*, you can use thus [setup-pandoc](https://github.com/r-lib/actions/tree/master/setup-pandoc).
+    This may take longer and does not offer the encapsulation of the docker images, but makes pandoc available in all steps, or even in different versions for matrix builds.
 
 ## Preprocessors
 
