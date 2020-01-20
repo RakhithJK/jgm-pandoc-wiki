@@ -40,3 +40,16 @@ style `Emphatically`. Similarly, using the `fenced_divs` syntax,
 would style the two contained lines with the `Poetry` paragraph style.
 
 For more info, see [custom styles in the pandoc MANUAL](http://pandoc.org/MANUAL.html#custom-styles).
+
+### List styling
+
+The ICML writer always outputs the first item in a list as a different style than the rest.
+
+![InDesign Paragraph Styles panel showing the "NumList" and "NumList > first" paragraph styles.](https://i.imgur.com/sX8KZFk.png)
+
+You can then edit the paragraph style and have a different "Space Before" for the first item, resulting in a nicely formatted list.
+
+However, if you are using InDesign 2019 or newer, the new "Space Between Paragraphs Using Same Style" option in Paragraph Styles can make the handling of lists much simpler. You can delete the "> first" style, replace it with the standard style when it asks you to, and handle the space before, after and in between the list much more cleanly from a single style.
+
+![The InDesign Paragraph Style Options panel, opened to the "Indents and Spacing" section, with the spacing options highlighted.](https://i.imgur.com/M4KB6wt.png)
+
