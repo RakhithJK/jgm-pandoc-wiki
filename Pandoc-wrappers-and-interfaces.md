@@ -1,4 +1,4 @@
-Several wrappers and interfaces exist to use pandoc in other programming languages or via a graphical user interface (**GUI**). A **wrappers** can be used to run the pandoc executable while an **interface** give access to the abstract syntax tree (AST) of Pandoc documents, for instance to create [[pandoc filters]]. A **writer** is an interface that can only be used to create pandoc documents but not to modify them.
+Several wrappers and interfaces exist to use pandoc in other programming languages or via a graphical user interface (**GUI**). A **wrapper** can be used to run the pandoc executable while an **interface** gives access to the abstract syntax tree (AST) of Pandoc documents, for instance to create [[pandoc filters]]. A **writer** is an interface that can only be used to create pandoc documents but not to modify them.
 
 Language	| Type	| Name and link	| Maintainer  
 ---	| ---	| ---	| ---  
@@ -23,6 +23,7 @@ Python	| interface	| [pandocfilters](https://github.com/jgm/pandocfilters)	| Joh
 Python	| wrapper	| [pypandoc](https://github.com/bebraw/pypandoc)	| Juho Vepsäläinen  
 Python	| wrapper	| [Pyandoc](https://github.com/kennethreitz/pyandoc)	| Kenneth Reitz  
 R	| writer	| [pander](https://github.com/Rapporter/pander)	| Gergely Daróczi  
+R       | wrapper       | [rmarkdown](https://github.com/rstudio/rmarkdown/) (see [here](https://rmarkdown.rstudio.com/docs/reference/index.html#section-pandoc) for the Pandoc wrapper functions in particular) | Yihui Xie
 Ruby	| interface	| [Paru](https://heerdebeer.org/Software/markdown/paru/)	| Huub de Beer  
 Ruby	| wrapper	| [pandoc-ruby](https://github.com/alphabetum/pandoc-ruby)	| William Melody  
 Ruby	| wrapper	| [Pandoku](https://github.com/lunant/pandoku)	| Hong Minhee  
