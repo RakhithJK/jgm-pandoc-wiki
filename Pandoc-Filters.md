@@ -48,6 +48,7 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
 	- [pandoc-numbering](https://github.com/chdemko/pandoc-numbering), for numbering and cross-referencing any kinds of things such as examples, theorems, exercises and so on
 	- [pandoc-listof](https://github.com/chdemko/pandoc-listof), for creating lists of any kinds (**deprecated**)
 	- [pandoc-amsthm](https://github.com/ickc/pandoc-amsthm): a pandoc amsthm package to define the use of amsthm through YAML front matter, target at HTML and LaTeX outputs. For HTML, CSS counter is used and defined in a template (by the YAML variables). For LaTeX amsthm package is used and defined in a template (by the YAML variables).
+        - [definitionlist-filter.lua](https://gist.github.com/rriemann/2dfa7f4b1147d7f3fad506cf6f863cd7), for converting some definition lists to theorem-like (amsthm) Environments and some references to cref tags in LaTeX
 - Math related:
     - [pandoc-mathjax-filter](https://github.com/shreevatsa/pandoc-mathjax-filter) rendering math to SVG using mathjax-node
     - [mathjax-pandoc-filter](https://github.com/lierdakil/mathjax-pandoc-filter) rendering math to SVG using mathjax-node
