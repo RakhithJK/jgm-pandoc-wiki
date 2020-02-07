@@ -82,6 +82,7 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
         - [pandocsql](https://github.com/alexpdp7/pandocsql) run SQL queries on tables, generating other tables
 - Text related:
     - [pandoc-abbreviations](https://github.com/scokobro/pandoc-abbreviations) allows the use of arbitrary abbreviations, defined in an abbreviations file or in the source document's YAML header, which are replaced on  processing. Useful for maintaining consistency of terminology etc.
+    - [pandoc-acronyms](https://gitlab.com/mirkoboehm/pandoc-acronyms) is a filter for managing acronyms. It replaces acronyms like "FAQ" at first use with the full text "frequently asked questions (FAQ)". It is installed using [pip](https://pypi.org/project/pandoc-acronyms/).
     - [pandoc-lang](https://github.com/davidar/pandoc-lang) automatically detects the (natural) language of text, as well as the programming language of code blocks
     - [pandoc-mustache](https://github.com/michaelstepner/pandoc-mustache) replaces variables like `{{varname}}` in a pandoc document with their values, which are stored in a separate YAML file.
     - [pandoc-quotes.lua](https://github.com/odkr/pandoc-quotes.lua) and the older [pandoc-quotes](https://github.com/odkr/pandoc-quotes) replace non-typographic, quotation marks with typographic ones for languages other than US English.
