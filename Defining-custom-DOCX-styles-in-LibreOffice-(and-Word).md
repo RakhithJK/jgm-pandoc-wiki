@@ -46,5 +46,5 @@ To change a paragraph style follow these steps:
 
 [2] These are also where you want to go to e.g. change the font globally in your document or *reference-docx*.
 
-  [custom-style attribute]: http://pandoc.org/MANUAL.html#custom-styles-in-docx-output "Pandoc Manual"
+  [custom-style attribute]: https://pandoc.org/MANUAL.html#output "Pandoc Manual"
   [pandoc manual page]: http://pandoc.org/MANUAL.html
