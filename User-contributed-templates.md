@@ -43,6 +43,9 @@
 - [gh-themes-magick](https://github.com/tajmone/gh-themes-magick): GitHub Pages’ themes converted to pandoc html5 templates; template vars exposed via single `configuration.yaml` to customize website and html metadata.
 - [GitHub Pandoc HTML5 Template](https://github.com/tajmone/pandoc-goodies/tree/master/templates/html5/github): built from GitHub's original CSS to mimick the look and feel of GitHub documents. \[[Live Demo](http://htmlpreview.github.io/?https://github.com/tajmone/pandoc-goodies/blob/master/templates/html5/github/GitHub-Template-Preview.html)\]
 
+# Microsoft Word
+- [numbered-sections](https://github.com/krissen/pandoc-extra/blob/master/templates/numbered-sections.docx): Docx-template with numbered sections for heading levels one (1.) to four (1.1.1.1).
+
 # Notable forks of [pandoc-templates](/jgm/pandoc-templates), for `~/.pandoc/templates`
 
 - [claes / pandoc-templates](/claes/pandoc-templates) is a good illustration of a template with many user-defined variables, e.g for margins, language, papersize, orientation, etc. Because this makes command line specification a bit unwieldy, he includes [simple shell script](/claes/pandoc-templates/blob/master/md2pdf) with unused options commented out to instruct markdown2pdf how to fill in all the blanks.
