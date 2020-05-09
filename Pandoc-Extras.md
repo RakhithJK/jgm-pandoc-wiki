@@ -35,7 +35,6 @@
 - [R Markdown](http://rmarkdown.rstudio.com), using knitr and pandoc
 - [Sublime Text](https://sublime.wbond.net/search/pandoc), a number of plugins available for [Sublime Text](http://www.sublimetext.com/) via the plugin [Package Control](https://sublime.wbond.net/installation). See [Plaintxt Productivity](http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html) and [Writing academic papers in Markdown using Pandoc](http://web.archive.org/web/20141014045547/http://blog.cigrainger.com/2014/07/pandoc-markdown.html) for further details.
 - [TextMate bundle for pandoc], courtesy of David Sanson (for TextMate 2 only)
-- [Texts], Markdown WYSIWYM editor, is integrated with Pandoc.
 - [vim-pandoc project], integration with pandoc and utilities for vim, courtesy of Felipe Morales (fmoralesc) and others. Covers:
     - [vim-pandoc], pandoc execution, folding, navigation, edition, etc.
     - [vim-pandoc-syntax], syntax file.
@@ -191,7 +190,7 @@ See [[Pandoc wrappers and interfaces]]
 - [Bookends-Tools](https://github.com/iandol/bookends-tools): Uses [Alfred](https://www.alfredapp.com) to interface [Bookends Reference Manager](https://www.sonnysoftware.com) to 11 different citation tools, several of which focus on Pandoc formatting and workflow.
 - [zotxt](https://gitlab.com/egh/zotxt), allowing direct usage of a Zotero library (with [zotxt-emacs](https://gitlab.com/egh/zotxt-emacs) for completion in emacs)
 - [Zotero Integration Extension](http://baig.github.io/brackets-zotero/): If you miss a Word like workflow working with Zotero where you can just search your Zotero library and insert citations wherever you want, then this extension provides such functionality in [Brackets](http://brackets.io/) for your markdown documents.
-- [Applets for Zotero and Scrivener integration](http://github.com/davepwsmith/zotpick-applescript/) using [Better BibTeX](https://zotplus.github.io/better-bibtex/) plugin's new [Cite as you Write](https://zotplus.github.io/better-bibtex/cayw.html) feature. Use in conjunction with this [workflow for integrating Scrivner, Pandoc, Zotero and Marked 2](http://davepwsmith.github.io/academic-scrivener-howto/)
+- [Applets for Zotero and Scrivener integration](http://github.com/davepwsmith/zotpick-applescript/) using [Better BibTeX] plugin's new Cite as you Write feature. Use in conjunction with this [workflow for integrating Scrivner, Pandoc, Zotero and Marked 2](http://davepwsmith.github.io/academic-scrivener-howto/)
 - [pandoc-wikicite](https://www.npmjs.com/package/pandoc-wikicite) allows to directly reference bibliographic items from Wikidata
 
 ## Citation Style Language (CSL) with pandoc
@@ -236,11 +235,11 @@ See [[Pandoc Filters]]
 [ikiwiki]:  http://ikiwiki.info/
 [ikiwiki-pandoc]: https://github.com/sciunto-org/ikiwiki-pandoc
 [Bash and zsh command-line completion for pandoc]: https://github.com/dsanson/pandoc-completion
+[Better BibTeX]: https://retorque.re/zotero-better-bibtex/
 [Using pandoc for IETF RFC creation]: https://github.com/miekg/pandoc2rfc
 [Preserving old books by rewriting them in markdown]: https://github.com/rwst/book-curie-radio-de
 [Project Gutenberg]: http://www.gutenberg.org
 [The Zim desktop wiki]: http://zim-wiki.org
-[Texts]: http:/www.texts.io/
 [Scripts for using pandoc with BBEdit and TextWrangler]: https://github.com/jrgcmu/BBpandoc
 [Notepad++]: https://gist.github.com/jrgcmu/3ccc11c0412f45f9a6a4
 [Writage]: http://www.writage.com/
