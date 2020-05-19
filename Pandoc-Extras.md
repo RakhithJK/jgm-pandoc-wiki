@@ -136,7 +136,7 @@ the opened file as input.
 
 - [Bookmanager](https://pypi.org/project/cyberaide-bookmanager/) creates a publication from a number of distributed sources in github or your filesystem based on markdown files that are conveniently integrated in a table of content using yaml. It is especially useful to create customized books, lecture notes, or handouts and allows for easy customization of content for lecture notes.
 
-- [Commentary](https://github.com/hdbhdb/commentary) is a simple Python wrapper and command line tool that preserves native-style comments between markdown and docx Pandoc conversions. 
+- [Commentary](https://github.com/hdb/commentary) is a simple Python wrapper and command line tool that preserves native-style comments between markdown and docx Pandoc conversions. 
 
 ### Using pandoc with ConTeXt
 
