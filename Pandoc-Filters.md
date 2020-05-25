@@ -241,7 +241,8 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
 ### Citation related
 
 - [pandoc-manubot-cite](https://github.com/manubot/manubot#pandoc-filter)
-  allows citing persistent identifiers directly and automates retrieval of bibliographic details for hundreds of types of identifiers including DOIs, PubMed IDs, URLs, ISBNs, Wikidata IDs, and other namespaces registered with <https://identifiers.org/>.
+  allows citing persistent identifiers directly like `[@doi:10.1371/journal.pcbi.1007128; @pubmed:29618526]`.
+  Removes the need for a reference manager by supporting hundreds of identifier types including DOIs, PubMed IDs, URLs, ISBNs, Wikidata IDs, and other namespaces registered with <https://identifiers.org/>.
   Written in Python.
   Available on [PyPI](https://pypi.org/project/manubot/).
 - [pandoc-url2cite](https://github.com/phiresky/pandoc-url2cite)
