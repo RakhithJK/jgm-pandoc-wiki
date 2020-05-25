@@ -242,7 +242,7 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
 
 - [pandoc-manubot-cite](https://github.com/manubot/manubot#pandoc-filter)
   allows citing persistent identifiers directly like `@doi:10/c7np` or `@pubmed:29618526`.
-  Removes the need for a reference manager by supporting DOIs, PubMed IDs, URLs, ISBNs, Wikidata IDs, and the hundreds of other ID types registered with <https://identifiers.org/>.
+  Removes the need for a reference manager by supporting DOIs, PubMed IDs, URLs, ISBNs, Wikidata IDs, and the hundreds of other ID types registered with <https://identifiers.org>.
   Written in Python.
   Available on [PyPI](https://pypi.org/project/manubot/).
 - [pandoc-url2cite](https://github.com/phiresky/pandoc-url2cite)
