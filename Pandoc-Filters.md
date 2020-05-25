@@ -238,6 +238,20 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   document and executes queries in code blocks, showing the results as
   tables.
 
+### Citation related
+
+- [pandoc-manubot-cite](https://github.com/manubot/manubot#pandoc-filter)
+  allows citing persistent identifiers directly and automates retrieval of bibliographic details for hundreds of types of identifiers including DOIs, PubMed IDs, URLs, ISBNs, Wikidata IDs, and other namespaces registered with <https://identifiers.org/>.
+  Written in Python.
+  Available on [PyPI](https://pypi.org/project/manubot/).
+- [pandoc-url2cite](https://github.com/phiresky/pandoc-url2cite)
+  allows citing certain persistent identifiers directly (URLs, ISBNs, and DOIs).
+  Written in Javascript.
+  Available on [npm](https://www.npmjs.com/package/pandoc-url2cite).
+- [pandoc-zotxt.lua](https://github.com/odkr/pandoc-zotxt.lua)
+  looks up sources for citations in Zotero.
+
+
 ### Others
 
 - [Adding
@@ -261,8 +275,6 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
 - [nheengatu](http://joseflavio.com/nheengatu/) provides several
   resources for publishing multimedia content through formats such
   as LaTeX, HTML and EPUB.
-- [pandoc-zotxt.lua](https://github.com/odkr/pandoc-zotxt.lua) looks
-  up sources for citations in Zotero.
 - [code-includes.lua](https://github.com/a-vrma/pandoc-filters#code-includes)
   Include code from source files. Keep your examples and documentation compiled and
   in-sync.
