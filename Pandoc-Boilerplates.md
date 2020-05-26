@@ -22,7 +22,7 @@ example comes with:
 
 ------------
 
-# [reveal.js_tpl](https://gitlab.com/salim_b/pandoc/reveal.js_tpl/)
+# [revealjs-tpl](https://gitlab.com/salim_b/pandoc/revealjs-tpl/)
 
 A ready-to-go file compilation to create a [reveal.js](https://revealjs.com/) presentation using Pandoc.
 
