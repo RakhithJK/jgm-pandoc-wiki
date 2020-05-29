@@ -10,7 +10,7 @@ Download the latest [`reveal.js`](https://github.com/hakimel/reveal.js/archive/m
 
 To provide local reveal assets to the slide deck, add a flag like `-V revealjs-url=./reveal.js` to your pandoc call.
 
-You can skip the above step by referencing the reveal.js URL when calling pandoc later. To do that, add the `-V revealjs-url=https://revealjs.com` option in your `pandoc` call. **Note:** in this case, you will require Internet access to show your slides, and that they will not be standalone. 
+You can skip the above step by referencing the reveal.js URL when calling pandoc later. To do that, add the `-V revealjs-url=https://unpkg.com/reveal.js@3.9.2/` option in your `pandoc` call. **Note:** in this case, you will require Internet access to show your slides, and that they will not be standalone. 
 
 Now, create a file called `myslides.md` with your content. It may optionally include a YAML front matter for title, author, and date:
 
@@ -31,7 +31,7 @@ Now, create a file called `myslides.md` with your content. It may optionally inc
 
 Use this command to produce your slideshow:
 
-    pandoc -t revealjs -s -o myslides.html myslides.md -V revealjs-url=https://revealjs.com
+    pandoc -t revealjs -s -o myslides.html myslides.md -V revealjs-url=https://unpkg.com/reveal.js@3.9.2/
 
 # Themes
 
