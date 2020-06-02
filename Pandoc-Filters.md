@@ -74,6 +74,9 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
 - [paru-screenshot.rb](https://github.com/htdebeer/paru-filter-collection#paru-screenshotrb)
   for automatically taking a screen shot of a web page and including
   that shot as an image in a markdown file.
+- [pandoc-plot](https://github.com/LaurentRDC/pandoc-plot) to generate and embed figures based on code 
+  blocks in documents, using a variety of toolkits (e.g. Matplotlib, MATLAB, gnuplot, ggplot2, etc.). Easy 
+  integration with Haskell libraries (e.g. Hakyll)
 
 ### Numbering related
 
