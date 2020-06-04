@@ -4,7 +4,7 @@ Since pandoc 1.18 you can apply custom paragraph and character styles in DOCX ou
 
 In order for your custom styles to appear different from the default style you will have to modify them in the appropriate dialog boxes.  Below are the best hints about this which I could find on Google, and a step-by-step description which I wrote myself. 
 
-In case you wonder LibreOffice handles DOCX documents very well, and Pandoc works well with a reference docx file[1] which has been modified in LibreOffice.  This is good because as of Pandoc 1.19.2.1 DOCX support is superior to ODT support in Pandoc, notably including the *custom-style* attribute feature which doesn't work for ODT. 
+In case you wonder LibreOffice handles DOCX documents very well, and Pandoc works well with a [reference docx file](https://pandoc.org/MANUAL.html#option--reference-doc) which has been modified in LibreOffice.  This is good because as of Pandoc 1.19.2.1 DOCX support is superior to ODT support in Pandoc, notably including the *custom-style* attribute feature which doesn't work for ODT. 
 
 ### Word
 
@@ -30,7 +30,7 @@ To change a paragraph style follow these steps:
 
     If you haven't used a *custom-style* attribute with the desired style name in the Markdown document from which your DOCX document was generated you will need to create the style:
 
-    -   Look up the style which you want to base your style on in the list of styles.  Unless you got anything more special in mind *Default Style* or *Text Body* are good choices for paragraph styles[2] and *Default Style*, *Default Paragraph Font* or *Body Text Char* are good choices for character styles.  Otherwise you may want to switch to *Hierarchical* in the menu at the bottom of the dialog/sidebar and look up the style you want to base your style on. 
+    -   Look up the style which you want to base your style on in the list of styles.  Unless you got anything more special in mind *Default Style* or *Text Body* are good choices for paragraph styles[1] and *Default Style*, *Default Paragraph Font* or *Body Text Char* are good choices for character styles.  Otherwise you may want to switch to *Hierarchical* in the menu at the bottom of the dialog/sidebar and look up the style you want to base your style on. 
 
     -   Right-click on the name of the style you want to base your style on and choose *New...* in the popup menu.  A dialog with several tabs for different style choices appears. 
 
@@ -42,9 +42,8 @@ To change a paragraph style follow these steps:
 
 6.  Modify the style to match your requirements.  Note that some settings are in unexpected places.  For example language is set in the *Font* tab while writing direction is set in the *Alignment* tab. 
 
-[1] Unfortunately you can't easily link to the documentation of individual Pandoc options. Go to the [pandoc manual page] and use your browser's search box to look for `--reference-doc=FILE`.
 
-[2] These are also where you want to go to e.g. change the font globally in your document or *reference-docx*.
+[1] These are also where you want to go to e.g. change the font globally in your document or *reference-docx*.
 
   [custom-style attribute]: https://pandoc.org/MANUAL.html#output "Pandoc Manual"
   [pandoc manual page]: http://pandoc.org/MANUAL.html
