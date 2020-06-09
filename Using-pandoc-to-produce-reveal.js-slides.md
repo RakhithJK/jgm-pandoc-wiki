@@ -2,7 +2,7 @@ You can use pandoc to produce beautiful slides using [reveal.js](https://revealj
 
 # Setup
 
-Download the latest [`reveal.js`](https://github.com/hakimel/reveal.js/archive/3.9.2.zip) and place it in a folder called `reveal.js`:
+Download the latest supported [`reveal.js` 3.9.2](https://github.com/hakimel/reveal.js/archive/3.9.2.zip) and place it in a folder called `reveal.js`:
 
     wget https://github.com/hakimel/reveal.js/archive/3.9.2.tar.gz
     tar -xzvf 3.9.2.tar.gz
