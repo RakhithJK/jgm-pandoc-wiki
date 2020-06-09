@@ -4,9 +4,9 @@ You can use pandoc to produce beautiful slides using [reveal.js](https://revealj
 
 Download the latest [`reveal.js`](https://github.com/hakimel/reveal.js/archive/master.zip) and place it in a folder called `reveal.js`:
 
-    wget https://github.com/hakimel/reveal.js/archive/master.tar.gz
-    tar -xzvf master.tar.gz
-    mv reveal.js-master reveal.js
+    wget https://github.com/hakimel/reveal.js/archive/3.9.2.tar.gz
+    tar -xzvf 3.9.2.tar.gz
+    mv reveal.js-3.9.2 reveal.js
 
 To provide local reveal assets to the slide deck, add a flag like `-V revealjs-url=./reveal.js` to your pandoc call.
 
