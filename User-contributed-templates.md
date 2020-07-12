@@ -34,14 +34,15 @@
 - [Advanced R Programming](https://github.com/hadley/adv-r/), combining pandoc with Jekyll and knitr
 - [Simple project template for html, pdf and epub pandoc ebooks](https://github.com/wikiti/pandoc-book-template)
 
-# HTML 
+# HTML
 
-- [https://github.com/tonyblundell/pandoc-bootstrap-template](https://github.com/tonyblundell/pandoc-bootstrap-template) A bootstrap template. 
-- [https://github.com/diversen/pandoc-bootstrap-adaptive-template](https://github.com/diversen/pandoc-bootstrap-adaptive-template). A bootstrap adaptive template with a sticky accordion menu. 
-- [https://github.com/diversen/pandoc-uikit](https://github.com/diversen/pandoc-uikit). A pandoc UIKIT adaptive template with a sticky accordion menu. 
+- [https://github.com/tonyblundell/pandoc-bootstrap-template](https://github.com/tonyblundell/pandoc-bootstrap-template) A bootstrap template.
+- [https://github.com/diversen/pandoc-bootstrap-adaptive-template](https://github.com/diversen/pandoc-bootstrap-adaptive-template). A bootstrap adaptive template with a sticky accordion menu.
+- [https://github.com/diversen/pandoc-uikit](https://github.com/diversen/pandoc-uikit). A pandoc UIKIT adaptive template with a sticky accordion menu.
 - [mindoc](https://github.com/bitfragment/mindoc): minimal template producing a HTML document with responsive styling and section navigation menu. Designed to make academic documents including course syllabi and scholarly articles accessible on small screens.
 - [gh-themes-magick](https://github.com/tajmone/gh-themes-magick): GitHub Pages’ themes converted to pandoc html5 templates; template vars exposed via single `configuration.yaml` to customize website and html metadata.
 - [GitHub Pandoc HTML5 Template](https://github.com/tajmone/pandoc-goodies/tree/master/templates/html5/github): built from GitHub's original CSS to mimick the look and feel of GitHub documents. \[[Live Demo](http://htmlpreview.github.io/?https://github.com/tajmone/pandoc-goodies/blob/master/templates/html5/github/GitHub-Template-Preview.html)\]
+- [Easy Pandoc Templates](https://github.com/ryangrose/easy-pandoc-templates): a collection of portable pandoc templates without dependencies — bootstrap, elegant bootstrap, and UIKit, bundled with useful helpers and demos. Maintained by Ryan Grose, GPL-3.0 License.
 
 # Microsoft Word
 - [numbered-sections](https://github.com/krissen/pandoc-extra/blob/master/templates/numbered-sections.docx): Docx-template with numbered sections for heading levels one (1.) to four (1.1.1.1).
