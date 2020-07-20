@@ -14,21 +14,21 @@ These extend the capabilities of pandoc:
 ## Learning Pandoc ##
 
 - General:
-	- [[Documentation and Tutorials]]
-	- [[Tabular overview: Pandoc's supported Markdown dialects and extensions enabled by default]]
-	- [[Hacking Pandoc]]
+  - [[Documentation and Tutorials]]
+  - [[Tabular overview: Pandoc's supported Markdown dialects and extensions enabled by default]]
+  - [[Hacking Pandoc]]
 - Examples:
-	- [[Creating impress.js slide shows with pandoc]]
-	- [[How to add a "Table of Contents" title in the HTML template]]
+  - [[Creating impress.js slide shows with pandoc]]
+  - [[How to add a "Table of Contents" title in the HTML template]]
 - Compiling pandoc:
-	- [[Installing the development version of pandoc]]
+  - [[Installing the development version of pandoc]]
 - Other:
-	- [[Pandoc with gentoo]]
-	- [[Trials and Tribulations: How to find correct font names for Pandoc's use with LuaLaTeX?]]
-        - [[Minimal TeXLive installation for Pandoc]]
+  - [[Pandoc with gentoo]]
+  - [[Trials and Tribulations: How to find correct font names for Pandoc's use with LuaLaTeX?]]
+  - [[Minimal TeXLive installation for Pandoc]]
 - Pandoc for non-English speakers:
-	- [[Pandoc with Chinese]] (简体中文)
-        - [[Pandoc User's Manual in French]] (translation by patrix67)
+  - [[Pandoc with Chinese]] (简体中文)
+  - [[Pandoc User's Manual in French]] (translation by patrix67)
 
 
 ## Comparisons ##
