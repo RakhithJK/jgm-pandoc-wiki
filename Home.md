@@ -22,11 +22,13 @@ These extend the capabilities of pandoc:
 	- [[How to add a "Table of Contents" title in the HTML template]]
 - Compiling pandoc:
 	- [[Installing the development version of pandoc]]
-- Debug LaTeX output examples:
+- Other:
 	- [[Pandoc with gentoo]]
-	- [[Pandoc with Chinese]](简体中文)
 	- [[Trials and Tribulations: How to find correct font names for Pandoc's use with LuaLaTeX?]]
-    - [[Minimal TeXLive installation for Pandoc]]
+        - [[Minimal TeXLive installation for Pandoc]]
+- Pandoc for non-English speakers:
+	- [[Pandoc with Chinese]] (简体中文)
+        - [[Pandoc User's Manual in French]] (translation by patrix67)
 
 
 ## Comparisons ##
