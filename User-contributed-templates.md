@@ -33,6 +33,7 @@
 - [Opening Science](https://github.com/openingscience/book), an example of using Pandoc to create both a printed and electronic book with academic citations (see also the [blog post by Martin Fenner](http://blog.martinfenner.org/2013/12/05/opening-science---the-book/))
 - [Advanced R Programming](https://github.com/hadley/adv-r/), combining pandoc with Jekyll and knitr
 - [Simple project template for html, pdf and epub pandoc ebooks](https://github.com/wikiti/pandoc-book-template)
+- [Customizing pandoc for GitHub style markdown](https://learnbyexample.github.io/tutorial/ebook-generation/customizing-pandoc/) (PDF/EPUB)
 
 # HTML
 
