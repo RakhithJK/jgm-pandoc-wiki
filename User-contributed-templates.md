@@ -37,6 +37,7 @@
 
 # HTML
 
+- [Bootstrap4 Template](https://github.com/ashki23/pandoc-bootstrap): A Bootstrap 4 template with table of contents
 - [https://github.com/tonyblundell/pandoc-bootstrap-template](https://github.com/tonyblundell/pandoc-bootstrap-template) A bootstrap template.
 - [https://github.com/diversen/pandoc-bootstrap-adaptive-template](https://github.com/diversen/pandoc-bootstrap-adaptive-template). A bootstrap adaptive template with a sticky accordion menu.
 - [https://github.com/diversen/pandoc-uikit](https://github.com/diversen/pandoc-uikit). A pandoc UIKIT adaptive template with a sticky accordion menu.
