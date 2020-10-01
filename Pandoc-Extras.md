@@ -49,6 +49,7 @@ the opened file as input.
 - [pandoc-live](https://github.com/ocharles/pandoc-live) is a little utility can be used to watch a Pandoc document for changes, and display the rendering in real-time in a web browser.
 - [docker-pandoc](https://github.com/silvio/docker-pandoc) - use pandoc on hosts without haskel installed (via docker). Brings a inotify based watch tool for nearly live generation of output documents.
 - [Writage], Markdown plugin for Microsoft Word, is integrated with Pandoc.
+- [Markdown Preview Enhanced], a super powerful markdown extension for Atom and Visual Studio Code. It can use pandoc as the Markdown parser.
 
 # Web Services to Process Files by Pandoc
 
@@ -242,3 +243,4 @@ See [[Pandoc Filters]]
 [Scripts for using pandoc with BBEdit and TextWrangler]: https://github.com/jrgcmu/BBpandoc
 [Notepad++]: https://gist.github.com/jrgcmu/3ccc11c0412f45f9a6a4
 [Writage]: http://www.writage.com/
+[Markdown Preview Enhanced]: https://shd101wyy.github.io/markdown-preview-enhanced/
