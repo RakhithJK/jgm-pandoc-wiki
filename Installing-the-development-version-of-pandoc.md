@@ -7,10 +7,6 @@ Then:
     stack setup # only first time
     stack install
 
-If you also want pandoc-citeproc, add
-
-    stack install pandoc-citeproc
-
-The `stack install` command will let you know where it put the binaries (pandoc and pandoc-citeproc).  You may have to add this location (`~/.local/bin`, on linux and OSX systems) to your path.
+The `stack install` command will let you know where it put the `pandoc` binary.  You may have to add this location (`~/.local/bin`, on linux and OSX systems) to your path.
 
 For more info, see also [CONTRIBUTING.md](https://github.com/jgm/pandoc/blob/master/CONTRIBUTING.md)
