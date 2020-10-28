@@ -4,5 +4,6 @@ Eine Schnittstelle definiert Eigenschaften oder Funktionen einer Komponente oder
 public interface MyInterface
 {
     string Property { get; set; }
+
     void DoSomething();
 }
