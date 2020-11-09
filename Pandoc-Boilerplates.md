@@ -28,4 +28,10 @@ A ready-to-go file compilation to create a [reveal.js](https://revealjs.com/) pr
 
 ------------
 
+# [markdown-latex-paper-boilerplate](https://github.com/christian-konrad/markdown-latex-paper-boilerplate)
+
+Write your well formatted professional paper, essay or thesis at ease with markdown and latex and export it as PDF (with bibliography) using a simple shell script.
+
+------------
+
 Please add more
