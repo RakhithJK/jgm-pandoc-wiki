@@ -4740,9 +4740,8 @@ devez joindre les caractères <span class="nowrap">`$`</span> dans du
 texte au sens littéral, faites-les précéder d'une barre oblique inversée
 et ils ne seront pas interprêtés comme délimiteurs mathématiques.
 
-For display math, use <span class="nowrap">`$$`</span> delimiters. (In
-this case, the delimiters may be separated from the formula by
-whitespace.)
+Pour afficher des maths, utiliser des délimiteurs <span class="nowrap">`$$`</span>. (Dans ce cas, les délimiteurs doivent être séparatés de la formule par
+une espace.)
 
 Les mathématiques TeX seront imprimées dans tous les formats de sortie.
 La manière dont il est rendu dépend du format de sortie :
