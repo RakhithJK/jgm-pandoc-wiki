@@ -5764,15 +5764,13 @@ class="nowrap">`#`</span>de suivi dans un titre ATX).
 
 #### Extension: <span class="nowrap">`compact_definition_lists`</span>
 
-Activates the definition list syntax of pandoc 1.12.x and earlier. This
-syntax differs from the one described above under [Definition
-lists](#definition-lists) in several respects:
+Active la syntaxe de définition de liste de pandoc 1.12.x et préc. Cette
+syntaxe diffère de celle décrite ci-dessus après [Definition
+lists](#definition-lists) sur plusieurs points :
 
--   No blank line is required between consecutive items of the
-    definition list.
--   To get a “tight” or “compact” list, omit space between consecutive
-    items; the space between a term and its definition does not affect
-    anything.
+-   Pas de ligne vide requise entre des items consécutifs de la liste de
+    définition.
+-   Pour avoir une liste “tight” ou “compacte”, omettre l'espace entre les items consecutifs ; l'espace entre un terme et sa définition n'affecte rien.
 -   Lazy wrapping of paragraphs is not allowed: the entire definition
     must be indented four
     spaces.<a href="#fn4" id="fnref4" class="footnote-ref"><sup>4</sup></a>
