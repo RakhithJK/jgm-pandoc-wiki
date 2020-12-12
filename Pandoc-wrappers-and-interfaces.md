@@ -13,6 +13,7 @@ JavaScript	| wrapper	| [node-pdc](https://github.com/pvorb/node-pdc)	| Paul Vorb
 JavaScript	| wrapper	| [node-pandoc](https://www.npmjs.com/package/node-pandoc)	| Eric R. Shinn  
 JavaScript	| wrapper	| [simple-pandoc](https://www.npmjs.com/package/simple-pandoc)	| Hyunje Jun  
 JavaScript	| wrapper	| [paja](https://www.npmjs.com/package/paja)	| Huub de Beer  
+.NET    | interface     | PandocFilters ([NuGet](https://www.nuget.org/packages/PandocFilters/), [GitHub](https://github.com/zspitz/PandocFilters)) | Zev Spitz  
 Pascal	| wrapper	| [PasPandoc](https://github.com/htdebeer/PasPandoc)	| Huub de Beer  
 Perl	| interface	| [Pandoc::Elements](https://metacpan.org/pod/Pandoc::Elements)	| Jakob Voß  
 Perl	| wrapper	| [Pandoc](https://metacpan.org/pod/Pandoc)	| Jakob Voß  
