@@ -3683,7 +3683,7 @@ code clôturé ou à un bloc de code backtick en utilisant cette syntaxe :
 
 Ici <span class="nowrap">`mycode`</span> est un identificateur, <span
 class="nowrap">`haskell`</span> et <span
-class="nowrap">`numberLines`</span> sontet des classes,  <span
+class="nowrap">`numberLines`</span> sont des classes,  <span
 class="nowrap">`startFrom`</span> est un attribut de valeur <span
 class="nowrap">`100`</span>. Certains formats de sortie peuvent utiliser
 ces informations pour effectuer une mise en évidence syntaxique.
