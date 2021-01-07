@@ -97,6 +97,8 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
 - [pandoc-numbering](https://github.com/chdemko/pandoc-numbering), for
   numbering and cross-referencing any kinds of things such as
   examples, theorems, exercises and so on
+- [pandoc-ling](https://github.com/cysouw/pandoc-ling), for formatting, 
+  numbering and cross-referencing linguistic examples
 - [pandoc-listof](https://github.com/chdemko/pandoc-listof), for
   creating lists of any kinds (**deprecated**)
 - [pandoc-amsthm](https://github.com/ickc/pandoc-amsthm): a pandoc
