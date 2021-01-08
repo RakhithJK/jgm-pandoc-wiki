@@ -208,6 +208,9 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   first use with the full text \"frequently asked questions (FAQ)\".
   It is installed using
   [pip](https://pypi.org/project/pandoc-acronyms/).
+- [count-para.lua](https://github.com/cysouw/count-para) add numbering to 
+  paragraphs to allow for detailed citation (in scientific context). Proposal
+  to replace page-number referencing, which does not work with adaptive design. 
 - [pandoc-lang](https://github.com/davidar/pandoc-lang) automatically
   detects the (natural) language of text, as well as the programming
   language of code blocks
