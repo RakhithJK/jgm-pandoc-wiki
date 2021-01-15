@@ -223,6 +223,7 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   languages other than US English.
 - [transclude.lua](https://github.com/a-vrma/pandoc-filters#transclude)
   Include content from another file just like in AsciiDoc and ReST.
+- [columns](https://github.com/jdutant/columns) Multiple columns support.
 
 ### Running Code related
 
