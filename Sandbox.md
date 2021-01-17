@@ -1,12 +1,16 @@
-# non ascii ⚠️ räksmörgås
+[[https://example.org]]
 
+[[title|https://example.org]]
 
-# hi_there
+[[*title*|https://example.org]]
 
-# -foo-bar
+[[title|random string]]
 
-# blue -
+[[random string]]
 
-# (2.there)
+[[*random string*]]
 
-# H   i
+[[title\|https://example.org]]
+
+[[title`|`hi]]
+
