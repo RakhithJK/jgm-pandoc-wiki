@@ -256,8 +256,8 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   Written in Python.
   Available on [PyPI](https://pypi.org/project/manubot/).
 - [pandoc-url2cite](https://github.com/phiresky/pandoc-url2cite)
-  allows citing certain persistent identifiers directly (URLs, ISBNs, and DOIs).
-  Written in Javascript.
+  allows citing certain persistent identifiers directly (URLs, ISBNs, and DOIs). Basically a less opinionated and simpler version of pandoc-manubot-cite.
+  Written in TypeScript.
   Available on [npm](https://www.npmjs.com/package/pandoc-url2cite).
 - [pandoc-zotxt.lua](https://github.com/odkr/pandoc-zotxt.lua)
   looks up sources for citations in Zotero.
