@@ -22,7 +22,8 @@ Filters can be written in any programming language. [[Pandoc wrappers and interf
 | language	| link	| description	|  
 |  ------	| ------	| ------	|  
 | Python	| [pandocfilters](https://github.com/jgm/pandocfilters)	| a library for writing pandoc filters in python.	| 
-| Python	| [panflute](https://github.com/sergiocorreia/panflute)	| a pythonic alternative to `pandocfilters`, with batteries included.(@jgm recommended this in [pandoc discuss](https://groups.google.com/forum/#!searchin/pandoc-discuss/I$27d$20recommend$20that$20people$20use$20panflute$20instead%7Csort:relevance/pandoc-discuss/wbebx65e1Nk/prx8_jLnAQAJ))	| 
+| Python	| [panflute](https://github.com/sergiocorreia/panflute)	| a pythonic alternative to `pandocfilters`, with batteries included. It reconstructs pandoc AST in an internal panflute AST which makes it more seamless in interacting with the AST. (@jgm recommended this in [pandoc discuss](https://groups.google.com/forum/#!searchin/pandoc-discuss/I$27d$20recommend$20that$20people$20use$20panflute$20instead%7Csort:relevance/pandoc-discuss/wbebx65e1Nk/prx8_jLnAQAJ))	| 
+| Python | [pantable](https://github.com/ickc/pantable) | specialized in writing filter for tables based on [panflute](https://github.com/sergiocorreia/panflute), which provides a lossless conversion between an internal structure and panflute AST. |
 | PHP	| [pandocfilters-php](https://github.com/vinai/pandocfilters-php)	| a port of the python [pandocfilters](https://github.com/jgm/pandocfilters) module to PHP to make writing filters in PHP easier.	| 
 | Node.js	| [pandoc-filter-node](https://github.com/mvhenderson/pandoc-filter-node)	| a Node.js module for writing pandoc filters in JavaScript.	|  
 | Perl	| [Pandoc::Elements](https://metacpan.org/release/Pandoc-Elements)	| a CPAN module for writing pandoc filters in Perl.	| 
