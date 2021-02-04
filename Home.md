@@ -1,4 +1,4 @@
-# Welcome to the Pandoc wiki!!!
+# Welcome to the Pandoc wiki!
 
 This is a place for users to share pandoc tips.
 
