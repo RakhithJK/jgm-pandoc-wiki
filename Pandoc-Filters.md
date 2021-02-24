@@ -151,7 +151,7 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
 - [pandoc-latex-color](https://github.com/chdemko/pandoc-latex-color),
   for specifying X11 color on `span` and `div` elements
 - [pandoc-latex-unlisted](https://github.com/chdemko/pandoc-latex-unlisted),
-  for unlisting some specific headers in the table of contents
+  for unlisting some specific headers in the table of contents (**deprecated** since it is now in the core of pandoc)
 - [pandoc-latex-newpage](https://github.com/chdemko/pandoc-latex-newpage),
   for converting horizontal rules into new page
 - [pandoc-latex-french-spaces](https://github.com/chdemko/pandoc-latex-french-spaces),
