@@ -271,6 +271,7 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   for indexing with the syntax `(# term, subterm)` in html and latex
 - [Adding non-breaking spaces inside a URL to preserve
   formatting](https://gist.github.com/mpickering/fdc747b9c8306659cb43)
+- [toc-css](https://github.com/cysouw/toc-css) Lua filter changing the appearance of the Pandoc basic HTML table of contents by some CSS and vanilla Javascript.
 - [lablinkfix](https://github.com/klpn/lablinkfix) updates links to
   the Swedish Labour Movement Archives and Library catalogues.
 - [second-date](https://gist.github.com/7937d04120ac27fcfb1955ae15773b05)
