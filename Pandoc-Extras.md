@@ -171,6 +171,7 @@ the opened file as input.
 - [Nikola](https://github.com/getnikola/nikola): a Python static site generator supporting many compilers including pandoc.
 - [Pandocomatic](https://heerdebeer.org/Software/markdown/pandocomatic/) RubyGem. Can also be used to automate the use of pandoc in a more general way.
 - [pdsite](http://pdsite.org): single shell script with no dependencies, runs on Unix-like systems.
+- [pdblog](https://pdblog.org): even simpler shell script than pdsite, specifically for blog-like sites.
 - [gh-themes-magick](https://github.com/tajmone/gh-themes-magick): publish your GitHub project’s single page website from `master` branch’s `/docs/` folder using GitHub themes, and let pandoc scripts update its contents to mirror the project’s `README.md`.
 - [simple-template/pandoc](https://github.com/simple-template/pandoc): A system to generate static websites using Make.
 - [_jqt_ template engine](https://fadado.github.io/jqt/): _jqt_ uses [jq](https://stedolan.github.io/jq/) as expression language and _Pandoc_ as _MarkDown_ processor. _jqt_ also implements a preprocessing stage using [gpp](https://logological.org/gpp) for templates, _MarkDown_ documents, JSON data and CSS files.
