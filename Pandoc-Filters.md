@@ -32,6 +32,7 @@ Filters can be written in any programming language. [[Pandoc wrappers and interf
 | Lua | [pandoc's official documentation](https://pandoc.org/lua-filters.html) | Pandoc includes a [lua](https://www.lua.org/) interpreter by default so is quite lightweight|
 | Elixir | [Panpipe](https://github.com/marcelotto/panpipe) | a library for writing pandoc filters in Elixir |
 | .NET | [PandocFilters](https://www.nuget.org/packages/PandocFilters/) | a NuGet package for writing Pandoc filters in .NET languages |
+| OCaml | [ocaml-pandoc](https://github.com/smimram/ocaml-pandoc) | An [OCaml](https://ocaml.org/) library for writing pandoc filters. |
 
 Other tools:
 
