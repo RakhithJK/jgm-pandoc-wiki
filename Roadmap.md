@@ -8,7 +8,6 @@ Pandoc doesn't have a strict roadmap but this page should serve as an overview a
 - [internal links/references to tables and figures](https://github.com/jgm/pandoc/issues/813)
 - [PageBreak element](https://github.com/jgm/pandoc/issues/1934)
 - [Handle insertions and deletions (`<ins>` and `<del>`) consistently across readers/writers](https://github.com/jgm/pandoc/issues/1560)
-- [colspans in tables](https://github.com/jgm/pandoc/issues/1024) (and possibly also rowspan)
 - [change Format from String to a sum type](https://github.com/jgm/pandoc/issues/547)
 - [Endnotes](https://github.com/jgm/pandoc/pull/4042) and [reusing the same Note](https://github.com/jgm/pandoc/issues/1603)
 - [Comment AST element](https://github.com/jgm/pandoc/issues/1926)
