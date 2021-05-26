@@ -23,7 +23,7 @@ These extend the capabilities of pandoc:
 - Compiling pandoc:
   - [[Installing the development version of pandoc]]
 - Other:
-  - [[Pandoc with gentoo|Pandoc with Gentoo]]
+  - [[Pandoc with gentoo linux|Pandoc with gentoo]]
   - [[Trials and Tribulations: How to find correct font names for Pandoc's use with LuaLaTeX?]]
   - [[Minimal TeXLive installation for Pandoc]]
 - Pandoc for non-English speakers:
