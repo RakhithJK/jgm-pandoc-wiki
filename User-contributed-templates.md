@@ -25,6 +25,7 @@
 - [A skeleton template and generator for creating academic papers and targeting common formats, with SVG support.](https://github.com/jbn/paper.git)
 - [Lecture material: PDF slides and HTML/EPUB handouts using Pandoc and Beamer](https://github.com/cagix/pandoc-lecture)
 - [Pandoc Journal Templates](https://github.com/sachsmc/pandoc-journal-templates) - github repository with journal templates for several major journals (incl. JASA, TAS, JBES, JCGS, SBP, Technometrics, Biometrical Journal, Biometrics, Biometrika, Biostatistics, AOAS, AOP, AAP, AOS, SSY, Journal of Statistical Software, Statistics in Medicine, and The R Journal)
+- [A template and makefile for generating MLA-formatted PDFs](https://github.com/shushcat/mla_paper_template)
 
 # E-books
 
