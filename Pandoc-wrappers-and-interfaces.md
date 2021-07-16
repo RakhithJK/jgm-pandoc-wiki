@@ -29,5 +29,4 @@ Ruby	| interface	| [Paru](https://heerdebeer.org/Software/markdown/paru/)	| Huub
 Ruby	| wrapper	| [pandoc-ruby](https://github.com/alphabetum/pandoc-ruby)	| William Melody  
 Ruby	| wrapper	| [Pandoku](https://github.com/lunant/pandoku)	| Hong Minhee  
 Scala	| wrapper	| [scala-pandoc](https://github.com/pvorb/scala-pandoc)	| Paul Vorbach  
-Web	| interface	| [Paperify](https://www.paperify.org) ([Github](https://github.com/olastor/paperify))	| olastor  
 Web	| interface	| [Typademic](https://typademic.ch) ([Github](https://github.com/maehr/typademic))	| Moritz Mähr
