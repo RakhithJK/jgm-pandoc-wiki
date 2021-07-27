@@ -62,6 +62,8 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   --- filters combined:
   [prependAll](https://github.com/iandol/dotpandoc/blob/master/filters/prependAll).
 
+- [pandoc-odt-filters](https://github.com/jzeneto/pandoc-odt-filters): filters that improve ODT output --- corrects links to images and tables, corrects bibliography style, custom styles to headers and spans, better list styles and real smallcaps.
+
 ### Images related
 
 - [pandoc-svg](https://gist.github.com/jeromerobert/3996eca3acd12e4c3d40),
