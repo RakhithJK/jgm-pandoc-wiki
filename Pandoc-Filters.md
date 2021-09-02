@@ -251,6 +251,9 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   in-memory SQLite database. It creates tables from tables in the
   document and executes queries in code blocks, showing the results as
   tables.
+- [pannb](https://ickc.github.io/pannb/), a pandoc filter to control the output from ipynb input,
+  this includes metadata block, filter out Python code, and converting all raw-blocks to native pandoc AST.
+  The 3 can be mixed and matched.
 
 ### Citation related
 
