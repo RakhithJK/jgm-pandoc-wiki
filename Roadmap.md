@@ -91,6 +91,7 @@ John has indicated that the default input reader for pandoc will eventually tran
 | raw_html                          | available                                     |
 | raw_tex                           | available                                     |
 | rebase_relative_paths             | available                                     |
+| short_subsuperscript              | Unlikely to be implemented                    |
 | shortcut_reference_links          | core commonmark                               |
 | simple_tables                     | planned                                       |
 | smart                             | available                                     |
