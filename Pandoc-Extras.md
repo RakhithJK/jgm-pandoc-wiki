@@ -8,6 +8,7 @@
  		- [Additional readers](#additional-readers)
 	- [Doc processing tools using Pandoc](#doc-processing-tools-using-pandoc)
 		- [Using pandoc with ConTeXt](#using-pandoc-with-context)
+	- [GUIs for using Pandoc](#guis-for-using-pandoc)
 - [Tools for Websites](#tools-for-websites)
 	- [Blogs](#blogs)
 	- [Wikis](#wikis)
