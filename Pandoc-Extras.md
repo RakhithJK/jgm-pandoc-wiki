@@ -145,6 +145,11 @@ the opened file as input.
   `\startmarkdown` and `\stopmarkdown` directly in ConTeXt.
 - [an even simpler route] from markdown to PDF, via ConTeXt.
 
+## GUIs for using Pandoc
+- [DocDown](https://github.com/lowercasename/docdown): menubar bar app for Pandoc conversions. limited options, but very accessible for less tech-savvy people.
+- [Pandoc Plugin for Obsidian](https://github.com/OliverBalfour/obsidian-pandoc): Wide range of conversions from markdown documents in Obsidian.
+- [Pandoc-Suite for Alfred](https://chris-grieser.de/pandoc_alfred): enables one-click-conversion of Markdown Documents with Citations into `.docx`, `.pdf`, `.html`, `.odt`, or `.pptx` with the proper bibliography. Also features a Citation Picker for Pandoc Citations and a Citation Style file search. 
+
 
 # Tools for Websites
 
@@ -194,6 +199,7 @@ See [[Pandoc wrappers and interfaces]]
 - [Zotero Integration Extension](http://baig.github.io/brackets-zotero/): If you miss a Word like workflow working with Zotero where you can just search your Zotero library and insert citations wherever you want, then this extension provides such functionality in [Brackets](http://brackets.io/) for your markdown documents.
 - [Applets for Zotero and Scrivener integration](http://github.com/davepwsmith/zotpick-applescript/) using [Better BibTeX] plugin's new Cite as you Write feature. Use in conjunction with this [workflow for integrating Scrivner, Pandoc, Zotero and Marked 2](http://davepwsmith.github.io/academic-scrivener-howto/)
 - [pandoc-wikicite](https://www.npmjs.com/package/pandoc-wikicite) allows to directly reference bibliographic items from Wikidata
+- The [Pandoc-Suite for Alfred](https://chris-grieser.de/pandoc_alfred) also includes a citation picker that can insert Pandoc Citations systemwide (using either Alfred or Zotero as GUI.)
 
 ## Citation Style Language (CSL) with pandoc
 
