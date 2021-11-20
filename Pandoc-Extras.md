@@ -31,6 +31,7 @@
 - [Scripts for using pandoc with BBEdit and TextWrangler], as well as [Notepad++]
 - [pandoc-mode for emacs], by Joost Kremers
 - [PanWriter](https://panwriter.com) ([GitHub page](https://github.com/mb21/panwriter/)) – distraction-free markdown editor with pandoc integration and paginated preview
+- [Zettlr](https://zettlr.com/) ([GitHub page](https://github.com/Zettlr/Zettlr)) - a fully featured markdown editor with pandoc integration, and pandoc compatible citation autocompletion.
 - [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
 - [R Markdown](http://rmarkdown.rstudio.com), using knitr and pandoc
