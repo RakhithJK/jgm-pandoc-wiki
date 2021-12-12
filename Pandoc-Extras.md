@@ -83,7 +83,7 @@ the opened file as input.
 
 ## Preprocessors
 
-- [PP - A generic Preprocessor (with Pandoc in mind)](http://cdsoft.fr/pp/) lets you embed the following diagrams in Markdown code blocks:
+- [PP - A generic Preprocessor (with Pandoc in mind)](https://github.com/CDSoft/pp) lets you embed the following diagrams in Markdown code blocks:
     + [Graphviz](http://www.graphviz.org/) (needs to be installed separately)
     + [PlantUML](http://plantuml.com/) (embedded in pp at compile time)
     + [Ditaa](http://ditaa.sourceforge.net/) (embedded in pp at compile time)
