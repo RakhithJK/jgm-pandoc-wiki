@@ -151,6 +151,7 @@ the opened file as input.
 - [DocDown](https://github.com/lowercasename/docdown): menubar bar app for Pandoc conversions. limited options, but very accessible for less tech-savvy people.
 - [Pandoc Plugin for Obsidian](https://github.com/OliverBalfour/obsidian-pandoc): Wide range of conversions from markdown documents in Obsidian.
 - [Pandoc-Suite for Alfred](https://chris-grieser.de/pandoc_alfred): enables one-click-conversion of Markdown Documents with Citations into `.docx`, `.pdf`, `.html`, `.odt`, or `.pptx` with the proper bibliography. Also features a Citation Picker for Pandoc Citations and a Citation Style file search. 
+- [Typora](https://typora.io): A markdown editor, use Pandoc to export to various type of documents. See more in [Typora Wiki](https://support.typora.io/Export/#other-formats-using-pandoc)
 
 
 # Tools for Websites
