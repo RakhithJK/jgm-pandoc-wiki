@@ -287,10 +287,6 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   specify the source of images and tables, and automatically
   corrects *Alineas* according to Brazilian\'s standard for Academic
   writings (ABNT NBR 14724:2011).
-- [pandoc-refheadstyle](https://github.com/odkr/pandoc-refheadstyle)
-  sets a custom style for the reference section header; there\'s a
-  Lua version, too:
-  [pandoc-refheadstyle.lua](https://github.com/odkr/pandoc-refheadstyle.lua)
 - [nheengatu](http://joseflavio.com/nheengatu/) provides several
   resources for publishing multimedia content through formats such
   as LaTeX, HTML and EPUB.
