@@ -293,3 +293,5 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
 - [code-includes.lua](https://github.com/a-vrma/pandoc-filters#code-includes)
   Include code from source files. Keep your examples and documentation compiled and
   in-sync.
+- [pandoc-logic-proof](https://github.com/mhwombat/pandoc-logic-proof) provides a way
+  to write logic proofs in pandoc markdown and produce attractive output.
