@@ -61,8 +61,8 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   [prependComments](https://github.com/iandol/dotpandoc/blob/master/filters/prependComments)
   --- filters combined:
   [prependAll](https://github.com/iandol/dotpandoc/blob/master/filters/prependAll).
-
 - [pandoc-odt-filters](https://github.com/jzeneto/pandoc-odt-filters): filters that improve ODT output --- creates sequences in image and table captions (for automatic list-of-figures and list-of-tables), corrects links to images and tables, corrects bibliography style, custom styles to headers and spans, better list styles and real smallcaps. Some of the filters are configurable.
+- [commentary](https://github.com/hdb/commentary/blob/master/commentary/commentary_filter.py): a Pandoc filter and command line tool that preserves native-style comments + metadata between Markdown and docx conversions.
 
 ### Images related
 
