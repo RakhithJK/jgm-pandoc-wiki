@@ -89,7 +89,7 @@ John has indicated that the default input reader for pandoc will eventually tran
 | pipe_tables                       | available                                     |
 | raw_attribute                     | available                                     |
 | raw_html                          | available                                     |
-| raw_tex                           | available                                     |
+| raw_tex                           | incompatible with commonmark                  |
 | rebase_relative_paths             | available                                     |
 | short_subsuperscript              | Unlikely to be implemented                    |
 | shortcut_reference_links          | core commonmark                               |
