@@ -301,11 +301,27 @@ Task lists are part of pandoc as of v2.6. Syntax is the same as GFM.
 
 # Today in date metadata
 
+## POSIX
+
 Add this to the pandoc command you use:
 
     -M date="$(date "+%B %e, %Y")"
 
-POSIX only.
+## Windows 10
+
+Add this to the pandoc command you use:
+
+    -M date=%date%
+
+Syntax tested based on a comment to issue [#3778](https://github.com/jgm/pandoc/issues/3778#issuecomment-594648553). Verified on Pandoc v2.18. 
+
+## MacOs
+
+Add this to the pandoc command you use:
+
+    -M date="`date -u '+%Y-%m-%d'`"
+
+Syntax contributed by a comment to issue [#2865](https://github.com/jgm/pandoc/issues/2865#issuecomment-466691525).
 
 # Definition list terms on their own line in LaTeX
 
