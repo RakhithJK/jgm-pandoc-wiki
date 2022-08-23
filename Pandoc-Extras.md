@@ -34,7 +34,7 @@
 - [Zettlr](https://zettlr.com/) ([GitHub page](https://github.com/Zettlr/Zettlr)) - a fully featured markdown editor with pandoc integration, and pandoc compatible citation autocompletion.
 - [Mac OS X Services](https://github.com/mb21/Pandoc-Mac-OS-X-Services) to invoke pandoc from any text editor
 - [Tool for using pandoc from Notepad++], courtesy of Ted Lilley
-- [R Markdown](http://rmarkdown.rstudio.com), using knitr and pandoc
+- [RStudio](http://rstudio.com) running [Quarto](https://quarto.org) or [R Markdown](http://rmarkdown.rstudio.com), an IDE workflow that uses knitr and pandoc for a complete writing / analysing / publishing workflow.
 - [Sublime Text](https://sublime.wbond.net/search/pandoc), a number of plugins available for [Sublime Text](http://www.sublimetext.com/) via the plugin [Package Control](https://sublime.wbond.net/installation). See [Plaintxt Productivity](http://plaintext-productivity.net/2-05-how-to-set-up-sublime-text-for-markdown-export-to-word.html) and [Writing academic papers in Markdown using Pandoc](http://web.archive.org/web/20141014045547/http://blog.cigrainger.com/2014/07/pandoc-markdown.html) for further details.
 - [TextMate bundle for pandoc], courtesy of David Sanson (for TextMate 2 only)
 - [vim-pandoc project], integration with pandoc and utilities for vim, courtesy of Felipe Morales (fmoralesc) and others. Covers:
@@ -61,12 +61,10 @@ the opened file as input.
 - [Markup.rocks](http://markup.rocks) runs a version of pandoc compiled to javascript via ghcjs. Conversion takes place client-side, in the browser, and a live preview of the result is available.
 
 # Workflow
-
-- [panzer](https://github.com/msprev/panzer), adds the concept of 'styles' to pandoc. Styles control templates, metadata settings, pandoc command line options, and instructions to run filters and pre/postprocessors in a simple, reusable, and recombinable way.
+- [Pandocomatic](https://heerdebeer.org/Software/markdown/pandocomatic/), allows you to configure flexible and inheritable YAML templates specified in the document metadata that controls all Pandoc settings, filters, metadata *and* pre/post-processing. Applied to a directory, pandocomatic can act as a static site generator.
+- [pdc](https://github.com/bk/pdc) is a command line wrapper for pandoc which makes it possible to completely control the conversion process from the first YAML meta block in the input document(s), including multiple output formats at the same time, templates, pre- and post-processors, etc.
 - [panrun](https://github.com/mb21/panrun): minimal script that runs pandoc with the options it finds in the YAML metadata of the input file.
 - [kokoi](https://github.com/zeis/kokoi), a configurable markup file watcher, previewer, and converter that uses Pandoc as the default markup processing engine. _kokoi_ watches for changes on the markup files in the directory _kokoi_ is started, and if they change, automatically reprocesses and previews them directly in the browser.
-- [pdc](https://github.com/bk/pdc) is a command line wrapper for pandoc which makes it possible to completely control the conversion process from the first YAML meta block in the input document(s), including multiple output formats at the same time, templates, pre- and post-processors, etc.
-- [Pandocomatic](https://heerdebeer.org/Software/markdown/pandocomatic/), allows you to configure flexible YAML templates that control Pandoc settings, filters, metadata and pre/postprocessing. Applied to a directory, pandocomatic can act as a static site generator.
 - [Pandoc Build Task](https://www.nuget.org/packages/PandocTasks/), a small MSBuild target to transform files with Pandoc. Provided as a Nuget package.
 - [pandoc-schemata](https://github.com/rakali/pandoc-schemata), providing JSON Schema files for Pandoc JSON.
 - [pandocket](https://github.com/wcaleb/pandocket), 'A python script that looks for special lines in a markdown file and uses those lines to convert, clean up, and insert content from URLs into the file for processing by pandoc'
@@ -80,6 +78,7 @@ the opened file as input.
     To learn how to set this up, see [these examples](https://github.com/maxheld83/pandoc-action-example).
   2. If, instead, you want to install pandoc on the host machine *directly*, you can use thus [setup-pandoc](https://github.com/r-lib/actions/tree/master/setup-pandoc).
     This may take longer and does not offer the encapsulation of the docker images, but makes pandoc available in all steps, or even in different versions for matrix builds.
+- (abandoned since 2018) [panzer](https://github.com/msprev/panzer), adds the concept of 'styles' to pandoc. Styles control templates, metadata settings, pandoc command line options, and instructions to run filters and pre/postprocessors in a simple, reusable, and recombinable way.
 
 ## Preprocessors
 
@@ -105,7 +104,7 @@ the opened file as input.
 ### Legacy
 
 - (included in PP) [Using GPP as a preprocessor](https://adityam.github.io/context-blog/post/markdown-with-gpp/) to get TeX-like macro features in Markdown.
-- (abandonned since 2013) [pandoc-gpp](https://github.com/dloureiro/pandoc-gpp) by David Loureiro is a wrapper around pandoc and gpp in order to provide some macros for extra markup not available in markdown and its extensions.
+- (abandoned since 2013) [pandoc-gpp](https://github.com/dloureiro/pandoc-gpp) by David Loureiro is a wrapper around pandoc and gpp in order to provide some macros for extra markup not available in markdown and its extensions.
 - (included in PP) [mddia](https://github.com/nichtich/ditaa-markdown/) lets you embed [ditaa](http://ditaa.sourceforge.net/) ASCII-art diagrams in Markdown code blocks
 
 ### Additional Readers
