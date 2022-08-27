@@ -177,6 +177,9 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   select by line number.
 - [transclude.lua](https://github.com/a-vrma/pandoc-filters#transclude)
   Include content from another file just like in AsciiDoc and ReST.
+- [include-files.lua](https://github.com/pandoc/lua-filters/tree/master/include-files)
+  Filter to include other files in the document.
+- [`include.py`](https://github.com/sergiocorreia/panflute/blob/22b8c021e03f4469c5cb7ba68800e4c7348961af/docs/source/_static/include.py): Panflute filter to allow file includes. See [doc](https://panflute.readthedocs.io/en/latest/guide.html?highlight=include#using-the-included-batteries).
 
 ### RAW related
 - [pandoc-dot2tex-filter](https://github.com/kuba-orlik/pandoc-dot2tex-filter) -
