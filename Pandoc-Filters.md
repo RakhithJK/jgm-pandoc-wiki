@@ -165,7 +165,7 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   for using `block`, `alertblock` and `exampleblock` environment
   defined in beamer.
 
-### RAW related
+### Include/transclude related
 
 - [Include Files](http://pandoc.org/scripting.html#include-files):
   finds all the inline code blocks with attribute include, and
@@ -174,6 +174,10 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   Include code from source files. Keep your examples and documentation compiled and
   in-sync. Similar to the above except you don't have to install Haskell and you can
   select by line number.
+- [transclude.lua](https://github.com/a-vrma/pandoc-filters#transclude)
+  Include content from another file just like in AsciiDoc and ReST.
+
+### RAW related
 - [pandoc-dot2tex-filter](https://github.com/kuba-orlik/pandoc-dot2tex-filter) -
   a filter that converts dot notation to PGF/TikZ graphics for
   latex/pdf rendering.
@@ -225,8 +229,6 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   the older [pandoc-quotes](https://github.com/odkr/pandoc-quotes)
   replace non-typographic, quotation marks with typographic ones for
   languages other than US English.
-- [transclude.lua](https://github.com/a-vrma/pandoc-filters#transclude)
-  Include content from another file just like in AsciiDoc and ReST.
 - [columns](https://github.com/jdutant/columns) Multiple columns support.
 
 ### Running Code related
@@ -290,8 +292,5 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
 - [nheengatu](http://joseflavio.com/nheengatu/) provides several
   resources for publishing multimedia content through formats such
   as LaTeX, HTML and EPUB.
-- [code-includes.lua](https://github.com/a-vrma/pandoc-filters#code-includes)
-  Include code from source files. Keep your examples and documentation compiled and
-  in-sync.
 - [pandoc-logic-proof](https://github.com/mhwombat/pandoc-logic-proof) provides a way
   to write logic proofs in pandoc markdown and produce attractive output.
