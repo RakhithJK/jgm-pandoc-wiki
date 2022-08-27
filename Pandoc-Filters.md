@@ -5,6 +5,7 @@
   - [Numbering related](#numbering-related)
   - [Math related](#math-related)
   - [LaTeX related](#latex-related)
+  - [Include/transclude related](#includetransclude-related)
   - [RAW related](#raw-related)
   - [Tables related](#tables-related)
   - [Text related](#text-related)
