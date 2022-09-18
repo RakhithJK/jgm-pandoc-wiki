@@ -1,5 +1,7 @@
 Note: there is a page about [installing and using Pandoc with Gentoo](https://wiki.gentoo.org/wiki/Pandoc) on their wiki.
 
+Pandoc may be installed with [Gentoo Prefix](https://wiki.gentoo.org/wiki/Prefix) on many other Operating Systems.
+
 ***
 
 Q: when convert a markdown to pdf, it says: ' lmodern.sty' not found
