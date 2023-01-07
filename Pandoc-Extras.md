@@ -240,7 +240,7 @@ See [[Pandoc Filters]]
 [Haskell platform]: http://hackage.haskell.org/platform/
 [Tool for using pandoc from Notepad++]: https://bitbucket.org/binaryphile/clip-pandoc
 [pandoc-mode for emacs]: http://joostkremers.github.com/pandoc-mode/
-[gitit]: http://gitit.net
+[gitit]: https://github.com/jgm/gitit
 [pandoc-iki]: https://github.com/dubiousjim/pandoc-iki
 [ikiwiki]:  http://ikiwiki.info/
 [ikiwiki-pandoc]: https://github.com/sciunto-org/ikiwiki-pandoc
