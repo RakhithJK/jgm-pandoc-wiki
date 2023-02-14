@@ -22,12 +22,12 @@
 /usr/share/fonts/cjkuni-uming/uming.ttc: AR PL UMing CN:style=Light
 /usr/share/fonts/source_han_serif/SourceHanSerifCN-Regular.otf: Source Han Serif CN,思源宋体 CN:style=Regular
 ```
-## 在 Linux 系统上制作 PDF 文件
+## 解决方案
 
 ### 方案一
 使用以下指令来制作你的 PDF 文件. (参考[这里](http://pandoc.org/faqs.html#i-get-a-blank-document-when-i-try-to-convert-a-markdown-document-in-chinese-to-pdf-using-pandoc--o-test.pdf-test.markdown.)):
 ```bash
-pandoc  srs.md -o srs.pdf --latex-engine=xelatex -V mainfont='WenQuanYi Micro Hei Mono'
+pandoc  srs.md -o srs.pdf --pdf-engine=xelatex -V mainfont='WenQuanYi Micro Hei Mono'
 ```
 注意, 在上面的指令参数中应当使用 `mainfont` 而非 `CJKmainfont`.
 
@@ -36,34 +36,6 @@ pandoc  srs.md -o srs.pdf --latex-engine=xelatex -V mainfont='WenQuanYi Micro He
 ```yaml
 ---
 mainfont: WenQuanYi Micro Hei Mono
----
-```
-然后使用 `pandoc --latex-engine=xelatex test.md -o test1.pdf` 生成 PDF 文件.
-
-### 方案三
-你可以使用 `ctexart` 类而不需要手动指定字体 (宏包将替你执行此操作), 将以下设置添加到markdown文档中,
-```
----
-documentclass:
-    - ctexart
----
-```
-生成 PDF 文档的指令和方案二是相同的. `pandoc --latex-engine=xelatex test.md -o test1.pdf`.
-
-
-## 在 Windows 系统上制作 PDF 文件
-命令与 Linux 系统大致相同. 在 Windows 上, `--latex-engine` 选项被删除, 使用 `--pdf-engine` 代替.
-
-### 方案一
-使用以下指令来生成你的 PDF 文件.
-```bash
-pandoc  srs.md -o srs.pdf --pdf-engine=xelatex -V CJKmainfont=KaiTi
-```
-### 方案二
-在你的 Markdown 文档中加入如下配置:
-```yaml
----
-CJKmainfont: KaiTi
 ---
 ```
 然后使用 `pandoc --pdf-engine=xelatex test.md -o test1.pdf` 生成 PDF 文件.
@@ -76,4 +48,4 @@ documentclass:
     - ctexart
 ---
 ```
-生成 PDF 文档的指令和方案二是相同的. `pandoc --latex-engine=xelatex test.md -o test1.pdf`.
+生成 PDF 文档的指令和方案二是相同的. `pandoc --pdf-engine=xelatex test.md -o test1.pdf`.
