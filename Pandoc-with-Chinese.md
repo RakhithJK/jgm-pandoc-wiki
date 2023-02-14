@@ -24,12 +24,12 @@ You can use `fc-list :lang=zh` to find valid Chinese font on your system, an exa
 /usr/share/fonts/source_han_serif/SourceHanSerifCN-Regular.otf: Source Han Serif CN,思源宋体 CN:style=Regular
 ```
 
-## Producing PDF on Linux system
+## Methods
 
 ### First way
 Use the following command to produce your pdf file (reference [here](http://pandoc.org/faqs.html#i-get-a-blank-document-when-i-try-to-convert-a-markdown-document-in-chinese-to-pdf-using-pandoc--o-test.pdf-test.markdown.)):
 ```bash
-pandoc  srs.md -o srs.pdf --latex-engine=xelatex -V mainfont='WenQuanYi Micro Hei Mono'
+pandoc  srs.md -o srs.pdf --pdf-engine=xelatex -V mainfont='WenQuanYi Micro Hei Mono'
 ```
 Note that in the above command, it should be `mainfont` not `CJKmainfont`.
 
@@ -38,34 +38,6 @@ Add the following setting to your markdown file,
 ```yaml
 ---
 mainfont: WenQuanYi Micro Hei Mono
----
-```
-Then use `pandoc --latex-engine=xelatex test.md -o test1.pdf` to generate the pdf file.
-
-### Third way
-You can use `ctexart` class and do not need to manually designate a font (the package will do it for you). Add the following setting to your markdown file,
-```
----
-documentclass:
-    - ctexart
----
-```
-The pdf-generating command is the same as second way.
-
-
-## Producing PDF on Windows system
-The command is more or less the same as Linux system. On windows, `--latex-engine` option is removed in favor of `--pdf-engine`. 
-
-### First way
-Use the following command to produce your pdf file:
-```bash
-pandoc  srs.md -o srs.pdf --pdf-engine=xelatex -V CJKmainfont=KaiTi
-```
-### Second way
-Add the following setting to your markdown file,
-```yaml
----
-CJKmainfont: KaiTi
 ---
 ```
 Then use `pandoc --pdf-engine=xelatex test.md -o test1.pdf` to generate the pdf file.
