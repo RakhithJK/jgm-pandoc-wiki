@@ -1,8 +1,6 @@
 ## fgfgf
 
-% stripnewlines %}
-| title | title | title {% newline %}
-|--------|:-------:|-------:# {% newline %}
-| content | content| content {% newline %}
-{% endstripnewlines %}
+| title | title | title|
+|--------|:-------:|-------:|
+| content | content| content |
 
