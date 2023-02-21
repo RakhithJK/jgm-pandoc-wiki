@@ -1,4 +1,4 @@
-Pandoc can convert markdown (or any other of pandoc's input formats) to Adobe InCopy ICML, which is a standalone XML format and a subset of the zipped IDML format ([IDML Documentation as PDF](http://wwwimages.adobe.com/www.adobe.com/content/dam/acom/en/devnet/indesign/sdk/cs6/idml/idml-cookbook.pdf)). InCopy is the companion word-processor to Adobe InDesign.
+Pandoc can convert markdown (or any other of pandoc's input formats) to Adobe InCopy ICML, which is a standalone XML format and a subset of the zipped IDML format ([IDML Documentation as PDF](https://web.archive.org/web/20171018062624/https://www.adobe.com/content/dam/acom/en/devnet/indesign/sdk/cs6/idml/idml-cookbook.pdf)). InCopy is the companion word-processor to Adobe InDesign.
 
 ### Workflow
 
