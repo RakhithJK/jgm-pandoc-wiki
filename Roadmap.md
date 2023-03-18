@@ -76,6 +76,7 @@ John has indicated that the default input reader for pandoc will eventually tran
 | link_attributes                   | subsumed by attributes extension              |
 | lists_without_preceding_blankline | core commonmark                               |
 | literate_haskell                  | not currently implemented                     |
+| mark                              | not currently implemented                     |
 | markdown_attribute                | unlikely to be implemented                    |
 | markdown_in_html_blocks           | abandoned in favor of core commonmark syntax  |
 | mmd_header_identifiers            | not currently implemented                     |
@@ -107,6 +108,8 @@ John has indicated that the default input reader for pandoc will eventually tran
 | tex_math_dollars                  | available                                     |
 | tex_math_double_backslash         | not currently implemented                     |
 | tex_math_single_backslash         | incompatible with commonmark                  |
+| wikilinks_title_after_pipe        | available                                     |
+| wikilinks_title_before_pipe       | available                                     |
 | yaml_metadata_block               | available                                     |
 
 A brief description of John's reasoning for the extensions, see [this thread](https://groups.google.com/g/pandoc-discuss/c/cUEH93noFHE/m/BfmeyDiLAwAJ) in Pandoc-discuss. 
