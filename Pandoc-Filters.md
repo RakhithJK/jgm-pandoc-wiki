@@ -8,6 +8,7 @@
   - [Include/transclude related](#includetransclude-related)
   - [RAW related](#raw-related)
   - [Tables related](#tables-related)
+  - [Typesetting related](#typesetting-related)
   - [Text related](#text-related)
   - [Running Code related](#running-code-related)
   - [Others](#others)
