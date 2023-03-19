@@ -233,7 +233,13 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   the older [pandoc-quotes](https://github.com/odkr/pandoc-quotes)
   replace non-typographic, quotation marks with typographic ones for
   languages other than US English.
-- [columns](https://github.com/jdutant/columns) Multiple columns support.
+
+### Typesetting related
+
+- [columns](https://github.com/dialoa/columns) 
+  provides multiple columns support in HTML and LaTeX/PDF output.
+- [first-line-indent](https://github.com/dialoa/first-line-indent)
+  provides smart first-line indents in HTML and LaTeX/PDF output.
 
 ### Running Code related
 
@@ -274,6 +280,8 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for s
   Available on [npm](https://www.npmjs.com/package/pandoc-url2cite).
 - [pandoc-zotxt.lua](https://github.com/odkr/pandoc-zotxt.lua)
   looks up sources for citations in Zotero.
+- [recursive-citeproc](https://github.com/dialoa/recursive-citeproc)
+  handles self-citing bibliographies.
 
 
 ### Others
