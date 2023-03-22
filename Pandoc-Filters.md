@@ -45,7 +45,7 @@ Other tools:
 
 ## Written Filters
 
-See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) for some select filters written in Lua. Some other known 3rd party filters:
+See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) and [https://github.com/pandoc-ext](pandoc-ext)for some select filters written in Lua. Some other known 3rd party filters:
 
 ### Document (DOCX/ODT) related
 
