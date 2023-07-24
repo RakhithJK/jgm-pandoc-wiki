@@ -166,6 +166,10 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) and [
 - [pandoc-beamer-block](https://github.com/chdemko/pandoc-beamer-block),
   for using `block`, `alertblock` and `exampleblock` environment
   defined in beamer.
+- [pandoc-beamer-multigraphics](https://github.com/chdemko/pandoc-beamer-multigraphics),
+  for using defining animated graphics in beamer.
+- [pandoc-beamer-arrow](https://github.com/chdemko/pandoc-beamer-arrow),
+  for adding arrows between elements in beamer.
 
 ### Include/transclude related
 
