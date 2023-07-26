@@ -84,6 +84,7 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) and [
 - [pandoc-plot](https://github.com/LaurentRDC/pandoc-plot) to generate and embed figures based on code 
   blocks in documents, using a variety of toolkits (e.g. Matplotlib, MATLAB, gnuplot, ggplot2, etc.). Easy 
   integration with Haskell libraries (e.g. Hakyll)
+- [pandoc-figure](https://github.com/chdemko/pandoc-figure) to transform specific div to complex pandoc>=3.0 figures
 
 ### Numbering related
 
