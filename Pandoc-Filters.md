@@ -328,3 +328,6 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) and [
 - [pandoc-select-links](https://codeberg.org/mhwombat/pandoc-select-links) is a Pandoc filter 
   that takes an input document and returns a new document that contains only the links from the input document.
   The implementation is just a few lines of code, and provides a simple example of how to use the `query` function.
+- [pandoc-select-code](https://github.com/mhwombat/pandoc-select-code) is a Pandoc filter that extracts 
+  just the code blocks from an input document.
+  You might use this, for example, to extract sample code from a tutorial.
