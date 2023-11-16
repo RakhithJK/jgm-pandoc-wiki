@@ -322,3 +322,6 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) and [
   as LaTeX, HTML and EPUB.
 - [pandoc-logic-proof](https://github.com/mhwombat/pandoc-logic-proof) provides a way
   to write logic proofs in pandoc markdown and produce attractive output.
+- [pandoc-select-links](https://codeberg.org/mhwombat/pandoc-select-links) is a Pandoc filter 
+  that takes an input document and returns a new document that contains only the links from the input document.
+  The implementation is just a few lines of code, and provides a simple example of how to use the `query` function.
