@@ -282,6 +282,9 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) and [
   - provides a way to embed queries in a Pandoc document, so that when the document is converted to a new format, 
   the query is replaced with the results.
   Not a _standalone_ filter, but a filter you can use as part of an application.
+- [run-code-inline](https://codeberg.org/mhwombat/run-code-inline) reads text (e.g., Markdown or Asciidoc) from stdin, 
+  echoes it to stdout, simultaneously running any commands and inserting the output immediately after the command. 
+  Useful for writing tutorials and software documentation. Not Pandoc-specific, but useful as part of a Pandoc toolchain.
 
 ### Citation related
 
