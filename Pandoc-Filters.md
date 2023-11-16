@@ -217,9 +217,13 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) and [
   auto-width, fractional width, etc.)
 - Creating a [link
   table](http://stackoverflow.com/questions/26406816/pandoc-is-there-a-way-to-include-an-appendix-of-links-in-a-pdf-from-markdown/26415375#26415375)
-  at the end of your document. -
-  [pandocsql](https://github.com/alexpdp7/pandocsql) run SQL queries
+  at the end of your document. 
+- [pandocsql](https://github.com/alexpdp7/pandocsql) run SQL queries
   on tables, generating other tables
+- [pandoc-linear-table](https://github.com/mhwombat/pandoc-linear-table)
+  Creating tables with cells that contain a lot of content can be difficult to do
+  in standard Markdown.
+  This Pandoc filter extends Markdown syntax to make the job easier.
 
 ### Text related
 
