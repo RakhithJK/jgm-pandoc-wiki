@@ -186,6 +186,11 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) and [
 - [include-files.lua](https://github.com/pandoc/lua-filters/tree/master/include-files)
   Filter to include other files in the document.
 - [`include.py`](https://github.com/sergiocorreia/panflute/blob/22b8c021e03f4469c5cb7ba68800e4c7348961af/docs/source/_static/include.py): Panflute filter to allow file includes. See [doc](https://panflute.readthedocs.io/en/latest/guide.html?highlight=include#using-the-included-batteries).
+- [pandoc-include-plus](https://codeberg.org/mhwombat/pandoc-include-plus)
+  is another pandoc filter which supports "include" files. Key features:
+  * Included files can include other files, recursively. 
+  * Paths to images are adjusted as needed to ensure that everything "just works".
+  * Option to automatically promote or demote headings in included files.
 
 ### RAW related
 - [pandoc-dot2tex-filter](https://github.com/kuba-orlik/pandoc-dot2tex-filter) -
