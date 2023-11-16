@@ -272,6 +272,11 @@ See [github.com/pandoc/lua-filters](https://github.com/pandoc/lua-filters) and [
 - [pannb](https://ickc.github.io/pannb/), a pandoc filter to control the output from ipynb input,
   this includes metadata block, filter out Python code, and converting all raw-blocks to native pandoc AST.
   The 3 can be mixed and matched.
+- [pandoc-query](https://codeberg.org/mhwombat/pandoc-query), a pandoc filter that
+  1) defines a simple language for querying a collection of Pandoc documents and formatting the output,
+  and 2) provides a way to embed queries in a Pandoc document, so that when the document is converted to a new format, 
+  the query is replaced with the results.
+  Not a _standalone_ filter, but a filter you can use as part of an application.
 
 ### Citation related
 
