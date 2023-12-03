@@ -35,6 +35,7 @@
 - [Advanced R Programming](https://github.com/hadley/adv-r/), combining pandoc with Jekyll and knitr
 - [Simple project template for html, pdf and epub pandoc ebooks](https://github.com/wikiti/pandoc-book-template)
 - [Customizing pandoc for GitHub style markdown](https://learnbyexample.github.io/tutorial/ebook-generation/customizing-pandoc/) (PDF/EPUB)
+- [Docx Shun manuscript template](https://github.com/rkingett/writertools/blob/main/NovelReference.docx)
 
 # HTML
 
@@ -48,7 +49,9 @@
 - [Easy Pandoc Templates](https://github.com/ryangrose/easy-pandoc-templates): a collection of portable pandoc templates without dependencies — bootstrap, elegant bootstrap, and UIKit, bundled with useful helpers and demos. Maintained by Ryan Grose, GPL-3.0 License.
 
 # Microsoft Word
+
 - [numbered-sections](https://github.com/krissen/pandoc-extra/blob/master/templates/numbered-sections.docx): Docx-template with numbered sections for heading levels one (1.) to four (1.1.1.1).
+- [Shun Manuscript template](https://github.com/rkingett/writertools/blob/main/NovelReference.docx)
 
 # Notable forks of [pandoc-templates](/jgm/pandoc-templates), for `~/.pandoc/templates`
 
